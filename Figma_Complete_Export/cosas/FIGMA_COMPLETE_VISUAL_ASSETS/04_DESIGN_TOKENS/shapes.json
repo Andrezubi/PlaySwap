@@ -1,0 +1,33 @@
+{
+  "observedRawClasses": [
+    "border-2",
+    "border-[#00d9a6]",
+    "border-[#282834]",
+    "border-[#8b5cf6]",
+    "border-[1.5px]",
+    "border-b",
+    "border-b-2",
+    "border-solid",
+    "border-t",
+    "rounded-[100px]",
+    "rounded-[12px]",
+    "rounded-[16px]",
+    "rounded-[18px]",
+    "rounded-[20px]",
+    "rounded-[24px]",
+    "rounded-[28px]",
+    "rounded-[32px]",
+    "rounded-[36px]",
+    "rounded-[44px]",
+    "rounded-[4px]",
+    "rounded-[6px]",
+    "rounded-[8px]",
+    "rounded-[9px]",
+    "rounded-bl-[16px]",
+    "rounded-bl-[4px]",
+    "rounded-br-[16px]",
+    "rounded-br-[4px]",
+    "rounded-tl-[16px]",
+    "rounded-tr-[16px]"
+  ]
+}

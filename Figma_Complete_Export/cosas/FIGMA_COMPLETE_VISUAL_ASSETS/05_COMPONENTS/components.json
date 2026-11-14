@@ -1,0 +1,267 @@
+{
+  "publishedComponents": [],
+  "publishedCount": 0,
+  "reusablePatternsDetected": [
+    {
+      "name": "Frame",
+      "occurrences": 75,
+      "classification": "repeated layer name detected in original MCP context"
+    },
+    {
+      "name": "icon-frame",
+      "occurrences": 30,
+      "classification": "repeated layer name detected in original MCP context"
+    },
+    {
+      "name": "Rectangle",
+      "occurrences": 14,
+      "classification": "repeated layer name detected in original MCP context"
+    },
+    {
+      "name": "star",
+      "occurrences": 10,
+      "classification": "repeated layer name detected in original MCP context"
+    },
+    {
+      "name": "status-bar",
+      "occurrences": 9,
+      "classification": "repeated layer name detected in original MCP context"
+    },
+    {
+      "name": "status-icons",
+      "occurrences": 9,
+      "classification": "repeated layer name detected in original MCP context"
+    },
+    {
+      "name": "ios-signal",
+      "occurrences": 9,
+      "classification": "repeated layer name detected in original MCP context"
+    },
+    {
+      "name": "ios-wifi-signal",
+      "occurrences": 9,
+      "classification": "repeated layer name detected in original MCP context"
+    },
+    {
+      "name": "ios-battery-full",
+      "occurrences": 9,
+      "classification": "repeated layer name detected in original MCP context"
+    },
+    {
+      "name": "search",
+      "occurrences": 8,
+      "classification": "repeated layer name detected in original MCP context"
+    },
+    {
+      "name": "home-indicator-area",
+      "occurrences": 8,
+      "classification": "repeated layer name detected in original MCP context"
+    },
+    {
+      "name": "indicator-bar",
+      "occurrences": 8,
+      "classification": "repeated layer name detected in original MCP context"
+    },
+    {
+      "name": "bottom-navigation",
+      "occurrences": 7,
+      "classification": "repeated layer name detected in original MCP context"
+    },
+    {
+      "name": "nav-tabs",
+      "occurrences": 7,
+      "classification": "repeated layer name detected in original MCP context"
+    },
+    {
+      "name": "nav-tab-inicio",
+      "occurrences": 7,
+      "classification": "repeated layer name detected in original MCP context"
+    },
+    {
+      "name": "home",
+      "occurrences": 7,
+      "classification": "repeated layer name detected in original MCP context"
+    },
+    {
+      "name": "nav-tab-buscar",
+      "occurrences": 7,
+      "classification": "repeated layer name detected in original MCP context"
+    },
+    {
+      "name": "book-open",
+      "occurrences": 7,
+      "classification": "repeated layer name detected in original MCP context"
+    },
+    {
+      "name": "nav-tab-intercambios",
+      "occurrences": 7,
+      "classification": "repeated layer name detected in original MCP context"
+    },
+    {
+      "name": "repeat",
+      "occurrences": 7,
+      "classification": "repeated layer name detected in original MCP context"
+    },
+    {
+      "name": "nav-tab-perfil",
+      "occurrences": 7,
+      "classification": "repeated layer name detected in original MCP context"
+    },
+    {
+      "name": "user",
+      "occurrences": 7,
+      "classification": "repeated layer name detected in original MCP context"
+    },
+    {
+      "name": "nav-tab-mis-juegos",
+      "occurrences": 6,
+      "classification": "repeated layer name detected in original MCP context"
+    },
+    {
+      "name": "user-avatar",
+      "occurrences": 5,
+      "classification": "repeated layer name detected in original MCP context"
+    },
+    {
+      "name": "header-zone",
+      "occurrences": 5,
+      "classification": "repeated layer name detected in original MCP context"
+    },
+    {
+      "name": "chevron-right",
+      "occurrences": 5,
+      "classification": "repeated layer name detected in original MCP context"
+    },
+    {
+      "name": "game-item",
+      "occurrences": 4,
+      "classification": "repeated layer name detected in original MCP context"
+    },
+    {
+      "name": "owner-avatar",
+      "occurrences": 3,
+      "classification": "repeated layer name detected in original MCP context"
+    },
+    {
+      "name": "compat-badge",
+      "occurrences": 3,
+      "classification": "repeated layer name detected in original MCP context"
+    },
+    {
+      "name": "button",
+      "occurrences": 3,
+      "classification": "repeated layer name detected in original MCP context"
+    },
+    {
+      "name": "user-meta",
+      "occurrences": 3,
+      "classification": "repeated layer name detected in original MCP context"
+    },
+    {
+      "name": "bubble",
+      "occurrences": 3,
+      "classification": "repeated layer name detected in original MCP context"
+    },
+    {
+      "name": "game-cover-2",
+      "occurrences": 2,
+      "classification": "repeated layer name detected in original MCP context"
+    },
+    {
+      "name": "card-top",
+      "occurrences": 2,
+      "classification": "repeated layer name detected in original MCP context"
+    },
+    {
+      "name": "owner-details",
+      "occurrences": 2,
+      "classification": "repeated layer name detected in original MCP context"
+    },
+    {
+      "name": "games-showcase",
+      "occurrences": 2,
+      "classification": "repeated layer name detected in original MCP context"
+    },
+    {
+      "name": "games-row",
+      "occurrences": 2,
+      "classification": "repeated layer name detected in original MCP context"
+    },
+    {
+      "name": "game-cover-1",
+      "occurrences": 2,
+      "classification": "repeated layer name detected in original MCP context"
+    },
+    {
+      "name": "more-games",
+      "occurrences": 2,
+      "classification": "repeated layer name detected in original MCP context"
+    },
+    {
+      "name": "card-footer",
+      "occurrences": 2,
+      "classification": "repeated layer name detected in original MCP context"
+    },
+    {
+      "name": "console-badge",
+      "occurrences": 2,
+      "classification": "repeated layer name detected in original MCP context"
+    },
+    {
+      "name": "arrow-left",
+      "occurrences": 2,
+      "classification": "repeated layer name detected in original MCP context"
+    },
+    {
+      "name": "more-vertical",
+      "occurrences": 2,
+      "classification": "repeated layer name detected in original MCP context"
+    },
+    {
+      "name": "msg-other",
+      "occurrences": 2,
+      "classification": "repeated layer name detected in original MCP context"
+    },
+    {
+      "name": "plus",
+      "occurrences": 2,
+      "classification": "repeated layer name detected in original MCP context"
+    },
+    {
+      "name": "title-block",
+      "occurrences": 2,
+      "classification": "repeated layer name detected in original MCP context"
+    },
+    {
+      "name": "exchange-card",
+      "occurrences": 2,
+      "classification": "repeated layer name detected in original MCP context"
+    },
+    {
+      "name": "card-header",
+      "occurrences": 2,
+      "classification": "repeated layer name detected in original MCP context"
+    },
+    {
+      "name": "games-exchange-row",
+      "occurrences": 2,
+      "classification": "repeated layer name detected in original MCP context"
+    },
+    {
+      "name": "arrow-left-right",
+      "occurrences": 2,
+      "classification": "repeated layer name detected in original MCP context"
+    },
+    {
+      "name": "game-cover",
+      "occurrences": 2,
+      "classification": "repeated layer name detected in original MCP context"
+    },
+    {
+      "name": "avatar",
+      "occurrences": 2,
+      "classification": "repeated layer name detected in original MCP context"
+    }
+  ],
+  "note": "Patterns are detected occurrences, not claimed as published Figma components."
+}

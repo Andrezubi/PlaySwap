@@ -1,0 +1,34 @@
+{
+  "screenNumber": 17,
+  "name": "loan-return",
+  "figmaNodeId": "1:2692",
+  "frame": {
+    "width": 402,
+    "height": 874,
+    "unit": "px"
+  },
+  "screenshot": "../07_SCREENSHOTS/screen_17.png",
+  "fonts": [
+    "Gabarito ExtraBold",
+    "Geist Bold",
+    "Geist Regular",
+    "Geist SemiBold"
+  ],
+  "assets": [
+    "01_IMAGES/photos/elden-ring-cover__cc4f9.png",
+    "01_IMAGES/photos/elden-ring-cover__image-ref-056673499b46c3e4bfb78422f83c16d0e061abb3.jpg",
+    "01_IMAGES/photos/elden-ring-cover__image-ref-2608d6a4d679f590a226dec4b3c12031e68e9bc7.jpg",
+    "02_ICONS/buttons/arrow-left__4a2a2.svg",
+    "02_ICONS/buttons/check__bf098.svg",
+    "02_ICONS/buttons/chevron-right__b63a0.svg",
+    "02_ICONS/interface/ios-battery-full__cc14a.svg",
+    "02_ICONS/interface/ios-signal__5ad8e.svg",
+    "02_ICONS/interface/ios-wifi-signal__054bf.svg",
+    "03_FONTS/Gabarito-variable.woff2",
+    "03_FONTS/Geist-variable.woff2"
+  ],
+  "nestedLayers": [],
+  "textLayers": [],
+  "technicalContextStatus": "inline_only_not_recoverable_as_source_file",
+  "propertiesStatus": "Exact generated class properties are included per nested layer when downloadable context was available; otherwise unavailable properties are not invented."
+}

@@ -1,0 +1,534 @@
+{
+  "screenNumber": 11,
+  "name": "my-games",
+  "figmaNodeId": "1:2261",
+  "frame": {
+    "width": 402,
+    "height": 874,
+    "unit": "px"
+  },
+  "screenshot": "../07_SCREENSHOTS/screen_11.png",
+  "fonts": [
+    "Gabarito ExtraBold",
+    "Geist Bold",
+    "Geist Medium",
+    "Geist Regular",
+    "Geist SemiBold"
+  ],
+  "assets": [
+    "01_IMAGES/photos/cyberpunk-2077-cover__1a11d.png",
+    "01_IMAGES/photos/cyberpunk-2077-cover__image-ref-158835e7e983ca6d5c11f7984d0130c19247fcf8.jpg",
+    "01_IMAGES/photos/cyberpunk-2077-cover__image-ref-6f0953826a0ac3dc87cc4c16122b5719dca3a5bb.jpg",
+    "01_IMAGES/photos/elden-ring-cover__cc4f9.png",
+    "01_IMAGES/photos/elden-ring-cover__image-ref-056673499b46c3e4bfb78422f83c16d0e061abb3.jpg",
+    "01_IMAGES/photos/elden-ring-cover__image-ref-2608d6a4d679f590a226dec4b3c12031e68e9bc7.jpg",
+    "01_IMAGES/photos/god-of-war-cover__41245.png",
+    "01_IMAGES/photos/god-of-war-cover__image-ref-e89be3574fae59ba70cf58976a5ec5f75c862060.jpg",
+    "01_IMAGES/photos/god-of-war-cover__image-ref-fed870b30b0a8bf5ce03a61289db5e38cfec8de5.jpg",
+    "01_IMAGES/photos/zelda-tears-of-the-kingdom-cover__32819.png",
+    "01_IMAGES/photos/zelda-tears-of-the-kingdom-cover__image-ref-359edede0fcedb9a39f73370edf3dd0be69d56fa.jpg",
+    "02_ICONS/actions/repeat__e1194.svg",
+    "02_ICONS/buttons/plus__9e32b.svg",
+    "02_ICONS/interface/ios-battery-full__cc14a.svg",
+    "02_ICONS/interface/ios-signal__5ad8e.svg",
+    "02_ICONS/interface/ios-wifi-signal__054bf.svg",
+    "02_ICONS/navigation/book-open__24217.svg",
+    "02_ICONS/navigation/home__3d070.svg",
+    "02_ICONS/navigation/search__6386d.svg",
+    "02_ICONS/navigation/user__e7699.svg",
+    "03_FONTS/Gabarito-variable.woff2",
+    "03_FONTS/Geist-variable.woff2"
+  ],
+  "nestedLayers": [
+    {
+      "nodeId": "1:2261",
+      "tag": "div",
+      "name": "my-games",
+      "className": "bg-[#0b0b0f] content-stretch flex flex-col items-start justify-between overflow-clip relative rounded-[36px] size-full"
+    },
+    {
+      "nodeId": "1:2262",
+      "tag": "div",
+      "name": "header-zone",
+      "className": "content-stretch flex flex-col gap-[16px] items-start relative shrink-0 w-full"
+    },
+    {
+      "nodeId": "1:2263",
+      "tag": "div",
+      "name": "status-bar",
+      "className": "content-stretch flex h-[44px] items-center justify-between px-[24px] relative shrink-0 w-full"
+    },
+    {
+      "nodeId": "1:2264",
+      "tag": "p",
+      "name": null,
+      "className": "[word-break:break-word] font-['Geist:SemiBold'] font-semibold leading-[normal] relative shrink-0 text-[14px] text-white whitespace-nowrap"
+    },
+    {
+      "nodeId": "1:2265",
+      "tag": "div",
+      "name": "status-icons",
+      "className": "content-stretch flex gap-[8px] items-center relative shrink-0"
+    },
+    {
+      "nodeId": "1:2266",
+      "tag": "div",
+      "name": "ios-signal",
+      "className": "relative shrink-0 size-[20px]"
+    },
+    {
+      "nodeId": "1:2268",
+      "tag": "div",
+      "name": "ios-wifi-signal",
+      "className": "relative shrink-0 size-[20px]"
+    },
+    {
+      "nodeId": "1:2270",
+      "tag": "div",
+      "name": "ios-battery-full",
+      "className": "h-[20px] relative shrink-0 w-[28px]"
+    },
+    {
+      "nodeId": "1:2272",
+      "tag": "div",
+      "name": "title-block",
+      "className": "[word-break:break-word] content-stretch flex flex-col gap-[4px] items-start leading-[normal] px-[24px] relative shrink-0 w-full whitespace-nowrap"
+    },
+    {
+      "nodeId": "1:2273",
+      "tag": "p",
+      "name": null,
+      "className": "font-['Gabarito:ExtraBold'] font-extrabold relative shrink-0 text-[28px] text-white"
+    },
+    {
+      "nodeId": "1:2274",
+      "tag": "p",
+      "name": null,
+      "className": "font-['Geist:Regular'] font-normal relative shrink-0 text-[#a3a3c2] text-[13px]"
+    },
+    {
+      "nodeId": "1:2275",
+      "tag": "div",
+      "name": "tabs",
+      "className": "content-stretch flex gap-[12px] items-start px-[20px] relative shrink-0 w-full"
+    },
+    {
+      "nodeId": "1:2276",
+      "tag": "div",
+      "name": "tab-tengo",
+      "className": "border-[#00d9a6] border-b-2 border-solid content-stretch flex flex-[1_0_0] flex-col items-center min-w-px pb-[8px] relative"
+    },
+    {
+      "nodeId": "1:2277",
+      "tag": "p",
+      "name": null,
+      "className": "[word-break:break-word] font-['Geist:Bold'] font-bold leading-[normal] relative shrink-0 text-[#00d9a6] text-[15px] whitespace-nowrap"
+    },
+    {
+      "nodeId": "1:2278",
+      "tag": "div",
+      "name": "tab-busco",
+      "className": "border-[#282834] border-b-2 border-solid content-stretch flex flex-[1_0_0] flex-col items-center min-w-px pb-[8px] relative"
+    },
+    {
+      "nodeId": "1:2279",
+      "tag": "p",
+      "name": null,
+      "className": "[word-break:break-word] font-['Geist:Bold'] font-bold leading-[normal] relative shrink-0 text-[#a3a3c2] text-[15px] whitespace-nowrap"
+    },
+    {
+      "nodeId": "1:2280",
+      "tag": "div",
+      "name": "grid-content",
+      "className": "flex-[1_0_0] min-h-px relative w-full"
+    },
+    {
+      "nodeId": "1:2281",
+      "tag": "div",
+      "name": "grid-row-1",
+      "className": "absolute content-stretch flex gap-[16px] h-[213px] items-start left-[20px] right-[20px] top-[20px]"
+    },
+    {
+      "nodeId": "1:2282",
+      "tag": "div",
+      "name": "game-card-1",
+      "className": "bg-[#121218] border border-[#282834] border-solid content-stretch flex flex-[1_0_0] flex-col gap-[12px] items-start min-w-px p-[12px] relative rounded-[16px]"
+    },
+    {
+      "nodeId": "1:2283",
+      "tag": "div",
+      "name": "Rectangle",
+      "className": "h-[140px] relative rounded-[8px] shrink-0 w-full"
+    },
+    {
+      "nodeId": "1:2284",
+      "tag": "div",
+      "name": "Frame",
+      "className": "content-stretch flex flex-col gap-[4px] items-start relative shrink-0 w-full"
+    },
+    {
+      "nodeId": "1:2285",
+      "tag": "p",
+      "name": null,
+      "className": "[word-break:break-word] font-['Geist:Bold'] font-bold leading-[normal] min-w-full overflow-hidden relative shrink-0 text-[13px] text-ellipsis text-white w-[min-content] whitespace-nowrap"
+    },
+    {
+      "nodeId": "1:2286",
+      "tag": "div",
+      "name": "Frame",
+      "className": "bg-[rgba(0,217,166,0.1)] content-stretch flex items-start px-[6px] py-[2px] relative rounded-[4px] shrink-0"
+    },
+    {
+      "nodeId": "1:2287",
+      "tag": "p",
+      "name": null,
+      "className": "[word-break:break-word] font-['Geist:Bold'] font-bold leading-[normal] relative shrink-0 text-[#00d9a6] text-[9px] whitespace-nowrap"
+    },
+    {
+      "nodeId": "1:2288",
+      "tag": "div",
+      "name": "game-card-2",
+      "className": "bg-[#121218] border border-[#282834] border-solid content-stretch flex flex-[1_0_0] flex-col gap-[12px] items-start min-w-px p-[12px] relative rounded-[16px]"
+    },
+    {
+      "nodeId": "1:2289",
+      "tag": "div",
+      "name": "Rectangle",
+      "className": "h-[140px] relative rounded-[8px] shrink-0 w-full"
+    },
+    {
+      "nodeId": "1:2290",
+      "tag": "div",
+      "name": "Frame",
+      "className": "content-stretch flex flex-col gap-[4px] items-start relative shrink-0 w-full"
+    },
+    {
+      "nodeId": "1:2291",
+      "tag": "p",
+      "name": null,
+      "className": "[word-break:break-word] font-['Geist:Bold'] font-bold leading-[normal] min-w-full overflow-hidden relative shrink-0 text-[13px] text-ellipsis text-white w-[min-content] whitespace-nowrap"
+    },
+    {
+      "nodeId": "1:2292",
+      "tag": "div",
+      "name": "Frame",
+      "className": "bg-[rgba(139,92,246,0.1)] content-stretch flex items-start px-[6px] py-[2px] relative rounded-[4px] shrink-0"
+    },
+    {
+      "nodeId": "1:2293",
+      "tag": "p",
+      "name": null,
+      "className": "[word-break:break-word] font-['Geist:Bold'] font-bold leading-[normal] relative shrink-0 text-[#8b5cf6] text-[9px] whitespace-nowrap"
+    },
+    {
+      "nodeId": "1:2294",
+      "tag": "div",
+      "name": "grid-row-2",
+      "className": "absolute content-stretch flex gap-[16px] h-[213px] items-start left-[20px] right-[20px] top-[253px]"
+    },
+    {
+      "nodeId": "1:2295",
+      "tag": "div",
+      "name": "game-card-3",
+      "className": "bg-[#121218] border border-[#282834] border-solid content-stretch flex flex-[1_0_0] flex-col gap-[12px] items-start min-w-px p-[12px] relative rounded-[16px]"
+    },
+    {
+      "nodeId": "1:2296",
+      "tag": "div",
+      "name": "Rectangle",
+      "className": "h-[140px] relative rounded-[8px] shrink-0 w-full"
+    },
+    {
+      "nodeId": "1:2297",
+      "tag": "div",
+      "name": "Frame",
+      "className": "content-stretch flex flex-col gap-[4px] items-start relative shrink-0 w-full"
+    },
+    {
+      "nodeId": "1:2298",
+      "tag": "p",
+      "name": null,
+      "className": "[word-break:break-word] font-['Geist:Bold'] font-bold leading-[normal] min-w-full overflow-hidden relative shrink-0 text-[13px] text-ellipsis text-white w-[min-content] whitespace-nowrap"
+    },
+    {
+      "nodeId": "1:2299",
+      "tag": "div",
+      "name": "Frame",
+      "className": "bg-[rgba(225,29,72,0.1)] content-stretch flex items-start px-[6px] py-[2px] relative rounded-[4px] shrink-0"
+    },
+    {
+      "nodeId": "1:2300",
+      "tag": "p",
+      "name": null,
+      "className": "[word-break:break-word] font-['Geist:Bold'] font-bold leading-[normal] relative shrink-0 text-[#e11d48] text-[9px] whitespace-nowrap"
+    },
+    {
+      "nodeId": "1:2301",
+      "tag": "div",
+      "name": "game-card-4",
+      "className": "bg-[#121218] border border-[#282834] border-solid content-stretch flex flex-[1_0_0] flex-col gap-[12px] items-start min-w-px p-[12px] relative rounded-[16px]"
+    },
+    {
+      "nodeId": "1:2302",
+      "tag": "div",
+      "name": "Rectangle",
+      "className": "h-[140px] relative rounded-[8px] shrink-0 w-full"
+    },
+    {
+      "nodeId": "1:2303",
+      "tag": "div",
+      "name": "Frame",
+      "className": "content-stretch flex flex-col gap-[4px] items-start relative shrink-0 w-full"
+    },
+    {
+      "nodeId": "1:2304",
+      "tag": "p",
+      "name": null,
+      "className": "[word-break:break-word] font-['Geist:Bold'] font-bold leading-[normal] min-w-full overflow-hidden relative shrink-0 text-[13px] text-ellipsis text-white w-[min-content] whitespace-nowrap"
+    },
+    {
+      "nodeId": "1:2305",
+      "tag": "div",
+      "name": "Frame",
+      "className": "bg-[rgba(0,217,166,0.1)] content-stretch flex items-start px-[6px] py-[2px] relative rounded-[4px] shrink-0"
+    },
+    {
+      "nodeId": "1:2306",
+      "tag": "p",
+      "name": null,
+      "className": "[word-break:break-word] font-['Geist:Bold'] font-bold leading-[normal] relative shrink-0 text-[#00d9a6] text-[9px] whitespace-nowrap"
+    },
+    {
+      "nodeId": "1:2307",
+      "tag": "div",
+      "name": "fab-container",
+      "className": "absolute bg-[#00d9a6] bottom-[100px] content-stretch drop-shadow-[0px_8px_8px_rgba(0,217,166,0.25)] flex flex-col items-center justify-center right-[24px] rounded-[28px] size-[56px]"
+    },
+    {
+      "nodeId": "1:2308",
+      "tag": "div",
+      "name": "plus",
+      "className": "relative shrink-0 size-[24px]"
+    },
+    {
+      "nodeId": "1:2310",
+      "tag": "div",
+      "name": "bottom-navigation",
+      "className": "bg-[#121218] border-[#282834] border-solid border-t content-stretch flex flex-col items-start relative shrink-0 w-full"
+    },
+    {
+      "nodeId": "1:2311",
+      "tag": "div",
+      "name": "nav-tabs",
+      "className": "content-stretch flex h-[68px] items-center justify-between px-[16px] relative shrink-0 w-full"
+    },
+    {
+      "nodeId": "1:2312",
+      "tag": "div",
+      "name": "nav-tab-inicio",
+      "className": "content-stretch flex flex-col gap-[4px] items-center relative shrink-0 w-[64px]"
+    },
+    {
+      "nodeId": "1:2313",
+      "tag": "div",
+      "name": "icon-frame",
+      "className": "overflow-clip relative shrink-0 size-[20px]"
+    },
+    {
+      "nodeId": "1:2314",
+      "tag": "div",
+      "name": "home",
+      "className": "absolute left-0 size-[20px] top-0"
+    },
+    {
+      "nodeId": "1:2316",
+      "tag": "p",
+      "name": null,
+      "className": "[word-break:break-word] font-['Geist:Medium'] font-medium leading-[normal] relative shrink-0 text-[#63637a] text-[10px] whitespace-nowrap"
+    },
+    {
+      "nodeId": "1:2317",
+      "tag": "div",
+      "name": "nav-tab-buscar",
+      "className": "content-stretch flex flex-col gap-[4px] items-center relative shrink-0 w-[64px]"
+    },
+    {
+      "nodeId": "1:2318",
+      "tag": "div",
+      "name": "icon-frame",
+      "className": "overflow-clip relative shrink-0 size-[20px]"
+    },
+    {
+      "nodeId": "1:2319",
+      "tag": "div",
+      "name": "search",
+      "className": "absolute left-0 size-[20px] top-0"
+    },
+    {
+      "nodeId": "1:2321",
+      "tag": "p",
+      "name": null,
+      "className": "[word-break:break-word] font-['Geist:Medium'] font-medium leading-[normal] relative shrink-0 text-[#63637a] text-[10px] whitespace-nowrap"
+    },
+    {
+      "nodeId": "1:2322",
+      "tag": "div",
+      "name": "nav-tab-mis-juegos",
+      "className": "content-stretch flex flex-col gap-[4px] items-center relative shrink-0 w-[64px]"
+    },
+    {
+      "nodeId": "1:2323",
+      "tag": "div",
+      "name": "icon-frame",
+      "className": "overflow-clip relative shrink-0 size-[20px]"
+    },
+    {
+      "nodeId": "1:2324",
+      "tag": "div",
+      "name": "book-open",
+      "className": "absolute left-0 size-[20px] top-0"
+    },
+    {
+      "nodeId": "1:2326",
+      "tag": "p",
+      "name": null,
+      "className": "[word-break:break-word] font-['Geist:Bold'] font-bold leading-[normal] relative shrink-0 text-[10px] text-white whitespace-nowrap"
+    },
+    {
+      "nodeId": "1:2327",
+      "tag": "div",
+      "name": "nav-tab-intercambios",
+      "className": "content-stretch flex flex-col gap-[4px] items-center relative shrink-0 w-[64px]"
+    },
+    {
+      "nodeId": "1:2328",
+      "tag": "div",
+      "name": "icon-frame",
+      "className": "overflow-clip relative shrink-0 size-[20px]"
+    },
+    {
+      "nodeId": "1:2329",
+      "tag": "div",
+      "name": "repeat",
+      "className": "absolute left-0 size-[20px] top-0"
+    },
+    {
+      "nodeId": "1:2331",
+      "tag": "p",
+      "name": null,
+      "className": "[word-break:break-word] font-['Geist:Medium'] font-medium leading-[normal] relative shrink-0 text-[#63637a] text-[10px] whitespace-nowrap"
+    },
+    {
+      "nodeId": "1:2332",
+      "tag": "div",
+      "name": "nav-tab-perfil",
+      "className": "content-stretch flex flex-col gap-[4px] items-center relative shrink-0 w-[64px]"
+    },
+    {
+      "nodeId": "1:2333",
+      "tag": "div",
+      "name": "icon-frame",
+      "className": "overflow-clip relative shrink-0 size-[20px]"
+    },
+    {
+      "nodeId": "1:2334",
+      "tag": "div",
+      "name": "user",
+      "className": "absolute left-0 size-[20px] top-0"
+    },
+    {
+      "nodeId": "1:2336",
+      "tag": "p",
+      "name": null,
+      "className": "[word-break:break-word] font-['Geist:Medium'] font-medium leading-[normal] relative shrink-0 text-[#63637a] text-[10px] whitespace-nowrap"
+    },
+    {
+      "nodeId": "1:2337",
+      "tag": "div",
+      "name": "home-indicator-area",
+      "className": "content-stretch flex items-start justify-center py-[8px] relative shrink-0 w-full"
+    },
+    {
+      "nodeId": "1:2338",
+      "tag": "div",
+      "name": "indicator-bar",
+      "className": "bg-[#63637a] h-[5px] relative rounded-[100px] shrink-0 w-[134px]"
+    }
+  ],
+  "textLayers": [
+    {
+      "nodeId": "1:2264",
+      "text": "9:41"
+    },
+    {
+      "nodeId": "1:2273",
+      "text": "Mis Juegos"
+    },
+    {
+      "nodeId": "1:2274",
+      "text": "Gestiona tu biblioteca personal"
+    },
+    {
+      "nodeId": "1:2277",
+      "text": "Tengo (4)"
+    },
+    {
+      "nodeId": "1:2279",
+      "text": "Busco (2)"
+    },
+    {
+      "nodeId": "1:2285",
+      "text": "God of War Ragnarok"
+    },
+    {
+      "nodeId": "1:2287",
+      "text": "PS5"
+    },
+    {
+      "nodeId": "1:2291",
+      "text": "Cyberpunk 2077"
+    },
+    {
+      "nodeId": "1:2293",
+      "text": "XBOX"
+    },
+    {
+      "nodeId": "1:2298",
+      "text": "Zelda: Tears of the Kingdom"
+    },
+    {
+      "nodeId": "1:2300",
+      "text": "SWITCH"
+    },
+    {
+      "nodeId": "1:2304",
+      "text": "Elden Ring"
+    },
+    {
+      "nodeId": "1:2306",
+      "text": "PS5"
+    },
+    {
+      "nodeId": "1:2316",
+      "text": "Inicio"
+    },
+    {
+      "nodeId": "1:2321",
+      "text": "Buscar"
+    },
+    {
+      "nodeId": "1:2326",
+      "text": "Mis juegos"
+    },
+    {
+      "nodeId": "1:2331",
+      "text": "Intercambios"
+    },
+    {
+      "nodeId": "1:2336",
+      "text": "Perfil"
+    }
+  ],
+  "technicalContextStatus": "available",
+  "propertiesStatus": "Exact generated class properties are included per nested layer when downloadable context was available; otherwise unavailable properties are not invented."
+}

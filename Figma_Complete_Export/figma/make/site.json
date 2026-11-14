@@ -1,0 +1,10 @@
+{
+  "description": "Aplicación que reproduce fielmente las pantallas y la navegación de una interfaz existente, ofreciendo una experiencia visual consistente y fácil de recorrer.",
+  "robots": {
+    "index": false
+  },
+  "accessibility": {
+    "addBypassLinks": false,
+    "ignoreReducedMotion": false
+  }
+}

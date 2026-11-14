@@ -1,0 +1,4220 @@
+{
+  "count": 134,
+  "assets": [
+    {
+      "id": "mcp:007f7.svg",
+      "originalFileName": "007f7.svg",
+      "exportedFileName": "gamepad__007f7.svg",
+      "resourceType": "icon",
+      "category": "interface",
+      "format": "svg",
+      "screens": [
+        "screen_01_splash-logo"
+      ],
+      "layers": [
+        {
+          "screen": "screen_01_splash-logo",
+          "layerName": "gamepad",
+          "nodeId": "1:1143"
+        }
+      ],
+      "dimensions": {
+        "width": "38",
+        "height": "38",
+        "viewBox": "0 0 38 38"
+      },
+      "path": "02_ICONS/interface/gamepad__007f7.svg",
+      "source": "Figma MCP asset archive",
+      "sha256": "9a1383e7cde1f1e1177cda518c09505f78bb9ac7d629d1bcf16542249cd4efac"
+    },
+    {
+      "id": "mcp:03acd.svg",
+      "originalFileName": "03acd.svg",
+      "exportedFileName": "map-pin__03acd.svg",
+      "resourceType": "icon",
+      "category": "actions",
+      "format": "svg",
+      "screens": [
+        "screen_09_chat-screen"
+      ],
+      "layers": [
+        {
+          "screen": "screen_09_chat-screen",
+          "layerName": "map-pin",
+          "nodeId": "1:1547"
+        }
+      ],
+      "dimensions": {
+        "width": "24",
+        "height": "24",
+        "viewBox": "0 0 24 24"
+      },
+      "path": "02_ICONS/actions/map-pin__03acd.svg",
+      "source": "Figma MCP asset archive",
+      "sha256": "3ab2be5ea4ecaf5aa3ad6e032333c9f8c6410fddcc42cc9d18b0621f20a73a30"
+    },
+    {
+      "id": "mcp:054bf.svg",
+      "originalFileName": "054bf.svg",
+      "exportedFileName": "ios-wifi-signal__054bf.svg",
+      "resourceType": "icon",
+      "category": "interface",
+      "format": "svg",
+      "screens": [
+        "screen_01_splash-logo",
+        "screen_02_welcome",
+        "screen_03_console-selection",
+        "screen_04_profile-creation",
+        "screen_05_home-feed",
+        "screen_06_match-detail",
+        "screen_07_request-form",
+        "screen_08_request-sent",
+        "screen_09_chat-screen",
+        "screen_10_exchanges-list",
+        "screen_11_my-games",
+        "screen_12_search-screen",
+        "screen_13_profile-screen",
+        "screen_14_rating-screen",
+        "screen_15_settings",
+        "screen_16_login",
+        "screen_17_loan-return"
+      ],
+      "layers": [
+        {
+          "screen": "screen_05_home-feed",
+          "layerName": "ios-wifi-signal",
+          "nodeId": "1:1275"
+        },
+        {
+          "screen": "screen_06_match-detail",
+          "layerName": "ios-wifi-signal",
+          "nodeId": "1:1363"
+        },
+        {
+          "screen": "screen_09_chat-screen",
+          "layerName": "ios-wifi-signal",
+          "nodeId": "1:1529"
+        },
+        {
+          "screen": "screen_10_exchanges-list",
+          "layerName": "ios-wifi-signal",
+          "nodeId": "1:1612"
+        },
+        {
+          "screen": "screen_11_my-games",
+          "layerName": "ios-wifi-signal",
+          "nodeId": "1:2268"
+        },
+        {
+          "screen": "screen_12_search-screen",
+          "layerName": "ios-wifi-signal",
+          "nodeId": "1:2346"
+        },
+        {
+          "screen": "screen_13_profile-screen",
+          "layerName": "ios-wifi-signal",
+          "nodeId": "1:2433"
+        },
+        {
+          "screen": "screen_14_rating-screen",
+          "layerName": "ios-wifi-signal",
+          "nodeId": "1:2520"
+        },
+        {
+          "screen": "screen_15_settings",
+          "layerName": "ios-wifi-signal",
+          "nodeId": "1:2583"
+        },
+        {
+          "screen": "screen_01_splash-logo",
+          "layerName": "ios-wifi-signal",
+          "nodeId": "1:1136"
+        },
+        {
+          "screen": "screen_02_welcome",
+          "layerName": "ios-wifi-signal",
+          "nodeId": "1:1157"
+        },
+        {
+          "screen": "screen_03_console-selection",
+          "layerName": "ios-wifi-signal",
+          "nodeId": "1:1184"
+        },
+        {
+          "screen": "screen_04_profile-creation",
+          "layerName": "ios-wifi-signal",
+          "nodeId": "1:1233"
+        },
+        {
+          "screen": "screen_07_request-form",
+          "layerName": "ios-wifi-signal",
+          "nodeId": "1:1415"
+        },
+        {
+          "screen": "screen_08_request-sent",
+          "layerName": "ios-wifi-signal",
+          "nodeId": "1:1461"
+        },
+        {
+          "screen": "screen_16_login",
+          "layerName": "ios-wifi-signal",
+          "nodeId": "1:2659"
+        },
+        {
+          "screen": "screen_17_loan-return",
+          "layerName": "ios-wifi-signal",
+          "nodeId": "1:2698"
+        }
+      ],
+      "dimensions": {
+        "width": "20",
+        "height": "20",
+        "viewBox": "0 0 20 20"
+      },
+      "path": "02_ICONS/interface/ios-wifi-signal__054bf.svg",
+      "source": "Figma MCP asset archive",
+      "sha256": "a32b01406a9f08d5ac9e0fb1e6723599cfbd57bde5bd531c50219ec8d2126192"
+    },
+    {
+      "id": "mcp:05574.png",
+      "originalFileName": "05574.png",
+      "exportedFileName": "ghost-game-cover__05574.png",
+      "resourceType": "image",
+      "category": "photos",
+      "format": "png",
+      "screens": [
+        "screen_05_home-feed"
+      ],
+      "layers": [
+        {
+          "screen": "screen_05_home-feed",
+          "layerName": "game-cover-2",
+          "nodeId": "1:1327"
+        }
+      ],
+      "dimensions": {
+        "width": 931,
+        "height": 1400,
+        "mode": "RGBA"
+      },
+      "path": "01_IMAGES/photos/ghost-game-cover__05574.png",
+      "source": "Figma MCP asset archive",
+      "sha256": "26ac03517f0ee2958b8a105b4f3160d7ed5b3b39b96256737e6b64bab982dfe1"
+    },
+    {
+      "id": "mcp:12248.svg",
+      "originalFileName": "12248.svg",
+      "exportedFileName": "book-open__12248.svg",
+      "resourceType": "icon",
+      "category": "navigation",
+      "format": "svg",
+      "screens": [
+        "screen_05_home-feed"
+      ],
+      "layers": [
+        {
+          "screen": "screen_05_home-feed",
+          "layerName": "book-open",
+          "nodeId": "1:1344"
+        }
+      ],
+      "dimensions": {
+        "width": "20",
+        "height": "20",
+        "viewBox": "0 0 20 20"
+      },
+      "path": "02_ICONS/navigation/book-open__12248.svg",
+      "source": "Figma MCP asset archive",
+      "sha256": "2287157254eb59d476e658587bec90adbfd9937752a1d7860eec94b3bb7094d4"
+    },
+    {
+      "id": "mcp:13139.png",
+      "originalFileName": "13139.png",
+      "exportedFileName": "andres-avatar__13139.png",
+      "resourceType": "image",
+      "category": "avatars",
+      "format": "png",
+      "screens": [
+        "screen_05_home-feed"
+      ],
+      "layers": [
+        {
+          "screen": "screen_05_home-feed",
+          "layerName": "owner-avatar",
+          "nodeId": "1:1317"
+        }
+      ],
+      "dimensions": {
+        "width": 1024,
+        "height": 1024,
+        "mode": "RGB"
+      },
+      "path": "01_IMAGES/avatars/andres-avatar__13139.png",
+      "source": "Figma MCP asset archive",
+      "sha256": "e1aa43ca15bacc54fd95d974f08387504de68383cfc9c108d608d93c9fcac4a4"
+    },
+    {
+      "id": "mcp:14880.svg",
+      "originalFileName": "14880.svg",
+      "exportedFileName": "search__14880.svg",
+      "resourceType": "icon",
+      "category": "navigation",
+      "format": "svg",
+      "screens": [
+        "screen_12_search-screen"
+      ],
+      "layers": [
+        {
+          "screen": "screen_12_search-screen",
+          "layerName": "search",
+          "nodeId": "1:2353"
+        }
+      ],
+      "dimensions": {
+        "width": "20",
+        "height": "20",
+        "viewBox": "0 0 20 20"
+      },
+      "path": "02_ICONS/navigation/search__14880.svg",
+      "source": "Figma MCP asset archive",
+      "sha256": "32cc4b9f740a7a3edbb56fdb077cf2bdc25f992a7432bfc56d42e6ae261347f8"
+    },
+    {
+      "id": "mcp:186a7.svg",
+      "originalFileName": "186a7.svg",
+      "exportedFileName": "186a7__186a7.svg",
+      "resourceType": "icon",
+      "category": "other",
+      "format": "svg",
+      "screens": [],
+      "layers": [],
+      "dimensions": {
+        "width": "28",
+        "height": "20",
+        "viewBox": "0 0 28 20"
+      },
+      "path": "02_ICONS/other/186a7__186a7.svg",
+      "source": "Figma MCP asset archive",
+      "sha256": "4321b0728043a01f5fe24bfc95abb2f71d04f2fffe43b3c5709d79bd5aec86bd"
+    },
+    {
+      "id": "mcp:1a11d.png",
+      "originalFileName": "1a11d.png",
+      "exportedFileName": "cyberpunk-2077-cover__1a11d.png",
+      "resourceType": "image",
+      "category": "photos",
+      "format": "png",
+      "screens": [
+        "screen_11_my-games"
+      ],
+      "layers": [
+        {
+          "screen": "screen_11_my-games",
+          "layerName": "Rectangle",
+          "nodeId": "1:2289"
+        }
+      ],
+      "dimensions": {
+        "width": 480,
+        "height": 640,
+        "mode": "RGB"
+      },
+      "path": "01_IMAGES/photos/cyberpunk-2077-cover__1a11d.png",
+      "source": "Figma MCP asset archive",
+      "sha256": "7ff05a320da2868fcdf60c3f3e031316862fc1d64d9fd4dd6fba2b3356f363ba"
+    },
+    {
+      "id": "mcp:22485.svg",
+      "originalFileName": "22485.svg",
+      "exportedFileName": "send__22485.svg",
+      "resourceType": "icon",
+      "category": "buttons",
+      "format": "svg",
+      "screens": [
+        "screen_09_chat-screen"
+      ],
+      "layers": [
+        {
+          "screen": "screen_09_chat-screen",
+          "layerName": "send",
+          "nodeId": "1:1574"
+        }
+      ],
+      "dimensions": {
+        "width": "24",
+        "height": "24",
+        "viewBox": "0 0 24 24"
+      },
+      "path": "02_ICONS/buttons/send__22485.svg",
+      "source": "Figma MCP asset archive",
+      "sha256": "44ca8497715e3581761d3c229fdc747ce23cc810bc3f344021a29aae31c2e7d7"
+    },
+    {
+      "id": "mcp:24217.svg",
+      "originalFileName": "24217.svg",
+      "exportedFileName": "book-open__24217.svg",
+      "resourceType": "icon",
+      "category": "navigation",
+      "format": "svg",
+      "screens": [
+        "screen_11_my-games"
+      ],
+      "layers": [
+        {
+          "screen": "screen_11_my-games",
+          "layerName": "book-open",
+          "nodeId": "1:2324"
+        }
+      ],
+      "dimensions": {
+        "width": "20",
+        "height": "20",
+        "viewBox": "0 0 20 20"
+      },
+      "path": "02_ICONS/navigation/book-open__24217.svg",
+      "source": "Figma MCP asset archive",
+      "sha256": "f4bfa4cc7250cb1b3cc68b3bac6cc03b51f32774990d7d73fb944cb92e6041c7"
+    },
+    {
+      "id": "mcp:25aed.svg",
+      "originalFileName": "25aed.svg",
+      "exportedFileName": "home__25aed.svg",
+      "resourceType": "icon",
+      "category": "navigation",
+      "format": "svg",
+      "screens": [
+        "screen_09_chat-screen"
+      ],
+      "layers": [
+        {
+          "screen": "screen_09_chat-screen",
+          "layerName": "home",
+          "nodeId": "1:1580"
+        }
+      ],
+      "dimensions": {
+        "width": "20",
+        "height": "20",
+        "viewBox": "0 0 20 20"
+      },
+      "path": "02_ICONS/navigation/home__25aed.svg",
+      "source": "Figma MCP asset archive",
+      "sha256": "6c1afe3823124e8e99c63dc7090e72210c0b7c0b39c971c16123021f7c39b362"
+    },
+    {
+      "id": "mcp:2b540.svg",
+      "originalFileName": "2b540.svg",
+      "exportedFileName": "more-vertical__2b540.svg",
+      "resourceType": "icon",
+      "category": "actions",
+      "format": "svg",
+      "screens": [
+        "screen_06_match-detail"
+      ],
+      "layers": [
+        {
+          "screen": "screen_06_match-detail",
+          "layerName": "more-vertical",
+          "nodeId": "1:1372"
+        }
+      ],
+      "dimensions": {
+        "width": "24",
+        "height": "24",
+        "viewBox": "0 0 24 24"
+      },
+      "path": "02_ICONS/actions/more-vertical__2b540.svg",
+      "source": "Figma MCP asset archive",
+      "sha256": "9df893f16e574201210ee30b0c3c8df9317d69ac55a726829cc568870d6e0d50"
+    },
+    {
+      "id": "mcp:32819.png",
+      "originalFileName": "32819.png",
+      "exportedFileName": "zelda-tears-of-the-kingdom-cover__32819.png",
+      "resourceType": "image",
+      "category": "photos",
+      "format": "png",
+      "screens": [
+        "screen_11_my-games"
+      ],
+      "layers": [
+        {
+          "screen": "screen_11_my-games",
+          "layerName": "Rectangle",
+          "nodeId": "1:2296"
+        }
+      ],
+      "dimensions": {
+        "width": 250,
+        "height": 347,
+        "mode": "RGB"
+      },
+      "path": "01_IMAGES/photos/zelda-tears-of-the-kingdom-cover__32819.png",
+      "source": "Figma MCP asset archive",
+      "sha256": "01eaf7736b8b425e02cc33d58026552a77fd381e500a5d156bbc27e1111fbdc1"
+    },
+    {
+      "id": "mcp:32fa5.png",
+      "originalFileName": "32fa5.png",
+      "exportedFileName": "sofia-avatar-chat__32fa5.png",
+      "resourceType": "image",
+      "category": "avatars",
+      "format": "png",
+      "screens": [
+        "screen_09_chat-screen"
+      ],
+      "layers": [
+        {
+          "screen": "screen_09_chat-screen",
+          "layerName": "user-avatar",
+          "nodeId": "1:1538"
+        }
+      ],
+      "dimensions": {
+        "width": 1024,
+        "height": 1024,
+        "mode": "RGB"
+      },
+      "path": "01_IMAGES/avatars/sofia-avatar-chat__32fa5.png",
+      "source": "Figma MCP asset archive",
+      "sha256": "f87fe52fb2d63cc68c042ccf556160462134c8a23fbf2fc1595c618cbb4aa44b"
+    },
+    {
+      "id": "mcp:3d070.svg",
+      "originalFileName": "3d070.svg",
+      "exportedFileName": "home__3d070.svg",
+      "resourceType": "icon",
+      "category": "navigation",
+      "format": "svg",
+      "screens": [
+        "screen_10_exchanges-list",
+        "screen_11_my-games",
+        "screen_12_search-screen",
+        "screen_13_profile-screen",
+        "screen_15_settings"
+      ],
+      "layers": [
+        {
+          "screen": "screen_10_exchanges-list",
+          "layerName": "home",
+          "nodeId": "1:1673"
+        },
+        {
+          "screen": "screen_11_my-games",
+          "layerName": "home",
+          "nodeId": "1:2314"
+        },
+        {
+          "screen": "screen_12_search-screen",
+          "layerName": "home",
+          "nodeId": "1:2401"
+        },
+        {
+          "screen": "screen_13_profile-screen",
+          "layerName": "home",
+          "nodeId": "1:2489"
+        },
+        {
+          "screen": "screen_15_settings",
+          "layerName": "home",
+          "nodeId": "1:2628"
+        }
+      ],
+      "dimensions": {
+        "width": "20",
+        "height": "20",
+        "viewBox": "0 0 20 20"
+      },
+      "path": "02_ICONS/navigation/home__3d070.svg",
+      "source": "Figma MCP asset archive",
+      "sha256": "8c6547ef62b714153fcc3ad48c00618b36bf2b70e9b0aa8f1454761ce33d62b5"
+    },
+    {
+      "id": "mcp:3f109.png",
+      "originalFileName": "3f109.png",
+      "exportedFileName": "sofia-avatar-rating__3f109.png",
+      "resourceType": "image",
+      "category": "avatars",
+      "format": "png",
+      "screens": [
+        "screen_14_rating-screen"
+      ],
+      "layers": [
+        {
+          "screen": "screen_14_rating-screen",
+          "layerName": "user-avatar",
+          "nodeId": "1:2533"
+        }
+      ],
+      "dimensions": {
+        "width": 1024,
+        "height": 1024,
+        "mode": "RGB"
+      },
+      "path": "01_IMAGES/avatars/sofia-avatar-rating__3f109.png",
+      "source": "Figma MCP asset archive",
+      "sha256": "9af5471b35dfff7b81e017748514b4b902187782cfe1573ce83771bc171cf22e"
+    },
+    {
+      "id": "mcp:41245.png",
+      "originalFileName": "41245.png",
+      "exportedFileName": "god-of-war-cover__41245.png",
+      "resourceType": "image",
+      "category": "photos",
+      "format": "png",
+      "screens": [
+        "screen_06_match-detail",
+        "screen_07_request-form",
+        "screen_10_exchanges-list",
+        "screen_11_my-games"
+      ],
+      "layers": [
+        {
+          "screen": "screen_06_match-detail",
+          "layerName": "Rectangle",
+          "nodeId": "1:1386"
+        },
+        {
+          "screen": "screen_06_match-detail",
+          "layerName": "Rectangle",
+          "nodeId": "1:1402"
+        },
+        {
+          "screen": "screen_10_exchanges-list",
+          "layerName": "Rectangle",
+          "nodeId": "1:1644"
+        },
+        {
+          "screen": "screen_11_my-games",
+          "layerName": "Rectangle",
+          "nodeId": "1:2283"
+        },
+        {
+          "screen": "screen_07_request-form",
+          "layerName": "Rectangle",
+          "nodeId": "1:1443"
+        }
+      ],
+      "dimensions": {
+        "width": 736,
+        "height": 1104,
+        "mode": "RGB"
+      },
+      "path": "01_IMAGES/photos/god-of-war-cover__41245.png",
+      "source": "Figma MCP asset archive",
+      "sha256": "b938b2d5f76d41e3958c50d1741d645d2765493a5a316e4a4b3d9a5a27e97657"
+    },
+    {
+      "id": "mcp:4140b.png",
+      "originalFileName": "4140b.png",
+      "exportedFileName": "the-last-of-us-cover__4140b.png",
+      "resourceType": "image",
+      "category": "photos",
+      "format": "png",
+      "screens": [
+        "screen_05_home-feed"
+      ],
+      "layers": [
+        {
+          "screen": "screen_05_home-feed",
+          "layerName": "game-cover-1",
+          "nodeId": "1:1326"
+        }
+      ],
+      "dimensions": {
+        "width": 667,
+        "height": 1000,
+        "mode": "RGB"
+      },
+      "path": "01_IMAGES/photos/the-last-of-us-cover__4140b.png",
+      "source": "Figma MCP asset archive",
+      "sha256": "041434b44fddbba9a03ea0992432cc57952e7100395f6373b5d620f1b2e33ed4"
+    },
+    {
+      "id": "mcp:465ca.svg",
+      "originalFileName": "465ca.svg",
+      "exportedFileName": "465ca__465ca.svg",
+      "resourceType": "icon",
+      "category": "other",
+      "format": "svg",
+      "screens": [],
+      "layers": [],
+      "dimensions": {
+        "width": "24",
+        "height": "24",
+        "viewBox": "0 0 24 24"
+      },
+      "path": "02_ICONS/other/465ca__465ca.svg",
+      "source": "Figma MCP asset archive",
+      "sha256": "10818d1245e45b79601e703dab4fcfe4b40c38adb0402d82f569775dea9bb12e"
+    },
+    {
+      "id": "mcp:4a2a2.svg",
+      "originalFileName": "4a2a2.svg",
+      "exportedFileName": "arrow-left__4a2a2.svg",
+      "resourceType": "icon",
+      "category": "buttons",
+      "format": "svg",
+      "screens": [
+        "screen_15_settings",
+        "screen_16_login",
+        "screen_17_loan-return"
+      ],
+      "layers": [
+        {
+          "screen": "screen_15_settings",
+          "layerName": "arrow-left",
+          "nodeId": "1:2588"
+        },
+        {
+          "screen": "screen_16_login",
+          "layerName": "arrow-left",
+          "nodeId": "1:2664"
+        },
+        {
+          "screen": "screen_17_loan-return",
+          "layerName": "arrow-left",
+          "nodeId": "1:2703"
+        }
+      ],
+      "dimensions": {
+        "width": "24",
+        "height": "24",
+        "viewBox": "0 0 24 24"
+      },
+      "path": "02_ICONS/buttons/arrow-left__4a2a2.svg",
+      "source": "Figma MCP asset archive",
+      "sha256": "384dc8bfa8a031117d36c55ba508c0b00c37bf133a18582f8614e108757ae900"
+    },
+    {
+      "id": "mcp:52e8b.svg",
+      "originalFileName": "52e8b.svg",
+      "exportedFileName": "map-pin__52e8b.svg",
+      "resourceType": "icon",
+      "category": "actions",
+      "format": "svg",
+      "screens": [
+        "screen_04_profile-creation"
+      ],
+      "layers": [
+        {
+          "screen": "screen_04_profile-creation",
+          "layerName": "map-pin",
+          "nodeId": "1:1260"
+        }
+      ],
+      "dimensions": {
+        "width": "16",
+        "height": "16",
+        "viewBox": "0 0 16 16"
+      },
+      "path": "02_ICONS/actions/map-pin__52e8b.svg",
+      "source": "Figma MCP asset archive",
+      "sha256": "42ab5c750235715e63943e9e1a5a432e0040699570ffd4c8c2d6c4f830d4419b"
+    },
+    {
+      "id": "mcp:57fc0.svg",
+      "originalFileName": "57fc0.svg",
+      "exportedFileName": "more-vertical__57fc0.svg",
+      "resourceType": "icon",
+      "category": "actions",
+      "format": "svg",
+      "screens": [
+        "screen_09_chat-screen"
+      ],
+      "layers": [
+        {
+          "screen": "screen_09_chat-screen",
+          "layerName": "more-vertical",
+          "nodeId": "1:1543"
+        }
+      ],
+      "dimensions": {
+        "width": "24",
+        "height": "24",
+        "viewBox": "0 0 24 24"
+      },
+      "path": "02_ICONS/actions/more-vertical__57fc0.svg",
+      "source": "Figma MCP asset archive",
+      "sha256": "9df893f16e574201210ee30b0c3c8df9317d69ac55a726829cc568870d6e0d50"
+    },
+    {
+      "id": "mcp:5825b.png",
+      "originalFileName": "5825b.png",
+      "exportedFileName": "hogwarts-legacy-cover__5825b.png",
+      "resourceType": "image",
+      "category": "photos",
+      "format": "png",
+      "screens": [
+        "screen_12_search-screen"
+      ],
+      "layers": [
+        {
+          "screen": "screen_12_search-screen",
+          "layerName": "game-cover",
+          "nodeId": "1:2376"
+        }
+      ],
+      "dimensions": {
+        "width": 250,
+        "height": 375,
+        "mode": "RGB"
+      },
+      "path": "01_IMAGES/photos/hogwarts-legacy-cover__5825b.png",
+      "source": "Figma MCP asset archive",
+      "sha256": "488e56cd64d36fc36e3e36b1f10985bf2970e80cfad311d155a8b6c4ed4938b3"
+    },
+    {
+      "id": "mcp:5ad8e.svg",
+      "originalFileName": "5ad8e.svg",
+      "exportedFileName": "ios-signal__5ad8e.svg",
+      "resourceType": "icon",
+      "category": "interface",
+      "format": "svg",
+      "screens": [
+        "screen_01_splash-logo",
+        "screen_02_welcome",
+        "screen_03_console-selection",
+        "screen_04_profile-creation",
+        "screen_05_home-feed",
+        "screen_06_match-detail",
+        "screen_07_request-form",
+        "screen_08_request-sent",
+        "screen_09_chat-screen",
+        "screen_10_exchanges-list",
+        "screen_11_my-games",
+        "screen_12_search-screen",
+        "screen_13_profile-screen",
+        "screen_14_rating-screen",
+        "screen_15_settings",
+        "screen_16_login",
+        "screen_17_loan-return"
+      ],
+      "layers": [
+        {
+          "screen": "screen_05_home-feed",
+          "layerName": "ios-signal",
+          "nodeId": "1:1273"
+        },
+        {
+          "screen": "screen_06_match-detail",
+          "layerName": "ios-signal",
+          "nodeId": "1:1361"
+        },
+        {
+          "screen": "screen_09_chat-screen",
+          "layerName": "ios-signal",
+          "nodeId": "1:1527"
+        },
+        {
+          "screen": "screen_10_exchanges-list",
+          "layerName": "ios-signal",
+          "nodeId": "1:1610"
+        },
+        {
+          "screen": "screen_11_my-games",
+          "layerName": "ios-signal",
+          "nodeId": "1:2266"
+        },
+        {
+          "screen": "screen_12_search-screen",
+          "layerName": "ios-signal",
+          "nodeId": "1:2344"
+        },
+        {
+          "screen": "screen_13_profile-screen",
+          "layerName": "ios-signal",
+          "nodeId": "1:2431"
+        },
+        {
+          "screen": "screen_14_rating-screen",
+          "layerName": "ios-signal",
+          "nodeId": "1:2518"
+        },
+        {
+          "screen": "screen_15_settings",
+          "layerName": "ios-signal",
+          "nodeId": "1:2581"
+        },
+        {
+          "screen": "screen_01_splash-logo",
+          "layerName": "ios-signal",
+          "nodeId": "1:1134"
+        },
+        {
+          "screen": "screen_02_welcome",
+          "layerName": "ios-signal",
+          "nodeId": "1:1155"
+        },
+        {
+          "screen": "screen_03_console-selection",
+          "layerName": "ios-signal",
+          "nodeId": "1:1182"
+        },
+        {
+          "screen": "screen_04_profile-creation",
+          "layerName": "ios-signal",
+          "nodeId": "1:1231"
+        },
+        {
+          "screen": "screen_07_request-form",
+          "layerName": "ios-signal",
+          "nodeId": "1:1413"
+        },
+        {
+          "screen": "screen_08_request-sent",
+          "layerName": "ios-signal",
+          "nodeId": "1:1459"
+        },
+        {
+          "screen": "screen_16_login",
+          "layerName": "ios-signal",
+          "nodeId": "1:2657"
+        },
+        {
+          "screen": "screen_17_loan-return",
+          "layerName": "ios-signal",
+          "nodeId": "1:2696"
+        }
+      ],
+      "dimensions": {
+        "width": "20",
+        "height": "20",
+        "viewBox": "0 0 20 20"
+      },
+      "path": "02_ICONS/interface/ios-signal__5ad8e.svg",
+      "source": "Figma MCP asset archive",
+      "sha256": "b2c8d6a95160d226d1e0679d2a036b9b2857e89d8a5d6279974c4a5fcf0578fa"
+    },
+    {
+      "id": "mcp:5c111.png",
+      "originalFileName": "5c111.png",
+      "exportedFileName": "carlos-avatar__5c111.png",
+      "resourceType": "image",
+      "category": "avatars",
+      "format": "png",
+      "screens": [
+        "screen_10_exchanges-list"
+      ],
+      "layers": [
+        {
+          "screen": "screen_10_exchanges-list",
+          "layerName": "user-avatar",
+          "nodeId": "1:1652"
+        }
+      ],
+      "dimensions": {
+        "width": 1024,
+        "height": 1024,
+        "mode": "RGB"
+      },
+      "path": "01_IMAGES/avatars/carlos-avatar__5c111.png",
+      "source": "Figma MCP asset archive",
+      "sha256": "e06e38ed2dd81398c2ccf04bff109a24f64b70271312988c4fbd2b024356dfed"
+    },
+    {
+      "id": "mcp:5ce24.svg",
+      "originalFileName": "5ce24.svg",
+      "exportedFileName": "home__5ce24.svg",
+      "resourceType": "icon",
+      "category": "navigation",
+      "format": "svg",
+      "screens": [
+        "screen_05_home-feed"
+      ],
+      "layers": [
+        {
+          "screen": "screen_05_home-feed",
+          "layerName": "home",
+          "nodeId": "1:1336"
+        }
+      ],
+      "dimensions": {
+        "width": "20",
+        "height": "20",
+        "viewBox": "0 0 20 20"
+      },
+      "path": "02_ICONS/navigation/home__5ce24.svg",
+      "source": "Figma MCP asset archive",
+      "sha256": "6c1afe3823124e8e99c63dc7090e72210c0b7c0b39c971c16123021f7c39b362"
+    },
+    {
+      "id": "mcp:5dc89.svg",
+      "originalFileName": "5dc89.svg",
+      "exportedFileName": "check-circle__5dc89.svg",
+      "resourceType": "icon",
+      "category": "buttons",
+      "format": "svg",
+      "screens": [
+        "screen_08_request-sent"
+      ],
+      "layers": [
+        {
+          "screen": "screen_08_request-sent",
+          "layerName": "check-circle",
+          "nodeId": "1:1467"
+        }
+      ],
+      "dimensions": {
+        "width": "48",
+        "height": "48",
+        "viewBox": "0 0 48 48"
+      },
+      "path": "02_ICONS/buttons/check-circle__5dc89.svg",
+      "source": "Figma MCP asset archive",
+      "sha256": "1d951044ccf9a4d139405beef0e5a0048e712f184cc78947c0da1683f2ec7fd3"
+    },
+    {
+      "id": "mcp:5f31f.svg",
+      "originalFileName": "5f31f.svg",
+      "exportedFileName": "5f31f__5f31f.svg",
+      "resourceType": "icon",
+      "category": "other",
+      "format": "svg",
+      "screens": [],
+      "layers": [],
+      "dimensions": {
+        "width": "20",
+        "height": "20",
+        "viewBox": "0 0 20 20"
+      },
+      "path": "02_ICONS/other/5f31f__5f31f.svg",
+      "source": "Figma MCP asset archive",
+      "sha256": "db7255e0d76156a4420cade64fb5c65e8029d77f4bcf256bdfe6088c528c37d6"
+    },
+    {
+      "id": "mcp:6386d.svg",
+      "originalFileName": "6386d.svg",
+      "exportedFileName": "search__6386d.svg",
+      "resourceType": "icon",
+      "category": "navigation",
+      "format": "svg",
+      "screens": [
+        "screen_09_chat-screen",
+        "screen_10_exchanges-list",
+        "screen_11_my-games",
+        "screen_13_profile-screen",
+        "screen_15_settings"
+      ],
+      "layers": [
+        {
+          "screen": "screen_09_chat-screen",
+          "layerName": "search",
+          "nodeId": "1:1585"
+        },
+        {
+          "screen": "screen_10_exchanges-list",
+          "layerName": "search",
+          "nodeId": "1:1678"
+        },
+        {
+          "screen": "screen_11_my-games",
+          "layerName": "search",
+          "nodeId": "1:2319"
+        },
+        {
+          "screen": "screen_13_profile-screen",
+          "layerName": "search",
+          "nodeId": "1:2494"
+        },
+        {
+          "screen": "screen_15_settings",
+          "layerName": "search",
+          "nodeId": "1:2633"
+        }
+      ],
+      "dimensions": {
+        "width": "20",
+        "height": "20",
+        "viewBox": "0 0 20 20"
+      },
+      "path": "02_ICONS/navigation/search__6386d.svg",
+      "source": "Figma MCP asset archive",
+      "sha256": "1eceaf0ea15d185898f34c5bb7f54a3259cdc6462c481b651cd0102f4706a5b3"
+    },
+    {
+      "id": "mcp:6a449.svg",
+      "originalFileName": "6a449.svg",
+      "exportedFileName": "user__6a449.svg",
+      "resourceType": "icon",
+      "category": "navigation",
+      "format": "svg",
+      "screens": [
+        "screen_05_home-feed"
+      ],
+      "layers": [
+        {
+          "screen": "screen_05_home-feed",
+          "layerName": "user",
+          "nodeId": "1:1352"
+        }
+      ],
+      "dimensions": {
+        "width": "20",
+        "height": "20",
+        "viewBox": "0 0 20 20"
+      },
+      "path": "02_ICONS/navigation/user__6a449.svg",
+      "source": "Figma MCP asset archive",
+      "sha256": "ba8f165e86d9160f789999ef38c51fdbc8195b5901081c98b23080f808cd6ee1"
+    },
+    {
+      "id": "mcp:6f356.png",
+      "originalFileName": "6f356.png",
+      "exportedFileName": "sofia-avatar-home__6f356.png",
+      "resourceType": "image",
+      "category": "avatars",
+      "format": "png",
+      "screens": [
+        "screen_05_home-feed"
+      ],
+      "layers": [
+        {
+          "screen": "screen_05_home-feed",
+          "layerName": "owner-avatar",
+          "nodeId": "1:1296"
+        }
+      ],
+      "dimensions": {
+        "width": 1024,
+        "height": 1024,
+        "mode": "RGB"
+      },
+      "path": "01_IMAGES/avatars/sofia-avatar-home__6f356.png",
+      "source": "Figma MCP asset archive",
+      "sha256": "19c781fa097428e934dd307dc964e517d7d80016a42b29d9ed1b0846a750a3f8"
+    },
+    {
+      "id": "mcp:6fbff.svg",
+      "originalFileName": "6fbff.svg",
+      "exportedFileName": "circle-x__6fbff.svg",
+      "resourceType": "icon",
+      "category": "interface",
+      "format": "svg",
+      "screens": [
+        "screen_03_console-selection"
+      ],
+      "layers": [
+        {
+          "screen": "screen_03_console-selection",
+          "layerName": "circle-x",
+          "nodeId": "1:1221"
+        }
+      ],
+      "dimensions": {
+        "width": "20",
+        "height": "20",
+        "viewBox": "0 0 20 20"
+      },
+      "path": "02_ICONS/interface/circle-x__6fbff.svg",
+      "source": "Figma MCP asset archive",
+      "sha256": "387c40ede421c1ddf900eb34139b380e1f342c911a864e9753205726239a90e9"
+    },
+    {
+      "id": "mcp:724cd.svg",
+      "originalFileName": "724cd.svg",
+      "exportedFileName": "check__724cd.svg",
+      "resourceType": "icon",
+      "category": "buttons",
+      "format": "svg",
+      "screens": [
+        "screen_14_rating-screen"
+      ],
+      "layers": [
+        {
+          "screen": "screen_14_rating-screen",
+          "layerName": "check",
+          "nodeId": "1:2527"
+        }
+      ],
+      "dimensions": {
+        "width": "24",
+        "height": "24",
+        "viewBox": "0 0 24 24"
+      },
+      "path": "02_ICONS/buttons/check__724cd.svg",
+      "source": "Figma MCP asset archive",
+      "sha256": "bdca2f50f120779e80c378b673b241597653590e93c2d42a4e05d969733ddb80"
+    },
+    {
+      "id": "mcp:7334e.png",
+      "originalFileName": "7334e.png",
+      "exportedFileName": "mateo-avatar-home__7334e.png",
+      "resourceType": "image",
+      "category": "avatars",
+      "format": "png",
+      "screens": [
+        "screen_05_home-feed"
+      ],
+      "layers": [
+        {
+          "screen": "screen_05_home-feed",
+          "layerName": "user-avatar",
+          "nodeId": "1:1282"
+        }
+      ],
+      "dimensions": {
+        "width": 1024,
+        "height": 1024,
+        "mode": "RGB"
+      },
+      "path": "01_IMAGES/avatars/mateo-avatar-home__7334e.png",
+      "source": "Figma MCP asset archive",
+      "sha256": "1b30852011c899795d6d91704ad3c14a50d528728777d0ae08af306c48833284"
+    },
+    {
+      "id": "mcp:7691a.svg",
+      "originalFileName": "7691a.svg",
+      "exportedFileName": "user__7691a.svg",
+      "resourceType": "icon",
+      "category": "navigation",
+      "format": "svg",
+      "screens": [
+        "screen_04_profile-creation"
+      ],
+      "layers": [
+        {
+          "screen": "screen_04_profile-creation",
+          "layerName": "user",
+          "nodeId": "1:1245"
+        }
+      ],
+      "dimensions": {
+        "width": "32",
+        "height": "32",
+        "viewBox": "0 0 32 32"
+      },
+      "path": "02_ICONS/navigation/user__7691a.svg",
+      "source": "Figma MCP asset archive",
+      "sha256": "a587edb4ab5f42325bd9ba4c3f64597a4bc0bdde99f31f4d013282a1375e0a57"
+    },
+    {
+      "id": "mcp:7b06e.svg",
+      "originalFileName": "7b06e.svg",
+      "exportedFileName": "Frame__7b06e.svg",
+      "resourceType": "icon",
+      "category": "other",
+      "format": "svg",
+      "screens": [
+        "screen_09_chat-screen"
+      ],
+      "layers": [
+        {
+          "screen": "screen_09_chat-screen",
+          "layerName": "Frame",
+          "nodeId": "1:1477"
+        }
+      ],
+      "dimensions": {
+        "width": "402",
+        "height": "874",
+        "viewBox": "0 0 402 874"
+      },
+      "path": "02_ICONS/other/Frame__7b06e.svg",
+      "source": "Figma MCP asset archive",
+      "sha256": "6cf92d0d38ee650c6ff8cf2fab42cd0782ac6c524374d7ae616421de8560e68d"
+    },
+    {
+      "id": "mcp:7b22a.svg",
+      "originalFileName": "7b22a.svg",
+      "exportedFileName": "star__7b22a.svg",
+      "resourceType": "icon",
+      "category": "interface",
+      "format": "svg",
+      "screens": [
+        "screen_14_rating-screen"
+      ],
+      "layers": [
+        {
+          "screen": "screen_14_rating-screen",
+          "layerName": "star",
+          "nodeId": "1:2541"
+        },
+        {
+          "screen": "screen_14_rating-screen",
+          "layerName": "star",
+          "nodeId": "1:2544"
+        },
+        {
+          "screen": "screen_14_rating-screen",
+          "layerName": "star",
+          "nodeId": "1:2547"
+        },
+        {
+          "screen": "screen_14_rating-screen",
+          "layerName": "star",
+          "nodeId": "1:2550"
+        }
+      ],
+      "dimensions": {
+        "width": "36",
+        "height": "36",
+        "viewBox": "0 0 36 36"
+      },
+      "path": "02_ICONS/interface/star__7b22a.svg",
+      "source": "Figma MCP asset archive",
+      "sha256": "0cc3f825e8405f6bbaf0735a608a20bfab40eb17204fb1d6c8216eaa67ff2e3f"
+    },
+    {
+      "id": "mcp:81721.svg",
+      "originalFileName": "81721.svg",
+      "exportedFileName": "repeat__81721.svg",
+      "resourceType": "icon",
+      "category": "actions",
+      "format": "svg",
+      "screens": [
+        "screen_07_request-form"
+      ],
+      "layers": [
+        {
+          "screen": "screen_07_request-form",
+          "layerName": "repeat",
+          "nodeId": "1:1445"
+        }
+      ],
+      "dimensions": {
+        "width": "16",
+        "height": "16",
+        "viewBox": "0 0 16 16"
+      },
+      "path": "02_ICONS/actions/repeat__81721.svg",
+      "source": "Figma MCP asset archive",
+      "sha256": "927ce6c1d95fe22d935a4ffd22dd4288a93f442192cfa67986a86cc3711adc9d"
+    },
+    {
+      "id": "mcp:84566.svg",
+      "originalFileName": "84566.svg",
+      "exportedFileName": "user__84566.svg",
+      "resourceType": "icon",
+      "category": "navigation",
+      "format": "svg",
+      "screens": [
+        "screen_13_profile-screen",
+        "screen_15_settings"
+      ],
+      "layers": [
+        {
+          "screen": "screen_13_profile-screen",
+          "layerName": "user",
+          "nodeId": "1:2509"
+        },
+        {
+          "screen": "screen_15_settings",
+          "layerName": "user",
+          "nodeId": "1:2648"
+        }
+      ],
+      "dimensions": {
+        "width": "20",
+        "height": "20",
+        "viewBox": "0 0 20 20"
+      },
+      "path": "02_ICONS/navigation/user__84566.svg",
+      "source": "Figma MCP asset archive",
+      "sha256": "ec545ffb9f677ef3ff528ccc2ca1bc15c6a33231f92fe08fc265d49b17c4a6df"
+    },
+    {
+      "id": "mcp:85276.svg",
+      "originalFileName": "85276.svg",
+      "exportedFileName": "star__85276.svg",
+      "resourceType": "icon",
+      "category": "interface",
+      "format": "svg",
+      "screens": [
+        "screen_13_profile-screen"
+      ],
+      "layers": [
+        {
+          "screen": "screen_13_profile-screen",
+          "layerName": "star",
+          "nodeId": "1:2444"
+        },
+        {
+          "screen": "screen_13_profile-screen",
+          "layerName": "star",
+          "nodeId": "1:2446"
+        },
+        {
+          "screen": "screen_13_profile-screen",
+          "layerName": "star",
+          "nodeId": "1:2448"
+        },
+        {
+          "screen": "screen_13_profile-screen",
+          "layerName": "star",
+          "nodeId": "1:2450"
+        }
+      ],
+      "dimensions": {
+        "width": "16",
+        "height": "16",
+        "viewBox": "0 0 16 16"
+      },
+      "path": "02_ICONS/interface/star__85276.svg",
+      "source": "Figma MCP asset archive",
+      "sha256": "4bac5646337e24675fe70e8651452aadc1b9300adbfcff98d6bf9eabe48ebb54"
+    },
+    {
+      "id": "mcp:8542a.png",
+      "originalFileName": "8542a.png",
+      "exportedFileName": "super-mario-odyssey-cover__8542a.png",
+      "resourceType": "image",
+      "category": "photos",
+      "format": "png",
+      "screens": [
+        "screen_05_home-feed",
+        "screen_12_search-screen"
+      ],
+      "layers": [
+        {
+          "screen": "screen_05_home-feed",
+          "layerName": "game-cover-2",
+          "nodeId": "1:1306"
+        },
+        {
+          "screen": "screen_12_search-screen",
+          "layerName": "game-cover",
+          "nodeId": "1:2387"
+        }
+      ],
+      "dimensions": {
+        "width": 450,
+        "height": 600,
+        "mode": "RGB"
+      },
+      "path": "01_IMAGES/photos/super-mario-odyssey-cover__8542a.png",
+      "source": "Figma MCP asset archive",
+      "sha256": "39ec70cb32d69fdf7e018e12b849c2f5aa36aba9c22a1f1f1e26abfb96246b20"
+    },
+    {
+      "id": "mcp:85561.svg",
+      "originalFileName": "85561.svg",
+      "exportedFileName": "85561__85561.svg",
+      "resourceType": "icon",
+      "category": "other",
+      "format": "svg",
+      "screens": [],
+      "layers": [],
+      "dimensions": {
+        "width": "20",
+        "height": "20",
+        "viewBox": "0 0 20 20"
+      },
+      "path": "02_ICONS/other/85561__85561.svg",
+      "source": "Figma MCP asset archive",
+      "sha256": "77c2d0d9c7d03d416b9070ec9c384d8f0744d2b00f790081320f2d116f6b7f36"
+    },
+    {
+      "id": "mcp:85e7e.png",
+      "originalFileName": "85e7e.png",
+      "exportedFileName": "lucas-avatar__85e7e.png",
+      "resourceType": "image",
+      "category": "avatars",
+      "format": "png",
+      "screens": [
+        "screen_12_search-screen"
+      ],
+      "layers": [
+        {
+          "screen": "screen_12_search-screen",
+          "layerName": "Rectangle",
+          "nodeId": "1:2380"
+        }
+      ],
+      "dimensions": {
+        "width": 1024,
+        "height": 1024,
+        "mode": "RGB"
+      },
+      "path": "01_IMAGES/avatars/lucas-avatar__85e7e.png",
+      "source": "Figma MCP asset archive",
+      "sha256": "d73181930e5b68c5c2fd6e16e372887ba5f367490107ad7338f653a2d87d03c4"
+    },
+    {
+      "id": "mcp:88d1e.svg",
+      "originalFileName": "88d1e.svg",
+      "exportedFileName": "circle-x__88d1e.svg",
+      "resourceType": "icon",
+      "category": "interface",
+      "format": "svg",
+      "screens": [
+        "screen_03_console-selection"
+      ],
+      "layers": [
+        {
+          "screen": "screen_03_console-selection",
+          "layerName": "circle-x",
+          "nodeId": "1:1197"
+        },
+        {
+          "screen": "screen_03_console-selection",
+          "layerName": "circle-x",
+          "nodeId": "1:1204"
+        }
+      ],
+      "dimensions": {
+        "width": "20",
+        "height": "20",
+        "viewBox": "0 0 20 20"
+      },
+      "path": "02_ICONS/interface/circle-x__88d1e.svg",
+      "source": "Figma MCP asset archive",
+      "sha256": "cd76ac47c6a55f4fb676ea57acf2cd8549d8bd4ad127ce798fc38f44f2d46eb6"
+    },
+    {
+      "id": "mcp:8cdf2.png",
+      "originalFileName": "8cdf2.png",
+      "exportedFileName": "demons-souls-cover__8cdf2.png",
+      "resourceType": "image",
+      "category": "photos",
+      "format": "png",
+      "screens": [
+        "screen_10_exchanges-list"
+      ],
+      "layers": [
+        {
+          "screen": "screen_10_exchanges-list",
+          "layerName": "Rectangle",
+          "nodeId": "1:1665"
+        }
+      ],
+      "dimensions": {
+        "width": 480,
+        "height": 600,
+        "mode": "RGBA"
+      },
+      "path": "01_IMAGES/photos/demons-souls-cover__8cdf2.png",
+      "source": "Figma MCP asset archive",
+      "sha256": "2f25f907e87a37c51b4883f1fc35ed24ac768480d839254b29634d964f10328e"
+    },
+    {
+      "id": "mcp:94ebb.svg",
+      "originalFileName": "94ebb.svg",
+      "exportedFileName": "arrow-left__94ebb.svg",
+      "resourceType": "icon",
+      "category": "buttons",
+      "format": "svg",
+      "screens": [
+        "screen_06_match-detail"
+      ],
+      "layers": [
+        {
+          "screen": "screen_06_match-detail",
+          "layerName": "arrow-left",
+          "nodeId": "1:1369"
+        }
+      ],
+      "dimensions": {
+        "width": "24",
+        "height": "24",
+        "viewBox": "0 0 24 24"
+      },
+      "path": "02_ICONS/buttons/arrow-left__94ebb.svg",
+      "source": "Figma MCP asset archive",
+      "sha256": "384dc8bfa8a031117d36c55ba508c0b00c37bf133a18582f8614e108757ae900"
+    },
+    {
+      "id": "mcp:96bfe.png",
+      "originalFileName": "96bfe.png",
+      "exportedFileName": "sofia-avatar__96bfe.png",
+      "resourceType": "image",
+      "category": "avatars",
+      "format": "png",
+      "screens": [
+        "screen_10_exchanges-list"
+      ],
+      "layers": [
+        {
+          "screen": "screen_10_exchanges-list",
+          "layerName": "user-avatar",
+          "nodeId": "1:1631"
+        }
+      ],
+      "dimensions": {
+        "width": 1024,
+        "height": 1024,
+        "mode": "RGB"
+      },
+      "path": "01_IMAGES/avatars/sofia-avatar__96bfe.png",
+      "source": "Figma MCP asset archive",
+      "sha256": "8367a3413f51e94887f953d07d078e13e4da589f2d086b70230e90a471df7260"
+    },
+    {
+      "id": "mcp:9c8b7.svg",
+      "originalFileName": "9c8b7.svg",
+      "exportedFileName": "search__9c8b7.svg",
+      "resourceType": "icon",
+      "category": "navigation",
+      "format": "svg",
+      "screens": [
+        "screen_12_search-screen"
+      ],
+      "layers": [
+        {
+          "screen": "screen_12_search-screen",
+          "layerName": "search",
+          "nodeId": "1:2406"
+        }
+      ],
+      "dimensions": {
+        "width": "20",
+        "height": "20",
+        "viewBox": "0 0 20 20"
+      },
+      "path": "02_ICONS/navigation/search__9c8b7.svg",
+      "source": "Figma MCP asset archive",
+      "sha256": "20941a45ce747c4b12b8d33bc33c75a4639f896a927924d22cda40caf8f3e007"
+    },
+    {
+      "id": "mcp:9e32b.svg",
+      "originalFileName": "9e32b.svg",
+      "exportedFileName": "plus__9e32b.svg",
+      "resourceType": "icon",
+      "category": "buttons",
+      "format": "svg",
+      "screens": [
+        "screen_11_my-games"
+      ],
+      "layers": [
+        {
+          "screen": "screen_11_my-games",
+          "layerName": "plus",
+          "nodeId": "1:2308"
+        }
+      ],
+      "dimensions": {
+        "width": "24",
+        "height": "24",
+        "viewBox": "0 0 24 24"
+      },
+      "path": "02_ICONS/buttons/plus__9e32b.svg",
+      "source": "Figma MCP asset archive",
+      "sha256": "f4b86c31c2fcecf1839b808afb7a348a30df336bfa1f633d50afd5001be2aeec"
+    },
+    {
+      "id": "mcp:a0aff.svg",
+      "originalFileName": "a0aff.svg",
+      "exportedFileName": "chevron-left__a0aff.svg",
+      "resourceType": "icon",
+      "category": "buttons",
+      "format": "svg",
+      "screens": [
+        "screen_09_chat-screen"
+      ],
+      "layers": [
+        {
+          "screen": "screen_09_chat-screen",
+          "layerName": "chevron-left",
+          "nodeId": "1:1536"
+        }
+      ],
+      "dimensions": {
+        "width": "24",
+        "height": "24",
+        "viewBox": "0 0 24 24"
+      },
+      "path": "02_ICONS/buttons/chevron-left__a0aff.svg",
+      "source": "Figma MCP asset archive",
+      "sha256": "f9a9b9fdcf3a98382e3258533304426b2bad8b0ec48d7d08d32325ce2042e6b7"
+    },
+    {
+      "id": "mcp:a1117.svg",
+      "originalFileName": "a1117.svg",
+      "exportedFileName": "repeat__a1117.svg",
+      "resourceType": "icon",
+      "category": "actions",
+      "format": "svg",
+      "screens": [
+        "screen_10_exchanges-list"
+      ],
+      "layers": [
+        {
+          "screen": "screen_10_exchanges-list",
+          "layerName": "repeat",
+          "nodeId": "1:1688"
+        }
+      ],
+      "dimensions": {
+        "width": "20",
+        "height": "20",
+        "viewBox": "0 0 20 20"
+      },
+      "path": "02_ICONS/actions/repeat__a1117.svg",
+      "source": "Figma MCP asset archive",
+      "sha256": "9e54dceea604d3f516515145d160cb1596bbb0bc69ec0df1e13e5cf8b2455bf4"
+    },
+    {
+      "id": "mcp:a1135.svg",
+      "originalFileName": "a1135.svg",
+      "exportedFileName": "a1135__a1135.svg",
+      "resourceType": "icon",
+      "category": "other",
+      "format": "svg",
+      "screens": [],
+      "layers": [],
+      "dimensions": {
+        "width": "20",
+        "height": "20",
+        "viewBox": "0 0 20 20"
+      },
+      "path": "02_ICONS/other/a1135__a1135.svg",
+      "source": "Figma MCP asset archive",
+      "sha256": "abc7bcc87e11e7e1e9df10f4d26752ea9f3721b771cb9774841c5f9f73e30cb4"
+    },
+    {
+      "id": "mcp:a124e.png",
+      "originalFileName": "a124e.png",
+      "exportedFileName": "spider-man-2-cover__a124e.png",
+      "resourceType": "image",
+      "category": "photos",
+      "format": "png",
+      "screens": [
+        "screen_05_home-feed",
+        "screen_10_exchanges-list"
+      ],
+      "layers": [
+        {
+          "screen": "screen_05_home-feed",
+          "layerName": "game-cover-3",
+          "nodeId": "1:1307"
+        },
+        {
+          "screen": "screen_10_exchanges-list",
+          "layerName": "Rectangle",
+          "nodeId": "1:1660"
+        }
+      ],
+      "dimensions": {
+        "width": 181,
+        "height": 279,
+        "mode": "RGB"
+      },
+      "path": "01_IMAGES/photos/spider-man-2-cover__a124e.png",
+      "source": "Figma MCP asset archive",
+      "sha256": "a0b5ebafaa953985acc84fecf003842bb3dd344bb9672943b789eb4937a5697a"
+    },
+    {
+      "id": "mcp:a5c75.svg",
+      "originalFileName": "a5c75.svg",
+      "exportedFileName": "gamepad__a5c75.svg",
+      "resourceType": "icon",
+      "category": "interface",
+      "format": "svg",
+      "screens": [
+        "screen_02_welcome",
+        "screen_16_login"
+      ],
+      "layers": [
+        {
+          "screen": "screen_02_welcome",
+          "layerName": "gamepad",
+          "nodeId": "1:1165"
+        },
+        {
+          "screen": "screen_16_login",
+          "layerName": "gamepad",
+          "nodeId": "1:2668"
+        }
+      ],
+      "dimensions": {
+        "width": "24",
+        "height": "24",
+        "viewBox": "0 0 24 24"
+      },
+      "path": "02_ICONS/interface/gamepad__a5c75.svg",
+      "source": "Figma MCP asset archive",
+      "sha256": "766127a1b8191b76c97af6581a965d23d6b89e27ea1f3843cc1e34c3ffa33638"
+    },
+    {
+      "id": "mcp:a8a73.svg",
+      "originalFileName": "a8a73.svg",
+      "exportedFileName": "Perfil-visible-en-b-squedas-Desactivado__a8a73.svg",
+      "resourceType": "icon",
+      "category": "other",
+      "format": "svg",
+      "screens": [
+        "screen_15_settings"
+      ],
+      "layers": [
+        {
+          "screen": "screen_15_settings",
+          "layerName": "Perfil visible en búsquedas · Desactivado",
+          "nodeId": "1:2614"
+        }
+      ],
+      "dimensions": {
+        "width": "44",
+        "height": "24",
+        "viewBox": "0 0 44 24"
+      },
+      "path": "02_ICONS/other/Perfil-visible-en-b-squedas-Desactivado__a8a73.svg",
+      "source": "Figma MCP asset archive",
+      "sha256": "4e05c3d6d2f8db02a0b5f5aaa0117eab9ff1b7a3d452438a3a93e4ab34131d57"
+    },
+    {
+      "id": "mcp:b63a0.svg",
+      "originalFileName": "b63a0.svg",
+      "exportedFileName": "chevron-right__b63a0.svg",
+      "resourceType": "icon",
+      "category": "buttons",
+      "format": "svg",
+      "screens": [
+        "screen_13_profile-screen",
+        "screen_15_settings",
+        "screen_17_loan-return"
+      ],
+      "layers": [
+        {
+          "screen": "screen_13_profile-screen",
+          "layerName": "chevron-right",
+          "nodeId": "1:2478"
+        },
+        {
+          "screen": "screen_13_profile-screen",
+          "layerName": "chevron-right",
+          "nodeId": "1:2483"
+        },
+        {
+          "screen": "screen_15_settings",
+          "layerName": "chevron-right",
+          "nodeId": "1:2600"
+        },
+        {
+          "screen": "screen_15_settings",
+          "layerName": "chevron-right",
+          "nodeId": "1:2603"
+        },
+        {
+          "screen": "screen_15_settings",
+          "layerName": "chevron-right",
+          "nodeId": "1:2618"
+        },
+        {
+          "screen": "screen_17_loan-return",
+          "layerName": "chevron-right",
+          "nodeId": "1:2723"
+        }
+      ],
+      "dimensions": {
+        "width": "16",
+        "height": "16",
+        "viewBox": "0 0 16 16"
+      },
+      "path": "02_ICONS/buttons/chevron-right__b63a0.svg",
+      "source": "Figma MCP asset archive",
+      "sha256": "760c59ffab2a0e08f420b909dc691e4d9cd20816341dd8b0715d39f227aca2e1"
+    },
+    {
+      "id": "mcp:be353.svg",
+      "originalFileName": "be353.svg",
+      "exportedFileName": "be353__be353.svg",
+      "resourceType": "icon",
+      "category": "other",
+      "format": "svg",
+      "screens": [],
+      "layers": [],
+      "dimensions": {
+        "width": "20",
+        "height": "20",
+        "viewBox": "0 0 20 20"
+      },
+      "path": "02_ICONS/other/be353__be353.svg",
+      "source": "Figma MCP asset archive",
+      "sha256": "bbcff53bff3814baf603ff596f8c565465ea6dd19d1dfb92c1b8105685e43ff0"
+    },
+    {
+      "id": "mcp:bf098.svg",
+      "originalFileName": "bf098.svg",
+      "exportedFileName": "check__bf098.svg",
+      "resourceType": "icon",
+      "category": "buttons",
+      "format": "svg",
+      "screens": [
+        "screen_17_loan-return"
+      ],
+      "layers": [
+        {
+          "screen": "screen_17_loan-return",
+          "layerName": "check",
+          "nodeId": "1:2727"
+        }
+      ],
+      "dimensions": {
+        "width": "16",
+        "height": "16",
+        "viewBox": "0 0 16 16"
+      },
+      "path": "02_ICONS/buttons/check__bf098.svg",
+      "source": "Figma MCP asset archive",
+      "sha256": "9828a1c58bda2e9cfd1cb48ecc71e8de17b85bfc78718e6f7551681269651dcf"
+    },
+    {
+      "id": "mcp:c0282.svg",
+      "originalFileName": "c0282.svg",
+      "exportedFileName": "star__c0282.svg",
+      "resourceType": "icon",
+      "category": "interface",
+      "format": "svg",
+      "screens": [
+        "screen_13_profile-screen"
+      ],
+      "layers": [
+        {
+          "screen": "screen_13_profile-screen",
+          "layerName": "star",
+          "nodeId": "1:2452"
+        }
+      ],
+      "dimensions": {
+        "width": "16",
+        "height": "16",
+        "viewBox": "0 0 16 16"
+      },
+      "path": "02_ICONS/interface/star__c0282.svg",
+      "source": "Figma MCP asset archive",
+      "sha256": "7f4efa038d76398919f39a067729183748261c4a01144e5fa7ef31cf30309928"
+    },
+    {
+      "id": "mcp:c197f.png",
+      "originalFileName": "c197f.png",
+      "exportedFileName": "mateo-avatar__c197f.png",
+      "resourceType": "image",
+      "category": "avatars",
+      "format": "png",
+      "screens": [
+        "screen_13_profile-screen",
+        "screen_15_settings"
+      ],
+      "layers": [
+        {
+          "screen": "screen_13_profile-screen",
+          "layerName": "avatar",
+          "nodeId": "1:2438"
+        },
+        {
+          "screen": "screen_15_settings",
+          "layerName": "avatar",
+          "nodeId": "1:2594"
+        }
+      ],
+      "dimensions": {
+        "width": 1024,
+        "height": 1024,
+        "mode": "RGB"
+      },
+      "path": "01_IMAGES/avatars/mateo-avatar__c197f.png",
+      "source": "Figma MCP asset archive",
+      "sha256": "ca4becba2b8d57b88aaad5c391b877ecc4714b4152b37954dce5bbc437c8c6dc"
+    },
+    {
+      "id": "mcp:c7942.svg",
+      "originalFileName": "c7942.svg",
+      "exportedFileName": "Notificaciones-Activado__c7942.svg",
+      "resourceType": "icon",
+      "category": "other",
+      "format": "svg",
+      "screens": [
+        "screen_15_settings"
+      ],
+      "layers": [
+        {
+          "screen": "screen_15_settings",
+          "layerName": "Notificaciones · Activado",
+          "nodeId": "1:2608"
+        },
+        {
+          "screen": "screen_15_settings",
+          "layerName": "Recordatorios de devolución · Activado",
+          "nodeId": "1:2611"
+        }
+      ],
+      "dimensions": {
+        "width": "44",
+        "height": "24",
+        "viewBox": "0 0 44 24"
+      },
+      "path": "02_ICONS/other/Notificaciones-Activado__c7942.svg",
+      "source": "Figma MCP asset archive",
+      "sha256": "49221ef27bae0d2c74e27f408d7eefe9ad3ef0b2659d3779e20a8fa1b5592bfa"
+    },
+    {
+      "id": "mcp:c8177.svg",
+      "originalFileName": "c8177.svg",
+      "exportedFileName": "search__c8177.svg",
+      "resourceType": "icon",
+      "category": "navigation",
+      "format": "svg",
+      "screens": [
+        "screen_05_home-feed"
+      ],
+      "layers": [
+        {
+          "screen": "screen_05_home-feed",
+          "layerName": "search",
+          "nodeId": "1:1340"
+        }
+      ],
+      "dimensions": {
+        "width": "20",
+        "height": "20",
+        "viewBox": "0 0 20 20"
+      },
+      "path": "02_ICONS/navigation/search__c8177.svg",
+      "source": "Figma MCP asset archive",
+      "sha256": "1eceaf0ea15d185898f34c5bb7f54a3259cdc6462c481b651cd0102f4706a5b3"
+    },
+    {
+      "id": "mcp:ca789.svg",
+      "originalFileName": "ca789.svg",
+      "exportedFileName": "ca789__ca789.svg",
+      "resourceType": "icon",
+      "category": "other",
+      "format": "svg",
+      "screens": [],
+      "layers": [],
+      "dimensions": {
+        "width": "20",
+        "height": "20",
+        "viewBox": "0 0 20 20"
+      },
+      "path": "02_ICONS/other/ca789__ca789.svg",
+      "source": "Figma MCP asset archive",
+      "sha256": "4efa1f76936e881e03b69ce0c6cd8eb1b93ac226f5f2f0e05769db77b2bf273f"
+    },
+    {
+      "id": "mcp:cb058.svg",
+      "originalFileName": "cb058.svg",
+      "exportedFileName": "cb058__cb058.svg",
+      "resourceType": "icon",
+      "category": "other",
+      "format": "svg",
+      "screens": [],
+      "layers": [],
+      "dimensions": {
+        "width": "24",
+        "height": "24",
+        "viewBox": "0 0 24 24"
+      },
+      "path": "02_ICONS/other/cb058__cb058.svg",
+      "source": "Figma MCP asset archive",
+      "sha256": "66694c00f3d79a527bad9f498af047e50e8ca66d74e4594acb6193619141fde7"
+    },
+    {
+      "id": "mcp:cc14a.svg",
+      "originalFileName": "cc14a.svg",
+      "exportedFileName": "ios-battery-full__cc14a.svg",
+      "resourceType": "icon",
+      "category": "interface",
+      "format": "svg",
+      "screens": [
+        "screen_01_splash-logo",
+        "screen_02_welcome",
+        "screen_03_console-selection",
+        "screen_04_profile-creation",
+        "screen_05_home-feed",
+        "screen_06_match-detail",
+        "screen_07_request-form",
+        "screen_08_request-sent",
+        "screen_09_chat-screen",
+        "screen_10_exchanges-list",
+        "screen_11_my-games",
+        "screen_12_search-screen",
+        "screen_13_profile-screen",
+        "screen_14_rating-screen",
+        "screen_15_settings",
+        "screen_16_login",
+        "screen_17_loan-return"
+      ],
+      "layers": [
+        {
+          "screen": "screen_05_home-feed",
+          "layerName": "ios-battery-full",
+          "nodeId": "1:1277"
+        },
+        {
+          "screen": "screen_06_match-detail",
+          "layerName": "ios-battery-full",
+          "nodeId": "1:1365"
+        },
+        {
+          "screen": "screen_09_chat-screen",
+          "layerName": "ios-battery-full",
+          "nodeId": "1:1531"
+        },
+        {
+          "screen": "screen_10_exchanges-list",
+          "layerName": "ios-battery-full",
+          "nodeId": "1:1614"
+        },
+        {
+          "screen": "screen_11_my-games",
+          "layerName": "ios-battery-full",
+          "nodeId": "1:2270"
+        },
+        {
+          "screen": "screen_12_search-screen",
+          "layerName": "ios-battery-full",
+          "nodeId": "1:2348"
+        },
+        {
+          "screen": "screen_13_profile-screen",
+          "layerName": "ios-battery-full",
+          "nodeId": "1:2435"
+        },
+        {
+          "screen": "screen_14_rating-screen",
+          "layerName": "ios-battery-full",
+          "nodeId": "1:2522"
+        },
+        {
+          "screen": "screen_15_settings",
+          "layerName": "ios-battery-full",
+          "nodeId": "1:2585"
+        },
+        {
+          "screen": "screen_01_splash-logo",
+          "layerName": "ios-battery-full",
+          "nodeId": "1:1138"
+        },
+        {
+          "screen": "screen_02_welcome",
+          "layerName": "ios-battery-full",
+          "nodeId": "1:1159"
+        },
+        {
+          "screen": "screen_03_console-selection",
+          "layerName": "ios-battery-full",
+          "nodeId": "1:1186"
+        },
+        {
+          "screen": "screen_04_profile-creation",
+          "layerName": "ios-battery-full",
+          "nodeId": "1:1235"
+        },
+        {
+          "screen": "screen_07_request-form",
+          "layerName": "ios-battery-full",
+          "nodeId": "1:1417"
+        },
+        {
+          "screen": "screen_08_request-sent",
+          "layerName": "ios-battery-full",
+          "nodeId": "1:1463"
+        },
+        {
+          "screen": "screen_16_login",
+          "layerName": "ios-battery-full",
+          "nodeId": "1:2661"
+        },
+        {
+          "screen": "screen_17_loan-return",
+          "layerName": "ios-battery-full",
+          "nodeId": "1:2700"
+        }
+      ],
+      "dimensions": {
+        "width": "28",
+        "height": "20",
+        "viewBox": "0 0 28 20"
+      },
+      "path": "02_ICONS/interface/ios-battery-full__cc14a.svg",
+      "source": "Figma MCP asset archive",
+      "sha256": "bc988b16c461d926f75e8c21fb3715e59ef4a0a367454ce1e151a908585da9b1"
+    },
+    {
+      "id": "mcp:cc4f9.png",
+      "originalFileName": "cc4f9.png",
+      "exportedFileName": "elden-ring-cover__cc4f9.png",
+      "resourceType": "image",
+      "category": "photos",
+      "format": "png",
+      "screens": [
+        "screen_05_home-feed",
+        "screen_06_match-detail",
+        "screen_07_request-form",
+        "screen_10_exchanges-list",
+        "screen_11_my-games",
+        "screen_17_loan-return"
+      ],
+      "layers": [
+        {
+          "screen": "screen_05_home-feed",
+          "layerName": "game-cover-1",
+          "nodeId": "1:1305"
+        },
+        {
+          "screen": "screen_06_match-detail",
+          "layerName": "Rectangle",
+          "nodeId": "1:1391"
+        },
+        {
+          "screen": "screen_06_match-detail",
+          "layerName": "Rectangle",
+          "nodeId": "1:1397"
+        },
+        {
+          "screen": "screen_10_exchanges-list",
+          "layerName": "Rectangle",
+          "nodeId": "1:1639"
+        },
+        {
+          "screen": "screen_11_my-games",
+          "layerName": "Rectangle",
+          "nodeId": "1:2302"
+        },
+        {
+          "screen": "screen_07_request-form",
+          "layerName": "Rectangle",
+          "nodeId": "1:1448"
+        },
+        {
+          "screen": "screen_17_loan-return",
+          "layerName": "Rectangle",
+          "nodeId": "1:2709"
+        }
+      ],
+      "dimensions": {
+        "width": 452,
+        "height": 678,
+        "mode": "RGB"
+      },
+      "path": "01_IMAGES/photos/elden-ring-cover__cc4f9.png",
+      "source": "Figma MCP asset archive",
+      "sha256": "7a2b8c5443fd750d675cb64ef44cd6b7278a5159f7c3797f101c0d17e1759d72"
+    },
+    {
+      "id": "mcp:ce3bc.svg",
+      "originalFileName": "ce3bc.svg",
+      "exportedFileName": "ce3bc__ce3bc.svg",
+      "resourceType": "icon",
+      "category": "other",
+      "format": "svg",
+      "screens": [],
+      "layers": [],
+      "dimensions": {
+        "width": "24",
+        "height": "24",
+        "viewBox": "0 0 24 24"
+      },
+      "path": "02_ICONS/other/ce3bc__ce3bc.svg",
+      "source": "Figma MCP asset archive",
+      "sha256": "dafc522740435d677cfff6592491662084725905f6c9b18b76f6e99268c07a24"
+    },
+    {
+      "id": "mcp:d5ab4.svg",
+      "originalFileName": "d5ab4.svg",
+      "exportedFileName": "arrow-left-right__d5ab4.svg",
+      "resourceType": "icon",
+      "category": "buttons",
+      "format": "svg",
+      "screens": [
+        "screen_10_exchanges-list"
+      ],
+      "layers": [
+        {
+          "screen": "screen_10_exchanges-list",
+          "layerName": "arrow-left-right",
+          "nodeId": "1:1641"
+        },
+        {
+          "screen": "screen_10_exchanges-list",
+          "layerName": "arrow-left-right",
+          "nodeId": "1:1662"
+        }
+      ],
+      "dimensions": {
+        "width": "20",
+        "height": "20",
+        "viewBox": "0 0 20 20"
+      },
+      "path": "02_ICONS/buttons/arrow-left-right__d5ab4.svg",
+      "source": "Figma MCP asset archive",
+      "sha256": "ea56688beab52a9e2b6595b7212e61a3bfa8b5d0853dc789ff2f29f19208e781"
+    },
+    {
+      "id": "mcp:d6100.svg",
+      "originalFileName": "d6100.svg",
+      "exportedFileName": "bell__d6100.svg",
+      "resourceType": "icon",
+      "category": "actions",
+      "format": "svg",
+      "screens": [
+        "screen_05_home-feed"
+      ],
+      "layers": [
+        {
+          "screen": "screen_05_home-feed",
+          "layerName": "bell",
+          "nodeId": "1:1287"
+        }
+      ],
+      "dimensions": {
+        "width": "20",
+        "height": "20",
+        "viewBox": "0 0 20 20"
+      },
+      "path": "02_ICONS/actions/bell__d6100.svg",
+      "source": "Figma MCP asset archive",
+      "sha256": "aebf4f54415388b111b2b8c12128b4b060e22f9be806d16c0cc9087fc116f6f7"
+    },
+    {
+      "id": "mcp:d8e1a.svg",
+      "originalFileName": "d8e1a.svg",
+      "exportedFileName": "d8e1a__d8e1a.svg",
+      "resourceType": "icon",
+      "category": "other",
+      "format": "svg",
+      "screens": [],
+      "layers": [],
+      "dimensions": {
+        "width": "20",
+        "height": "20",
+        "viewBox": "0 0 20 20"
+      },
+      "path": "02_ICONS/other/d8e1a__d8e1a.svg",
+      "source": "Figma MCP asset archive",
+      "sha256": "c820e3260161092525b10f18586c37480c1a324d60ebc84e5af6d9f81cf170f8"
+    },
+    {
+      "id": "mcp:da819.svg",
+      "originalFileName": "da819.svg",
+      "exportedFileName": "da819__da819.svg",
+      "resourceType": "icon",
+      "category": "other",
+      "format": "svg",
+      "screens": [],
+      "layers": [],
+      "dimensions": {
+        "width": "24",
+        "height": "24",
+        "viewBox": "0 0 24 24"
+      },
+      "path": "02_ICONS/other/da819__da819.svg",
+      "source": "Figma MCP asset archive",
+      "sha256": "facf0328ecc81f4119864da9f32850f62be44c175907f2ff2e9da40c81dd30c2"
+    },
+    {
+      "id": "mcp:dc106.svg",
+      "originalFileName": "dc106.svg",
+      "exportedFileName": "check__dc106.svg",
+      "resourceType": "icon",
+      "category": "buttons",
+      "format": "svg",
+      "screens": [
+        "screen_03_console-selection"
+      ],
+      "layers": [
+        {
+          "screen": "screen_03_console-selection",
+          "layerName": "check",
+          "nodeId": "1:1200"
+        },
+        {
+          "screen": "screen_03_console-selection",
+          "layerName": "check",
+          "nodeId": "1:1207"
+        }
+      ],
+      "dimensions": {
+        "width": "20",
+        "height": "20",
+        "viewBox": "0 0 20 20"
+      },
+      "path": "02_ICONS/buttons/check__dc106.svg",
+      "source": "Figma MCP asset archive",
+      "sha256": "ccc03a419048f6f4f6f202d09c4da4796e9f18b730a9e94a71d097919822d6a2"
+    },
+    {
+      "id": "mcp:dcc58.png",
+      "originalFileName": "dcc58.png",
+      "exportedFileName": "welcome-illustration__dcc58.png",
+      "resourceType": "image",
+      "category": "illustrations",
+      "format": "png",
+      "screens": [
+        "screen_02_welcome"
+      ],
+      "layers": [
+        {
+          "screen": "screen_02_welcome",
+          "layerName": "welcome-illustration-box",
+          "nodeId": "1:1170"
+        }
+      ],
+      "dimensions": {
+        "width": 1184,
+        "height": 864,
+        "mode": "RGB"
+      },
+      "path": "01_IMAGES/illustrations/welcome-illustration__dcc58.png",
+      "source": "Figma MCP asset archive",
+      "sha256": "2ef7e5fa5466020c20cff9c561378e489c20ed81198a9bf7ac59f508c50da9d8"
+    },
+    {
+      "id": "mcp:df23a.svg",
+      "originalFileName": "df23a.svg",
+      "exportedFileName": "toggle-right__df23a.svg",
+      "resourceType": "icon",
+      "category": "actions",
+      "format": "svg",
+      "screens": [
+        "screen_03_console-selection"
+      ],
+      "layers": [
+        {
+          "screen": "screen_03_console-selection",
+          "layerName": "toggle-right",
+          "nodeId": "1:1211"
+        },
+        {
+          "screen": "screen_03_console-selection",
+          "layerName": "toggle-right",
+          "nodeId": "1:1216"
+        }
+      ],
+      "dimensions": {
+        "width": "20",
+        "height": "20",
+        "viewBox": "0 0 20 20"
+      },
+      "path": "02_ICONS/actions/toggle-right__df23a.svg",
+      "source": "Figma MCP asset archive",
+      "sha256": "9d79daa17707d47895b4ef6ee9bd7ac79aeaf00c9b24b47050555f4ebb04a8ad"
+    },
+    {
+      "id": "mcp:e1194.svg",
+      "originalFileName": "e1194.svg",
+      "exportedFileName": "repeat__e1194.svg",
+      "resourceType": "icon",
+      "category": "actions",
+      "format": "svg",
+      "screens": [
+        "screen_09_chat-screen",
+        "screen_11_my-games",
+        "screen_12_search-screen",
+        "screen_13_profile-screen",
+        "screen_15_settings"
+      ],
+      "layers": [
+        {
+          "screen": "screen_09_chat-screen",
+          "layerName": "repeat",
+          "nodeId": "1:1595"
+        },
+        {
+          "screen": "screen_11_my-games",
+          "layerName": "repeat",
+          "nodeId": "1:2329"
+        },
+        {
+          "screen": "screen_12_search-screen",
+          "layerName": "repeat",
+          "nodeId": "1:2416"
+        },
+        {
+          "screen": "screen_13_profile-screen",
+          "layerName": "repeat",
+          "nodeId": "1:2504"
+        },
+        {
+          "screen": "screen_15_settings",
+          "layerName": "repeat",
+          "nodeId": "1:2643"
+        }
+      ],
+      "dimensions": {
+        "width": "20",
+        "height": "20",
+        "viewBox": "0 0 20 20"
+      },
+      "path": "02_ICONS/actions/repeat__e1194.svg",
+      "source": "Figma MCP asset archive",
+      "sha256": "d0bb2b1d0febe732fdf3493ccbc5f4311133252a48b059f053e515a9173403c8"
+    },
+    {
+      "id": "mcp:e153b.svg",
+      "originalFileName": "e153b.svg",
+      "exportedFileName": "repeat__e153b.svg",
+      "resourceType": "icon",
+      "category": "actions",
+      "format": "svg",
+      "screens": [
+        "screen_05_home-feed"
+      ],
+      "layers": [
+        {
+          "screen": "screen_05_home-feed",
+          "layerName": "repeat",
+          "nodeId": "1:1348"
+        }
+      ],
+      "dimensions": {
+        "width": "20",
+        "height": "20",
+        "viewBox": "0 0 20 20"
+      },
+      "path": "02_ICONS/actions/repeat__e153b.svg",
+      "source": "Figma MCP asset archive",
+      "sha256": "d0bb2b1d0febe732fdf3493ccbc5f4311133252a48b059f053e515a9173403c8"
+    },
+    {
+      "id": "mcp:e2d37.svg",
+      "originalFileName": "e2d37.svg",
+      "exportedFileName": "e2d37__e2d37.svg",
+      "resourceType": "icon",
+      "category": "other",
+      "format": "svg",
+      "screens": [],
+      "layers": [],
+      "dimensions": {
+        "width": "24",
+        "height": "24",
+        "viewBox": "0 0 24 24"
+      },
+      "path": "02_ICONS/other/e2d37__e2d37.svg",
+      "source": "Figma MCP asset archive",
+      "sha256": "3316b47abd44c483d5d947b611e218d0bde17452a7b040fc76b6014193dc932d"
+    },
+    {
+      "id": "mcp:e44b7.svg",
+      "originalFileName": "e44b7.svg",
+      "exportedFileName": "book-open__e44b7.svg",
+      "resourceType": "icon",
+      "category": "navigation",
+      "format": "svg",
+      "screens": [
+        "screen_09_chat-screen",
+        "screen_10_exchanges-list",
+        "screen_12_search-screen",
+        "screen_13_profile-screen",
+        "screen_15_settings"
+      ],
+      "layers": [
+        {
+          "screen": "screen_09_chat-screen",
+          "layerName": "book-open",
+          "nodeId": "1:1590"
+        },
+        {
+          "screen": "screen_10_exchanges-list",
+          "layerName": "book-open",
+          "nodeId": "1:1683"
+        },
+        {
+          "screen": "screen_12_search-screen",
+          "layerName": "book-open",
+          "nodeId": "1:2411"
+        },
+        {
+          "screen": "screen_13_profile-screen",
+          "layerName": "book-open",
+          "nodeId": "1:2499"
+        },
+        {
+          "screen": "screen_15_settings",
+          "layerName": "book-open",
+          "nodeId": "1:2638"
+        }
+      ],
+      "dimensions": {
+        "width": "20",
+        "height": "20",
+        "viewBox": "0 0 20 20"
+      },
+      "path": "02_ICONS/navigation/book-open__e44b7.svg",
+      "source": "Figma MCP asset archive",
+      "sha256": "2287157254eb59d476e658587bec90adbfd9937752a1d7860eec94b3bb7094d4"
+    },
+    {
+      "id": "mcp:e72de.png",
+      "originalFileName": "e72de.png",
+      "exportedFileName": "sofia-avatar-match__e72de.png",
+      "resourceType": "image",
+      "category": "avatars",
+      "format": "png",
+      "screens": [
+        "screen_06_match-detail"
+      ],
+      "layers": [
+        {
+          "screen": "screen_06_match-detail",
+          "layerName": "owner-avatar",
+          "nodeId": "1:1375"
+        }
+      ],
+      "dimensions": {
+        "width": 1024,
+        "height": 1024,
+        "mode": "RGB"
+      },
+      "path": "01_IMAGES/avatars/sofia-avatar-match__e72de.png",
+      "source": "Figma MCP asset archive",
+      "sha256": "af37a813db2a7810b9f92619f1ece030f1e66aedaba298aba71446cec64312ac"
+    },
+    {
+      "id": "mcp:e7699.svg",
+      "originalFileName": "e7699.svg",
+      "exportedFileName": "user__e7699.svg",
+      "resourceType": "icon",
+      "category": "navigation",
+      "format": "svg",
+      "screens": [
+        "screen_09_chat-screen",
+        "screen_10_exchanges-list",
+        "screen_11_my-games",
+        "screen_12_search-screen"
+      ],
+      "layers": [
+        {
+          "screen": "screen_09_chat-screen",
+          "layerName": "user",
+          "nodeId": "1:1600"
+        },
+        {
+          "screen": "screen_10_exchanges-list",
+          "layerName": "user",
+          "nodeId": "1:1693"
+        },
+        {
+          "screen": "screen_11_my-games",
+          "layerName": "user",
+          "nodeId": "1:2334"
+        },
+        {
+          "screen": "screen_12_search-screen",
+          "layerName": "user",
+          "nodeId": "1:2421"
+        }
+      ],
+      "dimensions": {
+        "width": "20",
+        "height": "20",
+        "viewBox": "0 0 20 20"
+      },
+      "path": "02_ICONS/navigation/user__e7699.svg",
+      "source": "Figma MCP asset archive",
+      "sha256": "ba8f165e86d9160f789999ef38c51fdbc8195b5901081c98b23080f808cd6ee1"
+    },
+    {
+      "id": "mcp:e83a9.png",
+      "originalFileName": "e83a9.png",
+      "exportedFileName": "camila-avatar__e83a9.png",
+      "resourceType": "image",
+      "category": "avatars",
+      "format": "png",
+      "screens": [
+        "screen_12_search-screen"
+      ],
+      "layers": [
+        {
+          "screen": "screen_12_search-screen",
+          "layerName": "Rectangle",
+          "nodeId": "1:2391"
+        }
+      ],
+      "dimensions": {
+        "width": 1024,
+        "height": 1024,
+        "mode": "RGB"
+      },
+      "path": "01_IMAGES/avatars/camila-avatar__e83a9.png",
+      "source": "Figma MCP asset archive",
+      "sha256": "c6b31f6e05e3dfe704c36ec2a8b7b39b370dee3e8b197288be2f909bb3ae08ed"
+    },
+    {
+      "id": "mcp:ec885.svg",
+      "originalFileName": "ec885.svg",
+      "exportedFileName": "star__ec885.svg",
+      "resourceType": "icon",
+      "category": "interface",
+      "format": "svg",
+      "screens": [
+        "screen_14_rating-screen"
+      ],
+      "layers": [
+        {
+          "screen": "screen_14_rating-screen",
+          "layerName": "star",
+          "nodeId": "1:2553"
+        }
+      ],
+      "dimensions": {
+        "width": "36",
+        "height": "36",
+        "viewBox": "0 0 36 36"
+      },
+      "path": "02_ICONS/interface/star__ec885.svg",
+      "source": "Figma MCP asset archive",
+      "sha256": "115519611aec93b01baa571120e7d9362bd3a22d1b9ad5de3c4db271b547d83d"
+    },
+    {
+      "id": "mcp:f781f.svg",
+      "originalFileName": "f781f.svg",
+      "exportedFileName": "f781f__f781f.svg",
+      "resourceType": "icon",
+      "category": "other",
+      "format": "svg",
+      "screens": [],
+      "layers": [],
+      "dimensions": {
+        "width": "20",
+        "height": "20",
+        "viewBox": "0 0 20 20"
+      },
+      "path": "02_ICONS/other/f781f__f781f.svg",
+      "source": "Figma MCP asset archive",
+      "sha256": "c30e6085f5f0a782889fc1029682dfa10c255a14692ef43b6630a3d7cd4c9824"
+    },
+    {
+      "id": "mcp:fea88.svg",
+      "originalFileName": "fea88.svg",
+      "exportedFileName": "plus__fea88.svg",
+      "resourceType": "icon",
+      "category": "buttons",
+      "format": "svg",
+      "screens": [
+        "screen_09_chat-screen"
+      ],
+      "layers": [
+        {
+          "screen": "screen_09_chat-screen",
+          "layerName": "plus",
+          "nodeId": "1:1569"
+        }
+      ],
+      "dimensions": {
+        "width": "24",
+        "height": "24",
+        "viewBox": "0 0 24 24"
+      },
+      "path": "02_ICONS/buttons/plus__fea88.svg",
+      "source": "Figma MCP asset archive",
+      "sha256": "9ba863d16882d3e46d375092b0949107ef105d155725b28fff3045caaa58e914"
+    },
+    {
+      "id": "imageRef:056673499b46c3e4bfb78422f83c16d0e061abb3",
+      "originalFileName": "056673499b46c3e4bfb78422f83c16d0e061abb3.jpg",
+      "exportedFileName": "elden-ring-cover__image-ref-056673499b46c3e4bfb78422f83c16d0e061abb3.jpg",
+      "resourceType": "original-image-fill",
+      "category": "photos",
+      "format": "jpg",
+      "screens": [
+        "screen_05_home-feed",
+        "screen_06_match-detail",
+        "screen_07_request-form",
+        "screen_10_exchanges-list",
+        "screen_11_my-games",
+        "screen_17_loan-return"
+      ],
+      "layers": [
+        {
+          "screen": "screen_05_home-feed",
+          "layerName": "game-cover-1",
+          "nodeId": "1:1305"
+        },
+        {
+          "screen": "screen_06_match-detail",
+          "layerName": "Rectangle",
+          "nodeId": "1:1391"
+        },
+        {
+          "screen": "screen_06_match-detail",
+          "layerName": "Rectangle",
+          "nodeId": "1:1397"
+        },
+        {
+          "screen": "screen_10_exchanges-list",
+          "layerName": "Rectangle",
+          "nodeId": "1:1639"
+        },
+        {
+          "screen": "screen_11_my-games",
+          "layerName": "Rectangle",
+          "nodeId": "1:2302"
+        },
+        {
+          "screen": "screen_07_request-form",
+          "layerName": "Rectangle",
+          "nodeId": "1:1448"
+        },
+        {
+          "screen": "screen_17_loan-return",
+          "layerName": "Rectangle",
+          "nodeId": "1:2709"
+        }
+      ],
+      "dimensions": {
+        "width": 452,
+        "height": 678,
+        "mode": "RGB"
+      },
+      "path": "01_IMAGES/photos/elden-ring-cover__image-ref-056673499b46c3e4bfb78422f83c16d0e061abb3.jpg",
+      "source": "Figma REST image fills endpoint",
+      "matchedMcpAsset": "cc4f9.png",
+      "perceptualHashDistance": 0,
+      "mappingStatus": "matched",
+      "sha256": "7a2b8c5443fd750d675cb64ef44cd6b7278a5159f7c3797f101c0d17e1759d72"
+    },
+    {
+      "id": "imageRef:07df0e88aefde5c5356051f399844b05319bb0ac",
+      "originalFileName": "07df0e88aefde5c5356051f399844b05319bb0ac.jpg",
+      "exportedFileName": "the-last-of-us-cover__image-ref-07df0e88aefde5c5356051f399844b05319bb0ac.jpg",
+      "resourceType": "original-image-fill",
+      "category": "photos",
+      "format": "jpg",
+      "screens": [
+        "screen_05_home-feed"
+      ],
+      "layers": [
+        {
+          "screen": "screen_05_home-feed",
+          "layerName": "game-cover-1",
+          "nodeId": "1:1326"
+        }
+      ],
+      "dimensions": {
+        "width": 334,
+        "height": 500,
+        "mode": "RGB"
+      },
+      "path": "01_IMAGES/photos/the-last-of-us-cover__image-ref-07df0e88aefde5c5356051f399844b05319bb0ac.jpg",
+      "source": "Figma REST image fills endpoint",
+      "matchedMcpAsset": "4140b.png",
+      "perceptualHashDistance": 1,
+      "mappingStatus": "matched",
+      "sha256": "0b49a05a2d532f3b1a962e1150611d9cf307ad05fd7e67984bda5ea92f386bb0"
+    },
+    {
+      "id": "imageRef:0a56ed7eb6aa0e72e767cd7dde1603c13d9d0f56",
+      "originalFileName": "0a56ed7eb6aa0e72e767cd7dde1603c13d9d0f56.jpg",
+      "exportedFileName": "spider-man-2-cover__image-ref-0a56ed7eb6aa0e72e767cd7dde1603c13d9d0f56.jpg",
+      "resourceType": "original-image-fill",
+      "category": "photos",
+      "format": "jpg",
+      "screens": [
+        "screen_05_home-feed",
+        "screen_10_exchanges-list"
+      ],
+      "layers": [
+        {
+          "screen": "screen_05_home-feed",
+          "layerName": "game-cover-3",
+          "nodeId": "1:1307"
+        },
+        {
+          "screen": "screen_10_exchanges-list",
+          "layerName": "Rectangle",
+          "nodeId": "1:1660"
+        }
+      ],
+      "dimensions": {
+        "width": 181,
+        "height": 279,
+        "mode": "RGB"
+      },
+      "path": "01_IMAGES/photos/spider-man-2-cover__image-ref-0a56ed7eb6aa0e72e767cd7dde1603c13d9d0f56.jpg",
+      "source": "Figma REST image fills endpoint",
+      "matchedMcpAsset": "a124e.png",
+      "perceptualHashDistance": 0,
+      "mappingStatus": "matched",
+      "sha256": "a0b5ebafaa953985acc84fecf003842bb3dd344bb9672943b789eb4937a5697a"
+    },
+    {
+      "id": "imageRef:0c35311dc5fb6b7c4d58e22d655d8cd38c4bdd5a",
+      "originalFileName": "0c35311dc5fb6b7c4d58e22d655d8cd38c4bdd5a.png",
+      "exportedFileName": "unmapped-image-fill__image-ref-0c35311dc5fb6b7c4d58e22d655d8cd38c4bdd5a.png",
+      "resourceType": "original-image-fill",
+      "category": "other",
+      "format": "png",
+      "screens": [],
+      "layers": [],
+      "dimensions": {
+        "width": 320,
+        "height": 270,
+        "mode": "RGBA"
+      },
+      "path": "01_IMAGES/other/unmapped-image-fill__image-ref-0c35311dc5fb6b7c4d58e22d655d8cd38c4bdd5a.png",
+      "source": "Figma REST image fills endpoint",
+      "matchedMcpAsset": null,
+      "perceptualHashDistance": null,
+      "mappingStatus": "not_recovered",
+      "sha256": "147f2e46a689f19f18a35b901dcb682d2f45b21d6749677a456e47ad7f82d644"
+    },
+    {
+      "id": "imageRef:12095fb256b88562caf9e890c33b315c7af2303f",
+      "originalFileName": "12095fb256b88562caf9e890c33b315c7af2303f.png",
+      "exportedFileName": "sofia-avatar-match__image-ref-12095fb256b88562caf9e890c33b315c7af2303f.png",
+      "resourceType": "original-image-fill",
+      "category": "avatars",
+      "format": "png",
+      "screens": [
+        "screen_06_match-detail"
+      ],
+      "layers": [
+        {
+          "screen": "screen_06_match-detail",
+          "layerName": "owner-avatar",
+          "nodeId": "1:1375"
+        }
+      ],
+      "dimensions": {
+        "width": 512,
+        "height": 512,
+        "mode": "RGBA"
+      },
+      "path": "01_IMAGES/avatars/sofia-avatar-match__image-ref-12095fb256b88562caf9e890c33b315c7af2303f.png",
+      "source": "Figma REST image fills endpoint",
+      "matchedMcpAsset": "e72de.png",
+      "perceptualHashDistance": 0,
+      "mappingStatus": "matched",
+      "sha256": "7e141e2f55704cf6cee0fd5d07bf435082ec128930f1083f10888b1da095a765"
+    },
+    {
+      "id": "imageRef:158835e7e983ca6d5c11f7984d0130c19247fcf8",
+      "originalFileName": "158835e7e983ca6d5c11f7984d0130c19247fcf8.jpg",
+      "exportedFileName": "cyberpunk-2077-cover__image-ref-158835e7e983ca6d5c11f7984d0130c19247fcf8.jpg",
+      "resourceType": "original-image-fill",
+      "category": "photos",
+      "format": "jpg",
+      "screens": [
+        "screen_11_my-games"
+      ],
+      "layers": [
+        {
+          "screen": "screen_11_my-games",
+          "layerName": "Rectangle",
+          "nodeId": "1:2289"
+        }
+      ],
+      "dimensions": {
+        "width": 480,
+        "height": 640,
+        "mode": "RGB"
+      },
+      "path": "01_IMAGES/photos/cyberpunk-2077-cover__image-ref-158835e7e983ca6d5c11f7984d0130c19247fcf8.jpg",
+      "source": "Figma REST image fills endpoint",
+      "matchedMcpAsset": "1a11d.png",
+      "perceptualHashDistance": 0,
+      "mappingStatus": "matched",
+      "sha256": "7ff05a320da2868fcdf60c3f3e031316862fc1d64d9fd4dd6fba2b3356f363ba"
+    },
+    {
+      "id": "imageRef:1a34095b5cfe6f0ae5149915b935b7efb2b893d9",
+      "originalFileName": "1a34095b5cfe6f0ae5149915b935b7efb2b893d9.png",
+      "exportedFileName": "mateo-avatar__image-ref-1a34095b5cfe6f0ae5149915b935b7efb2b893d9.png",
+      "resourceType": "original-image-fill",
+      "category": "avatars",
+      "format": "png",
+      "screens": [
+        "screen_13_profile-screen",
+        "screen_15_settings"
+      ],
+      "layers": [
+        {
+          "screen": "screen_13_profile-screen",
+          "layerName": "avatar",
+          "nodeId": "1:2438"
+        },
+        {
+          "screen": "screen_15_settings",
+          "layerName": "avatar",
+          "nodeId": "1:2594"
+        }
+      ],
+      "dimensions": {
+        "width": 512,
+        "height": 512,
+        "mode": "RGBA"
+      },
+      "path": "01_IMAGES/avatars/mateo-avatar__image-ref-1a34095b5cfe6f0ae5149915b935b7efb2b893d9.png",
+      "source": "Figma REST image fills endpoint",
+      "matchedMcpAsset": "c197f.png",
+      "perceptualHashDistance": 0,
+      "mappingStatus": "matched",
+      "sha256": "be9e68567b59dc5fec796d1239fd11bf35be4fa425f0bc9efdc56c90c09cf9c3"
+    },
+    {
+      "id": "imageRef:1ad4267a2e5e712967d5d64a8879c68ad99f8839",
+      "originalFileName": "1ad4267a2e5e712967d5d64a8879c68ad99f8839.jpg",
+      "exportedFileName": "super-mario-odyssey-cover__image-ref-1ad4267a2e5e712967d5d64a8879c68ad99f8839.jpg",
+      "resourceType": "original-image-fill",
+      "category": "photos",
+      "format": "jpg",
+      "screens": [
+        "screen_05_home-feed",
+        "screen_12_search-screen"
+      ],
+      "layers": [
+        {
+          "screen": "screen_05_home-feed",
+          "layerName": "game-cover-2",
+          "nodeId": "1:1306"
+        },
+        {
+          "screen": "screen_12_search-screen",
+          "layerName": "game-cover",
+          "nodeId": "1:2387"
+        }
+      ],
+      "dimensions": {
+        "width": 225,
+        "height": 300,
+        "mode": "RGB"
+      },
+      "path": "01_IMAGES/photos/super-mario-odyssey-cover__image-ref-1ad4267a2e5e712967d5d64a8879c68ad99f8839.jpg",
+      "source": "Figma REST image fills endpoint",
+      "matchedMcpAsset": "8542a.png",
+      "perceptualHashDistance": 1,
+      "mappingStatus": "matched",
+      "sha256": "b853b2245f60b010cf0bce293c689fc5c6fd79f396367e071f1a6135678c2406"
+    },
+    {
+      "id": "imageRef:1e291005d9a1071fe8833be5b56de01500836ff2",
+      "originalFileName": "1e291005d9a1071fe8833be5b56de01500836ff2.jpg",
+      "exportedFileName": "the-last-of-us-cover__image-ref-1e291005d9a1071fe8833be5b56de01500836ff2.jpg",
+      "resourceType": "original-image-fill",
+      "category": "photos",
+      "format": "jpg",
+      "screens": [
+        "screen_05_home-feed"
+      ],
+      "layers": [
+        {
+          "screen": "screen_05_home-feed",
+          "layerName": "game-cover-1",
+          "nodeId": "1:1326"
+        }
+      ],
+      "dimensions": {
+        "width": 667,
+        "height": 1000,
+        "mode": "RGB"
+      },
+      "path": "01_IMAGES/photos/the-last-of-us-cover__image-ref-1e291005d9a1071fe8833be5b56de01500836ff2.jpg",
+      "source": "Figma REST image fills endpoint",
+      "matchedMcpAsset": "4140b.png",
+      "perceptualHashDistance": 0,
+      "mappingStatus": "matched",
+      "sha256": "041434b44fddbba9a03ea0992432cc57952e7100395f6373b5d620f1b2e33ed4"
+    },
+    {
+      "id": "imageRef:2608d6a4d679f590a226dec4b3c12031e68e9bc7",
+      "originalFileName": "2608d6a4d679f590a226dec4b3c12031e68e9bc7.jpg",
+      "exportedFileName": "elden-ring-cover__image-ref-2608d6a4d679f590a226dec4b3c12031e68e9bc7.jpg",
+      "resourceType": "original-image-fill",
+      "category": "photos",
+      "format": "jpg",
+      "screens": [
+        "screen_05_home-feed",
+        "screen_06_match-detail",
+        "screen_07_request-form",
+        "screen_10_exchanges-list",
+        "screen_11_my-games",
+        "screen_17_loan-return"
+      ],
+      "layers": [
+        {
+          "screen": "screen_05_home-feed",
+          "layerName": "game-cover-1",
+          "nodeId": "1:1305"
+        },
+        {
+          "screen": "screen_06_match-detail",
+          "layerName": "Rectangle",
+          "nodeId": "1:1391"
+        },
+        {
+          "screen": "screen_06_match-detail",
+          "layerName": "Rectangle",
+          "nodeId": "1:1397"
+        },
+        {
+          "screen": "screen_10_exchanges-list",
+          "layerName": "Rectangle",
+          "nodeId": "1:1639"
+        },
+        {
+          "screen": "screen_11_my-games",
+          "layerName": "Rectangle",
+          "nodeId": "1:2302"
+        },
+        {
+          "screen": "screen_07_request-form",
+          "layerName": "Rectangle",
+          "nodeId": "1:1448"
+        },
+        {
+          "screen": "screen_17_loan-return",
+          "layerName": "Rectangle",
+          "nodeId": "1:2709"
+        }
+      ],
+      "dimensions": {
+        "width": 226,
+        "height": 339,
+        "mode": "RGB"
+      },
+      "path": "01_IMAGES/photos/elden-ring-cover__image-ref-2608d6a4d679f590a226dec4b3c12031e68e9bc7.jpg",
+      "source": "Figma REST image fills endpoint",
+      "matchedMcpAsset": "cc4f9.png",
+      "perceptualHashDistance": 2,
+      "mappingStatus": "matched",
+      "sha256": "6e97aee3e537466e29ed343d7ebc25e2f747e418324b196f3c00fa886b00250a"
+    },
+    {
+      "id": "imageRef:26c4ebbcfc1944fad44766e7340d58cf1a9097a5",
+      "originalFileName": "26c4ebbcfc1944fad44766e7340d58cf1a9097a5.png",
+      "exportedFileName": "unmapped-image-fill__image-ref-26c4ebbcfc1944fad44766e7340d58cf1a9097a5.png",
+      "resourceType": "original-image-fill",
+      "category": "other",
+      "format": "png",
+      "screens": [],
+      "layers": [],
+      "dimensions": {
+        "width": 2560,
+        "height": 2160,
+        "mode": "RGBA"
+      },
+      "path": "01_IMAGES/other/unmapped-image-fill__image-ref-26c4ebbcfc1944fad44766e7340d58cf1a9097a5.png",
+      "source": "Figma REST image fills endpoint",
+      "matchedMcpAsset": null,
+      "perceptualHashDistance": null,
+      "mappingStatus": "not_recovered",
+      "sha256": "b200036cb0db3ad78c452ef3e93140cf655e0eaccd65cfdbe6554c21b3e5515f"
+    },
+    {
+      "id": "imageRef:28a4680277d46b383d27b73ba38a785b3bf7ef02",
+      "originalFileName": "28a4680277d46b383d27b73ba38a785b3bf7ef02.png",
+      "exportedFileName": "sofia-avatar-rating__image-ref-28a4680277d46b383d27b73ba38a785b3bf7ef02.png",
+      "resourceType": "original-image-fill",
+      "category": "avatars",
+      "format": "png",
+      "screens": [
+        "screen_14_rating-screen"
+      ],
+      "layers": [
+        {
+          "screen": "screen_14_rating-screen",
+          "layerName": "user-avatar",
+          "nodeId": "1:2533"
+        }
+      ],
+      "dimensions": {
+        "width": 1024,
+        "height": 1024,
+        "mode": "RGB"
+      },
+      "path": "01_IMAGES/avatars/sofia-avatar-rating__image-ref-28a4680277d46b383d27b73ba38a785b3bf7ef02.png",
+      "source": "Figma REST image fills endpoint",
+      "matchedMcpAsset": "3f109.png",
+      "perceptualHashDistance": 0,
+      "mappingStatus": "matched",
+      "sha256": "9af5471b35dfff7b81e017748514b4b902187782cfe1573ce83771bc171cf22e"
+    },
+    {
+      "id": "imageRef:2a1488ffe2b915b8d700d914e9211de714827b93",
+      "originalFileName": "2a1488ffe2b915b8d700d914e9211de714827b93.png",
+      "exportedFileName": "sofia-avatar__image-ref-2a1488ffe2b915b8d700d914e9211de714827b93.png",
+      "resourceType": "original-image-fill",
+      "category": "avatars",
+      "format": "png",
+      "screens": [
+        "screen_10_exchanges-list"
+      ],
+      "layers": [
+        {
+          "screen": "screen_10_exchanges-list",
+          "layerName": "user-avatar",
+          "nodeId": "1:1631"
+        }
+      ],
+      "dimensions": {
+        "width": 512,
+        "height": 512,
+        "mode": "RGBA"
+      },
+      "path": "01_IMAGES/avatars/sofia-avatar__image-ref-2a1488ffe2b915b8d700d914e9211de714827b93.png",
+      "source": "Figma REST image fills endpoint",
+      "matchedMcpAsset": "96bfe.png",
+      "perceptualHashDistance": 0,
+      "mappingStatus": "matched",
+      "sha256": "e255bf1a1307925bb6a0d67c0eeaf2a0b043137e3473919b8415b6c48922e298"
+    },
+    {
+      "id": "imageRef:33a2b66062724362c1ade2df27f235b230a9c913",
+      "originalFileName": "33a2b66062724362c1ade2df27f235b230a9c913.png",
+      "exportedFileName": "sofia-avatar-home__image-ref-33a2b66062724362c1ade2df27f235b230a9c913.png",
+      "resourceType": "original-image-fill",
+      "category": "avatars",
+      "format": "png",
+      "screens": [
+        "screen_05_home-feed"
+      ],
+      "layers": [
+        {
+          "screen": "screen_05_home-feed",
+          "layerName": "owner-avatar",
+          "nodeId": "1:1296"
+        }
+      ],
+      "dimensions": {
+        "width": 1024,
+        "height": 1024,
+        "mode": "RGB"
+      },
+      "path": "01_IMAGES/avatars/sofia-avatar-home__image-ref-33a2b66062724362c1ade2df27f235b230a9c913.png",
+      "source": "Figma REST image fills endpoint",
+      "matchedMcpAsset": "6f356.png",
+      "perceptualHashDistance": 0,
+      "mappingStatus": "matched",
+      "sha256": "19c781fa097428e934dd307dc964e517d7d80016a42b29d9ed1b0846a750a3f8"
+    },
+    {
+      "id": "imageRef:359edede0fcedb9a39f73370edf3dd0be69d56fa",
+      "originalFileName": "359edede0fcedb9a39f73370edf3dd0be69d56fa.jpg",
+      "exportedFileName": "zelda-tears-of-the-kingdom-cover__image-ref-359edede0fcedb9a39f73370edf3dd0be69d56fa.jpg",
+      "resourceType": "original-image-fill",
+      "category": "photos",
+      "format": "jpg",
+      "screens": [
+        "screen_11_my-games"
+      ],
+      "layers": [
+        {
+          "screen": "screen_11_my-games",
+          "layerName": "Rectangle",
+          "nodeId": "1:2296"
+        }
+      ],
+      "dimensions": {
+        "width": 250,
+        "height": 347,
+        "mode": "RGB"
+      },
+      "path": "01_IMAGES/photos/zelda-tears-of-the-kingdom-cover__image-ref-359edede0fcedb9a39f73370edf3dd0be69d56fa.jpg",
+      "source": "Figma REST image fills endpoint",
+      "matchedMcpAsset": "32819.png",
+      "perceptualHashDistance": 0,
+      "mappingStatus": "matched",
+      "sha256": "01eaf7736b8b425e02cc33d58026552a77fd381e500a5d156bbc27e1111fbdc1"
+    },
+    {
+      "id": "imageRef:376c08358c3b9c25671b7b2f08a26e338c5efaa0",
+      "originalFileName": "376c08358c3b9c25671b7b2f08a26e338c5efaa0.png",
+      "exportedFileName": "demons-souls-cover__image-ref-376c08358c3b9c25671b7b2f08a26e338c5efaa0.png",
+      "resourceType": "original-image-fill",
+      "category": "photos",
+      "format": "png",
+      "screens": [
+        "screen_10_exchanges-list"
+      ],
+      "layers": [
+        {
+          "screen": "screen_10_exchanges-list",
+          "layerName": "Rectangle",
+          "nodeId": "1:1665"
+        }
+      ],
+      "dimensions": {
+        "width": 240,
+        "height": 300,
+        "mode": "RGBA"
+      },
+      "path": "01_IMAGES/photos/demons-souls-cover__image-ref-376c08358c3b9c25671b7b2f08a26e338c5efaa0.png",
+      "source": "Figma REST image fills endpoint",
+      "matchedMcpAsset": "8cdf2.png",
+      "perceptualHashDistance": 0,
+      "mappingStatus": "matched",
+      "sha256": "cc21ae851fc40288ebc0a994f4c67f43412623db2d2c976d0a44da8e2984ba70"
+    },
+    {
+      "id": "imageRef:39486b6e47c0bc37cbe5be6140bf568519de39bf",
+      "originalFileName": "39486b6e47c0bc37cbe5be6140bf568519de39bf.png",
+      "exportedFileName": "carlos-avatar__image-ref-39486b6e47c0bc37cbe5be6140bf568519de39bf.png",
+      "resourceType": "original-image-fill",
+      "category": "avatars",
+      "format": "png",
+      "screens": [
+        "screen_10_exchanges-list"
+      ],
+      "layers": [
+        {
+          "screen": "screen_10_exchanges-list",
+          "layerName": "user-avatar",
+          "nodeId": "1:1652"
+        }
+      ],
+      "dimensions": {
+        "width": 512,
+        "height": 512,
+        "mode": "RGBA"
+      },
+      "path": "01_IMAGES/avatars/carlos-avatar__image-ref-39486b6e47c0bc37cbe5be6140bf568519de39bf.png",
+      "source": "Figma REST image fills endpoint",
+      "matchedMcpAsset": "5c111.png",
+      "perceptualHashDistance": 0,
+      "mappingStatus": "matched",
+      "sha256": "311a3616395474614a2a94cb005d0d710fedbc814d760c851cb95b63b3d39460"
+    },
+    {
+      "id": "imageRef:4256de922e1463510aaf62c3fc5f830579678c17",
+      "originalFileName": "4256de922e1463510aaf62c3fc5f830579678c17.png",
+      "exportedFileName": "unmapped-image-fill__image-ref-4256de922e1463510aaf62c3fc5f830579678c17.png",
+      "resourceType": "original-image-fill",
+      "category": "other",
+      "format": "png",
+      "screens": [],
+      "layers": [],
+      "dimensions": {
+        "width": 2560,
+        "height": 2160,
+        "mode": "RGBA"
+      },
+      "path": "01_IMAGES/other/unmapped-image-fill__image-ref-4256de922e1463510aaf62c3fc5f830579678c17.png",
+      "source": "Figma REST image fills endpoint",
+      "matchedMcpAsset": null,
+      "perceptualHashDistance": null,
+      "mappingStatus": "not_recovered",
+      "sha256": "96db673e84a00422a88cd42d62ac8c46f75c3d3f7553d86342ce2d2f926ed85e"
+    },
+    {
+      "id": "imageRef:4adc96bfe7f9c1d290a914653d5a50876dd44ebf",
+      "originalFileName": "4adc96bfe7f9c1d290a914653d5a50876dd44ebf.png",
+      "exportedFileName": "sofia-avatar-chat__image-ref-4adc96bfe7f9c1d290a914653d5a50876dd44ebf.png",
+      "resourceType": "original-image-fill",
+      "category": "avatars",
+      "format": "png",
+      "screens": [
+        "screen_09_chat-screen"
+      ],
+      "layers": [
+        {
+          "screen": "screen_09_chat-screen",
+          "layerName": "user-avatar",
+          "nodeId": "1:1538"
+        }
+      ],
+      "dimensions": {
+        "width": 512,
+        "height": 512,
+        "mode": "RGBA"
+      },
+      "path": "01_IMAGES/avatars/sofia-avatar-chat__image-ref-4adc96bfe7f9c1d290a914653d5a50876dd44ebf.png",
+      "source": "Figma REST image fills endpoint",
+      "matchedMcpAsset": "32fa5.png",
+      "perceptualHashDistance": 2,
+      "mappingStatus": "matched",
+      "sha256": "e82806b47c4ef61d3f7d5f2cd2908b3cbd78d9624b86927cf976c6b94e5dc730"
+    },
+    {
+      "id": "imageRef:4e82ecf70063a51f32b0e50bbb341311345f23bd",
+      "originalFileName": "4e82ecf70063a51f32b0e50bbb341311345f23bd.png",
+      "exportedFileName": "welcome-illustration__image-ref-4e82ecf70063a51f32b0e50bbb341311345f23bd.png",
+      "resourceType": "original-image-fill",
+      "category": "illustrations",
+      "format": "png",
+      "screens": [
+        "screen_02_welcome"
+      ],
+      "layers": [
+        {
+          "screen": "screen_02_welcome",
+          "layerName": "welcome-illustration-box",
+          "nodeId": "1:1170"
+        }
+      ],
+      "dimensions": {
+        "width": 512,
+        "height": 373,
+        "mode": "RGBA"
+      },
+      "path": "01_IMAGES/illustrations/welcome-illustration__image-ref-4e82ecf70063a51f32b0e50bbb341311345f23bd.png",
+      "source": "Figma REST image fills endpoint",
+      "matchedMcpAsset": "dcc58.png",
+      "perceptualHashDistance": 0,
+      "mappingStatus": "matched",
+      "sha256": "17a8a14ad58d5140951f6a0a1d0816e51efc111ca57823645add83b23e11666f"
+    },
+    {
+      "id": "imageRef:4ff7ae55b64b27cb11f269ebc3f06b75af6d67d8",
+      "originalFileName": "4ff7ae55b64b27cb11f269ebc3f06b75af6d67d8.png",
+      "exportedFileName": "mateo-avatar-home__image-ref-4ff7ae55b64b27cb11f269ebc3f06b75af6d67d8.png",
+      "resourceType": "original-image-fill",
+      "category": "avatars",
+      "format": "png",
+      "screens": [
+        "screen_05_home-feed"
+      ],
+      "layers": [
+        {
+          "screen": "screen_05_home-feed",
+          "layerName": "user-avatar",
+          "nodeId": "1:1282"
+        }
+      ],
+      "dimensions": {
+        "width": 512,
+        "height": 512,
+        "mode": "RGBA"
+      },
+      "path": "01_IMAGES/avatars/mateo-avatar-home__image-ref-4ff7ae55b64b27cb11f269ebc3f06b75af6d67d8.png",
+      "source": "Figma REST image fills endpoint",
+      "matchedMcpAsset": "7334e.png",
+      "perceptualHashDistance": 0,
+      "mappingStatus": "matched",
+      "sha256": "4a7559570deb78107e99e5620ebee9e8e27d4262eaab3ba70f7625ff70b1f1f5"
+    },
+    {
+      "id": "imageRef:50d7ea613061b765041284bce82cfe3e070b8a4c",
+      "originalFileName": "50d7ea613061b765041284bce82cfe3e070b8a4c.png",
+      "exportedFileName": "andres-avatar__image-ref-50d7ea613061b765041284bce82cfe3e070b8a4c.png",
+      "resourceType": "original-image-fill",
+      "category": "avatars",
+      "format": "png",
+      "screens": [
+        "screen_05_home-feed"
+      ],
+      "layers": [
+        {
+          "screen": "screen_05_home-feed",
+          "layerName": "owner-avatar",
+          "nodeId": "1:1317"
+        }
+      ],
+      "dimensions": {
+        "width": 512,
+        "height": 512,
+        "mode": "RGBA"
+      },
+      "path": "01_IMAGES/avatars/andres-avatar__image-ref-50d7ea613061b765041284bce82cfe3e070b8a4c.png",
+      "source": "Figma REST image fills endpoint",
+      "matchedMcpAsset": "13139.png",
+      "perceptualHashDistance": 0,
+      "mappingStatus": "matched",
+      "sha256": "057b73bbc92218d06d9c6f606c181d846d1591046df36ccfc12a3ce4b749fce3"
+    },
+    {
+      "id": "imageRef:51b507b4420549ea455a9907acb846a6598c5f57",
+      "originalFileName": "51b507b4420549ea455a9907acb846a6598c5f57.png",
+      "exportedFileName": "sofia-avatar-chat__image-ref-51b507b4420549ea455a9907acb846a6598c5f57.png",
+      "resourceType": "original-image-fill",
+      "category": "avatars",
+      "format": "png",
+      "screens": [
+        "screen_09_chat-screen"
+      ],
+      "layers": [
+        {
+          "screen": "screen_09_chat-screen",
+          "layerName": "user-avatar",
+          "nodeId": "1:1538"
+        }
+      ],
+      "dimensions": {
+        "width": 1024,
+        "height": 1024,
+        "mode": "RGB"
+      },
+      "path": "01_IMAGES/avatars/sofia-avatar-chat__image-ref-51b507b4420549ea455a9907acb846a6598c5f57.png",
+      "source": "Figma REST image fills endpoint",
+      "matchedMcpAsset": "32fa5.png",
+      "perceptualHashDistance": 0,
+      "mappingStatus": "matched",
+      "sha256": "f87fe52fb2d63cc68c042ccf556160462134c8a23fbf2fc1595c618cbb4aa44b"
+    },
+    {
+      "id": "imageRef:5b99c145d843729d1494a6fba6bb0d82a7783222",
+      "originalFileName": "5b99c145d843729d1494a6fba6bb0d82a7783222.png",
+      "exportedFileName": "lucas-avatar__image-ref-5b99c145d843729d1494a6fba6bb0d82a7783222.png",
+      "resourceType": "original-image-fill",
+      "category": "avatars",
+      "format": "png",
+      "screens": [
+        "screen_12_search-screen"
+      ],
+      "layers": [
+        {
+          "screen": "screen_12_search-screen",
+          "layerName": "Rectangle",
+          "nodeId": "1:2380"
+        }
+      ],
+      "dimensions": {
+        "width": 1024,
+        "height": 1024,
+        "mode": "RGB"
+      },
+      "path": "01_IMAGES/avatars/lucas-avatar__image-ref-5b99c145d843729d1494a6fba6bb0d82a7783222.png",
+      "source": "Figma REST image fills endpoint",
+      "matchedMcpAsset": "85e7e.png",
+      "perceptualHashDistance": 0,
+      "mappingStatus": "matched",
+      "sha256": "d73181930e5b68c5c2fd6e16e372887ba5f367490107ad7338f653a2d87d03c4"
+    },
+    {
+      "id": "imageRef:5e6ef8c377b0dcf68d41e1d15819219fe3eb9b81",
+      "originalFileName": "5e6ef8c377b0dcf68d41e1d15819219fe3eb9b81.png",
+      "exportedFileName": "camila-avatar__image-ref-5e6ef8c377b0dcf68d41e1d15819219fe3eb9b81.png",
+      "resourceType": "original-image-fill",
+      "category": "avatars",
+      "format": "png",
+      "screens": [
+        "screen_12_search-screen"
+      ],
+      "layers": [
+        {
+          "screen": "screen_12_search-screen",
+          "layerName": "Rectangle",
+          "nodeId": "1:2391"
+        }
+      ],
+      "dimensions": {
+        "width": 1024,
+        "height": 1024,
+        "mode": "RGB"
+      },
+      "path": "01_IMAGES/avatars/camila-avatar__image-ref-5e6ef8c377b0dcf68d41e1d15819219fe3eb9b81.png",
+      "source": "Figma REST image fills endpoint",
+      "matchedMcpAsset": "e83a9.png",
+      "perceptualHashDistance": 0,
+      "mappingStatus": "matched",
+      "sha256": "c6b31f6e05e3dfe704c36ec2a8b7b39b370dee3e8b197288be2f909bb3ae08ed"
+    },
+    {
+      "id": "imageRef:671e3cfc822529c5fdaf2177fe02e9e94cdbd5b9",
+      "originalFileName": "671e3cfc822529c5fdaf2177fe02e9e94cdbd5b9.png",
+      "exportedFileName": "demons-souls-cover__image-ref-671e3cfc822529c5fdaf2177fe02e9e94cdbd5b9.png",
+      "resourceType": "original-image-fill",
+      "category": "photos",
+      "format": "png",
+      "screens": [
+        "screen_10_exchanges-list"
+      ],
+      "layers": [
+        {
+          "screen": "screen_10_exchanges-list",
+          "layerName": "Rectangle",
+          "nodeId": "1:1665"
+        }
+      ],
+      "dimensions": {
+        "width": 480,
+        "height": 600,
+        "mode": "RGBA"
+      },
+      "path": "01_IMAGES/photos/demons-souls-cover__image-ref-671e3cfc822529c5fdaf2177fe02e9e94cdbd5b9.png",
+      "source": "Figma REST image fills endpoint",
+      "matchedMcpAsset": "8cdf2.png",
+      "perceptualHashDistance": 0,
+      "mappingStatus": "matched",
+      "sha256": "2f25f907e87a37c51b4883f1fc35ed24ac768480d839254b29634d964f10328e"
+    },
+    {
+      "id": "imageRef:6f0953826a0ac3dc87cc4c16122b5719dca3a5bb",
+      "originalFileName": "6f0953826a0ac3dc87cc4c16122b5719dca3a5bb.jpg",
+      "exportedFileName": "cyberpunk-2077-cover__image-ref-6f0953826a0ac3dc87cc4c16122b5719dca3a5bb.jpg",
+      "resourceType": "original-image-fill",
+      "category": "photos",
+      "format": "jpg",
+      "screens": [
+        "screen_11_my-games"
+      ],
+      "layers": [
+        {
+          "screen": "screen_11_my-games",
+          "layerName": "Rectangle",
+          "nodeId": "1:2289"
+        }
+      ],
+      "dimensions": {
+        "width": 240,
+        "height": 320,
+        "mode": "RGB"
+      },
+      "path": "01_IMAGES/photos/cyberpunk-2077-cover__image-ref-6f0953826a0ac3dc87cc4c16122b5719dca3a5bb.jpg",
+      "source": "Figma REST image fills endpoint",
+      "matchedMcpAsset": "1a11d.png",
+      "perceptualHashDistance": 1,
+      "mappingStatus": "matched",
+      "sha256": "038e98c7f0d003f3139898f834ee79ee6ca1ed434d6e47ecf1edb0270e21311d"
+    },
+    {
+      "id": "imageRef:73d09c5a9b3908c8894659dd8c640df556976344",
+      "originalFileName": "73d09c5a9b3908c8894659dd8c640df556976344.png",
+      "exportedFileName": "sofia-avatar-match__image-ref-73d09c5a9b3908c8894659dd8c640df556976344.png",
+      "resourceType": "original-image-fill",
+      "category": "avatars",
+      "format": "png",
+      "screens": [
+        "screen_06_match-detail"
+      ],
+      "layers": [
+        {
+          "screen": "screen_06_match-detail",
+          "layerName": "owner-avatar",
+          "nodeId": "1:1375"
+        }
+      ],
+      "dimensions": {
+        "width": 1024,
+        "height": 1024,
+        "mode": "RGB"
+      },
+      "path": "01_IMAGES/avatars/sofia-avatar-match__image-ref-73d09c5a9b3908c8894659dd8c640df556976344.png",
+      "source": "Figma REST image fills endpoint",
+      "matchedMcpAsset": "e72de.png",
+      "perceptualHashDistance": 0,
+      "mappingStatus": "matched",
+      "sha256": "af37a813db2a7810b9f92619f1ece030f1e66aedaba298aba71446cec64312ac"
+    },
+    {
+      "id": "imageRef:7bc2dcac65e786292fc34dde26f33c2994dcd8c6",
+      "originalFileName": "7bc2dcac65e786292fc34dde26f33c2994dcd8c6.png",
+      "exportedFileName": "lucas-avatar__image-ref-7bc2dcac65e786292fc34dde26f33c2994dcd8c6.png",
+      "resourceType": "original-image-fill",
+      "category": "avatars",
+      "format": "png",
+      "screens": [
+        "screen_12_search-screen"
+      ],
+      "layers": [
+        {
+          "screen": "screen_12_search-screen",
+          "layerName": "Rectangle",
+          "nodeId": "1:2380"
+        }
+      ],
+      "dimensions": {
+        "width": 512,
+        "height": 512,
+        "mode": "RGBA"
+      },
+      "path": "01_IMAGES/avatars/lucas-avatar__image-ref-7bc2dcac65e786292fc34dde26f33c2994dcd8c6.png",
+      "source": "Figma REST image fills endpoint",
+      "matchedMcpAsset": "85e7e.png",
+      "perceptualHashDistance": 0,
+      "mappingStatus": "matched",
+      "sha256": "12ef96cf9ec6590731066e742193137090befc700cab396314bc1d3e6d0722a7"
+    },
+    {
+      "id": "imageRef:83482a1b3099a2f97d04b151ef50a06dfc73013e",
+      "originalFileName": "83482a1b3099a2f97d04b151ef50a06dfc73013e.png",
+      "exportedFileName": "welcome-illustration__image-ref-83482a1b3099a2f97d04b151ef50a06dfc73013e.png",
+      "resourceType": "original-image-fill",
+      "category": "illustrations",
+      "format": "png",
+      "screens": [
+        "screen_02_welcome"
+      ],
+      "layers": [
+        {
+          "screen": "screen_02_welcome",
+          "layerName": "welcome-illustration-box",
+          "nodeId": "1:1170"
+        }
+      ],
+      "dimensions": {
+        "width": 1184,
+        "height": 864,
+        "mode": "RGB"
+      },
+      "path": "01_IMAGES/illustrations/welcome-illustration__image-ref-83482a1b3099a2f97d04b151ef50a06dfc73013e.png",
+      "source": "Figma REST image fills endpoint",
+      "matchedMcpAsset": "dcc58.png",
+      "perceptualHashDistance": 0,
+      "mappingStatus": "matched",
+      "sha256": "2ef7e5fa5466020c20cff9c561378e489c20ed81198a9bf7ac59f508c50da9d8"
+    },
+    {
+      "id": "imageRef:8fc7b3897e356c8020e5e8319e6f8449fd803f32",
+      "originalFileName": "8fc7b3897e356c8020e5e8319e6f8449fd803f32.png",
+      "exportedFileName": "unmapped-image-fill__image-ref-8fc7b3897e356c8020e5e8319e6f8449fd803f32.png",
+      "resourceType": "original-image-fill",
+      "category": "other",
+      "format": "png",
+      "screens": [],
+      "layers": [],
+      "dimensions": {
+        "width": 320,
+        "height": 270,
+        "mode": "RGBA"
+      },
+      "path": "01_IMAGES/other/unmapped-image-fill__image-ref-8fc7b3897e356c8020e5e8319e6f8449fd803f32.png",
+      "source": "Figma REST image fills endpoint",
+      "matchedMcpAsset": null,
+      "perceptualHashDistance": null,
+      "mappingStatus": "not_recovered",
+      "sha256": "316a3853ac5997969b3d005b14ba8e7591393ef0dded0e9b7667ad1fefb69d7a"
+    },
+    {
+      "id": "imageRef:97c87b0101364b0e2820f1e7c63513bfc4a0a77f",
+      "originalFileName": "97c87b0101364b0e2820f1e7c63513bfc4a0a77f.png",
+      "exportedFileName": "sofia-avatar__image-ref-97c87b0101364b0e2820f1e7c63513bfc4a0a77f.png",
+      "resourceType": "original-image-fill",
+      "category": "avatars",
+      "format": "png",
+      "screens": [
+        "screen_10_exchanges-list"
+      ],
+      "layers": [
+        {
+          "screen": "screen_10_exchanges-list",
+          "layerName": "user-avatar",
+          "nodeId": "1:1631"
+        }
+      ],
+      "dimensions": {
+        "width": 1024,
+        "height": 1024,
+        "mode": "RGB"
+      },
+      "path": "01_IMAGES/avatars/sofia-avatar__image-ref-97c87b0101364b0e2820f1e7c63513bfc4a0a77f.png",
+      "source": "Figma REST image fills endpoint",
+      "matchedMcpAsset": "96bfe.png",
+      "perceptualHashDistance": 0,
+      "mappingStatus": "matched",
+      "sha256": "8367a3413f51e94887f953d07d078e13e4da589f2d086b70230e90a471df7260"
+    },
+    {
+      "id": "imageRef:9ee78b99ece4d8ba0e1ae7e7e4341ac0f00cc957",
+      "originalFileName": "9ee78b99ece4d8ba0e1ae7e7e4341ac0f00cc957.png",
+      "exportedFileName": "ghost-game-cover__image-ref-9ee78b99ece4d8ba0e1ae7e7e4341ac0f00cc957.png",
+      "resourceType": "original-image-fill",
+      "category": "photos",
+      "format": "png",
+      "screens": [
+        "screen_05_home-feed"
+      ],
+      "layers": [
+        {
+          "screen": "screen_05_home-feed",
+          "layerName": "game-cover-2",
+          "nodeId": "1:1327"
+        }
+      ],
+      "dimensions": {
+        "width": 931,
+        "height": 1400,
+        "mode": "RGBA"
+      },
+      "path": "01_IMAGES/photos/ghost-game-cover__image-ref-9ee78b99ece4d8ba0e1ae7e7e4341ac0f00cc957.png",
+      "source": "Figma REST image fills endpoint",
+      "matchedMcpAsset": "05574.png",
+      "perceptualHashDistance": 0,
+      "mappingStatus": "matched",
+      "sha256": "26ac03517f0ee2958b8a105b4f3160d7ed5b3b39b96256737e6b64bab982dfe1"
+    },
+    {
+      "id": "imageRef:a25ac0d85634fcc96e29255884b4f2766a40734f",
+      "originalFileName": "a25ac0d85634fcc96e29255884b4f2766a40734f.png",
+      "exportedFileName": "andres-avatar__image-ref-a25ac0d85634fcc96e29255884b4f2766a40734f.png",
+      "resourceType": "original-image-fill",
+      "category": "avatars",
+      "format": "png",
+      "screens": [
+        "screen_05_home-feed"
+      ],
+      "layers": [
+        {
+          "screen": "screen_05_home-feed",
+          "layerName": "owner-avatar",
+          "nodeId": "1:1317"
+        }
+      ],
+      "dimensions": {
+        "width": 1024,
+        "height": 1024,
+        "mode": "RGB"
+      },
+      "path": "01_IMAGES/avatars/andres-avatar__image-ref-a25ac0d85634fcc96e29255884b4f2766a40734f.png",
+      "source": "Figma REST image fills endpoint",
+      "matchedMcpAsset": "13139.png",
+      "perceptualHashDistance": 0,
+      "mappingStatus": "matched",
+      "sha256": "e1aa43ca15bacc54fd95d974f08387504de68383cfc9c108d608d93c9fcac4a4"
+    },
+    {
+      "id": "imageRef:a33f6cb70f0ce699fbccc2ee33d45078ffb0ccaf",
+      "originalFileName": "a33f6cb70f0ce699fbccc2ee33d45078ffb0ccaf.png",
+      "exportedFileName": "carlos-avatar__image-ref-a33f6cb70f0ce699fbccc2ee33d45078ffb0ccaf.png",
+      "resourceType": "original-image-fill",
+      "category": "avatars",
+      "format": "png",
+      "screens": [
+        "screen_10_exchanges-list"
+      ],
+      "layers": [
+        {
+          "screen": "screen_10_exchanges-list",
+          "layerName": "user-avatar",
+          "nodeId": "1:1652"
+        }
+      ],
+      "dimensions": {
+        "width": 1024,
+        "height": 1024,
+        "mode": "RGB"
+      },
+      "path": "01_IMAGES/avatars/carlos-avatar__image-ref-a33f6cb70f0ce699fbccc2ee33d45078ffb0ccaf.png",
+      "source": "Figma REST image fills endpoint",
+      "matchedMcpAsset": "5c111.png",
+      "perceptualHashDistance": 0,
+      "mappingStatus": "matched",
+      "sha256": "e06e38ed2dd81398c2ccf04bff109a24f64b70271312988c4fbd2b024356dfed"
+    },
+    {
+      "id": "imageRef:a7f98095ef9c5be4966f18b096fc2e5ec42ed1b3",
+      "originalFileName": "a7f98095ef9c5be4966f18b096fc2e5ec42ed1b3.png",
+      "exportedFileName": "sofia-avatar-home__image-ref-a7f98095ef9c5be4966f18b096fc2e5ec42ed1b3.png",
+      "resourceType": "original-image-fill",
+      "category": "avatars",
+      "format": "png",
+      "screens": [
+        "screen_05_home-feed"
+      ],
+      "layers": [
+        {
+          "screen": "screen_05_home-feed",
+          "layerName": "owner-avatar",
+          "nodeId": "1:1296"
+        }
+      ],
+      "dimensions": {
+        "width": 512,
+        "height": 512,
+        "mode": "RGBA"
+      },
+      "path": "01_IMAGES/avatars/sofia-avatar-home__image-ref-a7f98095ef9c5be4966f18b096fc2e5ec42ed1b3.png",
+      "source": "Figma REST image fills endpoint",
+      "matchedMcpAsset": "6f356.png",
+      "perceptualHashDistance": 0,
+      "mappingStatus": "matched",
+      "sha256": "e68dc47d0a2668f67c0f5f236e2b414cbd54fba5d3e902206f604380cdbd6c82"
+    },
+    {
+      "id": "imageRef:a9b6dbbbe7e4a57695c0147390eded3553719458",
+      "originalFileName": "a9b6dbbbe7e4a57695c0147390eded3553719458.png",
+      "exportedFileName": "mateo-avatar__image-ref-a9b6dbbbe7e4a57695c0147390eded3553719458.png",
+      "resourceType": "original-image-fill",
+      "category": "avatars",
+      "format": "png",
+      "screens": [
+        "screen_13_profile-screen",
+        "screen_15_settings"
+      ],
+      "layers": [
+        {
+          "screen": "screen_13_profile-screen",
+          "layerName": "avatar",
+          "nodeId": "1:2438"
+        },
+        {
+          "screen": "screen_15_settings",
+          "layerName": "avatar",
+          "nodeId": "1:2594"
+        }
+      ],
+      "dimensions": {
+        "width": 1024,
+        "height": 1024,
+        "mode": "RGB"
+      },
+      "path": "01_IMAGES/avatars/mateo-avatar__image-ref-a9b6dbbbe7e4a57695c0147390eded3553719458.png",
+      "source": "Figma REST image fills endpoint",
+      "matchedMcpAsset": "c197f.png",
+      "perceptualHashDistance": 0,
+      "mappingStatus": "matched",
+      "sha256": "ca4becba2b8d57b88aaad5c391b877ecc4714b4152b37954dce5bbc437c8c6dc"
+    },
+    {
+      "id": "imageRef:ac20f7481a4b55e1b2237957f05aa7890e6f59e0",
+      "originalFileName": "ac20f7481a4b55e1b2237957f05aa7890e6f59e0.png",
+      "exportedFileName": "camila-avatar__image-ref-ac20f7481a4b55e1b2237957f05aa7890e6f59e0.png",
+      "resourceType": "original-image-fill",
+      "category": "avatars",
+      "format": "png",
+      "screens": [
+        "screen_12_search-screen"
+      ],
+      "layers": [
+        {
+          "screen": "screen_12_search-screen",
+          "layerName": "Rectangle",
+          "nodeId": "1:2391"
+        }
+      ],
+      "dimensions": {
+        "width": 512,
+        "height": 512,
+        "mode": "RGBA"
+      },
+      "path": "01_IMAGES/avatars/camila-avatar__image-ref-ac20f7481a4b55e1b2237957f05aa7890e6f59e0.png",
+      "source": "Figma REST image fills endpoint",
+      "matchedMcpAsset": "e83a9.png",
+      "perceptualHashDistance": 0,
+      "mappingStatus": "matched",
+      "sha256": "ed758716abca12d5f762e1a7b12dc7feaaa7738772300cab8840418a3f5b824e"
+    },
+    {
+      "id": "imageRef:b5d05106cccd5030fb4c40960cb2062e28d1cfaa",
+      "originalFileName": "b5d05106cccd5030fb4c40960cb2062e28d1cfaa.png",
+      "exportedFileName": "mateo-avatar-home__image-ref-b5d05106cccd5030fb4c40960cb2062e28d1cfaa.png",
+      "resourceType": "original-image-fill",
+      "category": "avatars",
+      "format": "png",
+      "screens": [
+        "screen_05_home-feed"
+      ],
+      "layers": [
+        {
+          "screen": "screen_05_home-feed",
+          "layerName": "user-avatar",
+          "nodeId": "1:1282"
+        }
+      ],
+      "dimensions": {
+        "width": 1024,
+        "height": 1024,
+        "mode": "RGB"
+      },
+      "path": "01_IMAGES/avatars/mateo-avatar-home__image-ref-b5d05106cccd5030fb4c40960cb2062e28d1cfaa.png",
+      "source": "Figma REST image fills endpoint",
+      "matchedMcpAsset": "7334e.png",
+      "perceptualHashDistance": 0,
+      "mappingStatus": "matched",
+      "sha256": "1b30852011c899795d6d91704ad3c14a50d528728777d0ae08af306c48833284"
+    },
+    {
+      "id": "imageRef:ce485e2c6569f82317e70442fd360aa1ea2eaaa1",
+      "originalFileName": "ce485e2c6569f82317e70442fd360aa1ea2eaaa1.png",
+      "exportedFileName": "sofia-avatar-rating__image-ref-ce485e2c6569f82317e70442fd360aa1ea2eaaa1.png",
+      "resourceType": "original-image-fill",
+      "category": "avatars",
+      "format": "png",
+      "screens": [
+        "screen_14_rating-screen"
+      ],
+      "layers": [
+        {
+          "screen": "screen_14_rating-screen",
+          "layerName": "user-avatar",
+          "nodeId": "1:2533"
+        }
+      ],
+      "dimensions": {
+        "width": 512,
+        "height": 512,
+        "mode": "RGBA"
+      },
+      "path": "01_IMAGES/avatars/sofia-avatar-rating__image-ref-ce485e2c6569f82317e70442fd360aa1ea2eaaa1.png",
+      "source": "Figma REST image fills endpoint",
+      "matchedMcpAsset": "3f109.png",
+      "perceptualHashDistance": 2,
+      "mappingStatus": "matched",
+      "sha256": "4cffbdc559c76f51ed8187ebd1777450d538425d16b534a72a0b50f7dee740e2"
+    },
+    {
+      "id": "imageRef:ce6a407b11ea86c382d2bf8929e02e0e1d593a50",
+      "originalFileName": "ce6a407b11ea86c382d2bf8929e02e0e1d593a50.png",
+      "exportedFileName": "ghost-game-cover__image-ref-ce6a407b11ea86c382d2bf8929e02e0e1d593a50.png",
+      "resourceType": "original-image-fill",
+      "category": "photos",
+      "format": "png",
+      "screens": [
+        "screen_05_home-feed"
+      ],
+      "layers": [
+        {
+          "screen": "screen_05_home-feed",
+          "layerName": "game-cover-2",
+          "nodeId": "1:1327"
+        }
+      ],
+      "dimensions": {
+        "width": 233,
+        "height": 350,
+        "mode": "RGBA"
+      },
+      "path": "01_IMAGES/photos/ghost-game-cover__image-ref-ce6a407b11ea86c382d2bf8929e02e0e1d593a50.png",
+      "source": "Figma REST image fills endpoint",
+      "matchedMcpAsset": "05574.png",
+      "perceptualHashDistance": 0,
+      "mappingStatus": "matched",
+      "sha256": "21ad0c6e02ad194d066f37d7f7636efdf1e6fa1dc8e6746b93843a4f67bdfb71"
+    },
+    {
+      "id": "imageRef:d1ef55fccac306ef88e495bde989aae1c2840084",
+      "originalFileName": "d1ef55fccac306ef88e495bde989aae1c2840084.png",
+      "exportedFileName": "hogwarts-legacy-cover__image-ref-d1ef55fccac306ef88e495bde989aae1c2840084.png",
+      "resourceType": "original-image-fill",
+      "category": "photos",
+      "format": "png",
+      "screens": [
+        "screen_12_search-screen"
+      ],
+      "layers": [
+        {
+          "screen": "screen_12_search-screen",
+          "layerName": "game-cover",
+          "nodeId": "1:2376"
+        }
+      ],
+      "dimensions": {
+        "width": 250,
+        "height": 375,
+        "mode": "RGB"
+      },
+      "path": "01_IMAGES/photos/hogwarts-legacy-cover__image-ref-d1ef55fccac306ef88e495bde989aae1c2840084.png",
+      "source": "Figma REST image fills endpoint",
+      "matchedMcpAsset": "5825b.png",
+      "perceptualHashDistance": 0,
+      "mappingStatus": "matched",
+      "sha256": "488e56cd64d36fc36e3e36b1f10985bf2970e80cfad311d155a8b6c4ed4938b3"
+    },
+    {
+      "id": "imageRef:d269d4efe8e4514030c2a89e1194909762355228",
+      "originalFileName": "d269d4efe8e4514030c2a89e1194909762355228.png",
+      "exportedFileName": "unmapped-image-fill__image-ref-d269d4efe8e4514030c2a89e1194909762355228.png",
+      "resourceType": "original-image-fill",
+      "category": "other",
+      "format": "png",
+      "screens": [],
+      "layers": [],
+      "dimensions": {
+        "width": 320,
+        "height": 270,
+        "mode": "RGBA"
+      },
+      "path": "01_IMAGES/other/unmapped-image-fill__image-ref-d269d4efe8e4514030c2a89e1194909762355228.png",
+      "source": "Figma REST image fills endpoint",
+      "matchedMcpAsset": null,
+      "perceptualHashDistance": null,
+      "mappingStatus": "not_recovered",
+      "sha256": "1025621b564cbe41ba913611a479a8b7dffdc178cdb3c73a54140bffb6b7e857"
+    },
+    {
+      "id": "imageRef:d76d65a7a9d7ebcd690bc33efc2db0b093e6c466",
+      "originalFileName": "d76d65a7a9d7ebcd690bc33efc2db0b093e6c466.jpg",
+      "exportedFileName": "super-mario-odyssey-cover__image-ref-d76d65a7a9d7ebcd690bc33efc2db0b093e6c466.jpg",
+      "resourceType": "original-image-fill",
+      "category": "photos",
+      "format": "jpg",
+      "screens": [
+        "screen_05_home-feed",
+        "screen_12_search-screen"
+      ],
+      "layers": [
+        {
+          "screen": "screen_05_home-feed",
+          "layerName": "game-cover-2",
+          "nodeId": "1:1306"
+        },
+        {
+          "screen": "screen_12_search-screen",
+          "layerName": "game-cover",
+          "nodeId": "1:2387"
+        }
+      ],
+      "dimensions": {
+        "width": 450,
+        "height": 600,
+        "mode": "RGB"
+      },
+      "path": "01_IMAGES/photos/super-mario-odyssey-cover__image-ref-d76d65a7a9d7ebcd690bc33efc2db0b093e6c466.jpg",
+      "source": "Figma REST image fills endpoint",
+      "matchedMcpAsset": "8542a.png",
+      "perceptualHashDistance": 0,
+      "mappingStatus": "matched",
+      "sha256": "39ec70cb32d69fdf7e018e12b849c2f5aa36aba9c22a1f1f1e26abfb96246b20"
+    },
+    {
+      "id": "imageRef:e89be3574fae59ba70cf58976a5ec5f75c862060",
+      "originalFileName": "e89be3574fae59ba70cf58976a5ec5f75c862060.jpg",
+      "exportedFileName": "god-of-war-cover__image-ref-e89be3574fae59ba70cf58976a5ec5f75c862060.jpg",
+      "resourceType": "original-image-fill",
+      "category": "photos",
+      "format": "jpg",
+      "screens": [
+        "screen_06_match-detail",
+        "screen_07_request-form",
+        "screen_10_exchanges-list",
+        "screen_11_my-games"
+      ],
+      "layers": [
+        {
+          "screen": "screen_06_match-detail",
+          "layerName": "Rectangle",
+          "nodeId": "1:1386"
+        },
+        {
+          "screen": "screen_06_match-detail",
+          "layerName": "Rectangle",
+          "nodeId": "1:1402"
+        },
+        {
+          "screen": "screen_10_exchanges-list",
+          "layerName": "Rectangle",
+          "nodeId": "1:1644"
+        },
+        {
+          "screen": "screen_11_my-games",
+          "layerName": "Rectangle",
+          "nodeId": "1:2283"
+        },
+        {
+          "screen": "screen_07_request-form",
+          "layerName": "Rectangle",
+          "nodeId": "1:1443"
+        }
+      ],
+      "dimensions": {
+        "width": 736,
+        "height": 1104,
+        "mode": "RGB"
+      },
+      "path": "01_IMAGES/photos/god-of-war-cover__image-ref-e89be3574fae59ba70cf58976a5ec5f75c862060.jpg",
+      "source": "Figma REST image fills endpoint",
+      "matchedMcpAsset": "41245.png",
+      "perceptualHashDistance": 0,
+      "mappingStatus": "matched",
+      "sha256": "b938b2d5f76d41e3958c50d1741d645d2765493a5a316e4a4b3d9a5a27e97657"
+    },
+    {
+      "id": "imageRef:ef9b4d6129aed5f75c122d99b123bd7de1687a02",
+      "originalFileName": "ef9b4d6129aed5f75c122d99b123bd7de1687a02.png",
+      "exportedFileName": "unmapped-image-fill__image-ref-ef9b4d6129aed5f75c122d99b123bd7de1687a02.png",
+      "resourceType": "original-image-fill",
+      "category": "other",
+      "format": "png",
+      "screens": [],
+      "layers": [],
+      "dimensions": {
+        "width": 2560,
+        "height": 2160,
+        "mode": "RGBA"
+      },
+      "path": "01_IMAGES/other/unmapped-image-fill__image-ref-ef9b4d6129aed5f75c122d99b123bd7de1687a02.png",
+      "source": "Figma REST image fills endpoint",
+      "matchedMcpAsset": null,
+      "perceptualHashDistance": null,
+      "mappingStatus": "not_recovered",
+      "sha256": "f48279ede81247d42f82f6e4a1e95e62e23a871e448c8ddd3ff39d64eff2da1e"
+    },
+    {
+      "id": "imageRef:fed870b30b0a8bf5ce03a61289db5e38cfec8de5",
+      "originalFileName": "fed870b30b0a8bf5ce03a61289db5e38cfec8de5.jpg",
+      "exportedFileName": "god-of-war-cover__image-ref-fed870b30b0a8bf5ce03a61289db5e38cfec8de5.jpg",
+      "resourceType": "original-image-fill",
+      "category": "photos",
+      "format": "jpg",
+      "screens": [
+        "screen_06_match-detail",
+        "screen_07_request-form",
+        "screen_10_exchanges-list",
+        "screen_11_my-games"
+      ],
+      "layers": [
+        {
+          "screen": "screen_06_match-detail",
+          "layerName": "Rectangle",
+          "nodeId": "1:1386"
+        },
+        {
+          "screen": "screen_06_match-detail",
+          "layerName": "Rectangle",
+          "nodeId": "1:1402"
+        },
+        {
+          "screen": "screen_10_exchanges-list",
+          "layerName": "Rectangle",
+          "nodeId": "1:1644"
+        },
+        {
+          "screen": "screen_11_my-games",
+          "layerName": "Rectangle",
+          "nodeId": "1:2283"
+        },
+        {
+          "screen": "screen_07_request-form",
+          "layerName": "Rectangle",
+          "nodeId": "1:1443"
+        }
+      ],
+      "dimensions": {
+        "width": 184,
+        "height": 276,
+        "mode": "RGB"
+      },
+      "path": "01_IMAGES/photos/god-of-war-cover__image-ref-fed870b30b0a8bf5ce03a61289db5e38cfec8de5.jpg",
+      "source": "Figma REST image fills endpoint",
+      "matchedMcpAsset": "41245.png",
+      "perceptualHashDistance": 2,
+      "mappingStatus": "matched",
+      "sha256": "a4ceac6b9f9809e93e734a053b7cc2e77acb49f21b79ca3c9e1c3cffe67ea16f"
+    },
+    {
+      "id": "font:Gabarito-variable",
+      "originalFileName": "Gabarito-variable.woff2",
+      "exportedFileName": "Gabarito-variable.woff2",
+      "resourceType": "font",
+      "category": "font",
+      "format": "woff2",
+      "screens": [
+        "screen_01_splash-logo",
+        "screen_02_welcome",
+        "screen_03_console-selection",
+        "screen_04_profile-creation",
+        "screen_05_home-feed",
+        "screen_06_match-detail",
+        "screen_07_request-form",
+        "screen_08_request-sent",
+        "screen_09_chat-screen",
+        "screen_10_exchanges-list",
+        "screen_11_my-games",
+        "screen_12_search-screen",
+        "screen_13_profile-screen",
+        "screen_14_rating-screen",
+        "screen_15_settings",
+        "screen_16_login",
+        "screen_17_loan-return"
+      ],
+      "layers": [],
+      "dimensions": {},
+      "path": "03_FONTS/Gabarito-variable.woff2",
+      "source": "figma fonts resolve payload",
+      "sha256": "8650e2bd7747f7d74619fd7aecbcb0309e6f37b7964024f3fb15ae4833b67ca5"
+    },
+    {
+      "id": "font:Geist-variable",
+      "originalFileName": "Geist-variable.woff2",
+      "exportedFileName": "Geist-variable.woff2",
+      "resourceType": "font",
+      "category": "font",
+      "format": "woff2",
+      "screens": [
+        "screen_01_splash-logo",
+        "screen_02_welcome",
+        "screen_03_console-selection",
+        "screen_04_profile-creation",
+        "screen_05_home-feed",
+        "screen_06_match-detail",
+        "screen_07_request-form",
+        "screen_08_request-sent",
+        "screen_09_chat-screen",
+        "screen_10_exchanges-list",
+        "screen_11_my-games",
+        "screen_12_search-screen",
+        "screen_13_profile-screen",
+        "screen_14_rating-screen",
+        "screen_15_settings",
+        "screen_16_login",
+        "screen_17_loan-return"
+      ],
+      "layers": [],
+      "dimensions": {},
+      "path": "03_FONTS/Geist-variable.woff2",
+      "source": "figma fonts resolve payload",
+      "sha256": "611e93a8401ee574c9fb3250bdaf5c52262aee3231015e9336359c1b2242cb13"
+    }
+  ]
+}

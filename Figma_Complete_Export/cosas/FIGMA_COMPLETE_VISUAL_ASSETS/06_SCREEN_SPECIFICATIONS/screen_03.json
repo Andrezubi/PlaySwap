@@ -1,0 +1,32 @@
+{
+  "screenNumber": 3,
+  "name": "console-selection",
+  "figmaNodeId": "1:1178",
+  "frame": {
+    "width": 402,
+    "height": 874,
+    "unit": "px"
+  },
+  "screenshot": "../07_SCREENSHOTS/screen_03.png",
+  "fonts": [
+    "Gabarito ExtraBold",
+    "Geist Bold",
+    "Geist Regular",
+    "Geist SemiBold"
+  ],
+  "assets": [
+    "02_ICONS/actions/toggle-right__df23a.svg",
+    "02_ICONS/buttons/check__dc106.svg",
+    "02_ICONS/interface/circle-x__6fbff.svg",
+    "02_ICONS/interface/circle-x__88d1e.svg",
+    "02_ICONS/interface/ios-battery-full__cc14a.svg",
+    "02_ICONS/interface/ios-signal__5ad8e.svg",
+    "02_ICONS/interface/ios-wifi-signal__054bf.svg",
+    "03_FONTS/Gabarito-variable.woff2",
+    "03_FONTS/Geist-variable.woff2"
+  ],
+  "nestedLayers": [],
+  "textLayers": [],
+  "technicalContextStatus": "inline_only_not_recoverable_as_source_file",
+  "propertiesStatus": "Exact generated class properties are included per nested layer when downloadable context was available; otherwise unavailable properties are not invented."
+}

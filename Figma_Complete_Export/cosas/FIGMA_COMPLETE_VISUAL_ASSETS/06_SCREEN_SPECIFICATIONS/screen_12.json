@@ -1,0 +1,607 @@
+{
+  "screenNumber": 12,
+  "name": "search-screen",
+  "figmaNodeId": "1:2339",
+  "frame": {
+    "width": 402,
+    "height": 874,
+    "unit": "px"
+  },
+  "screenshot": "../07_SCREENSHOTS/screen_12.png",
+  "fonts": [
+    "Geist Bold",
+    "Geist Medium",
+    "Geist Regular",
+    "Geist SemiBold"
+  ],
+  "assets": [
+    "01_IMAGES/avatars/camila-avatar__e83a9.png",
+    "01_IMAGES/avatars/camila-avatar__image-ref-5e6ef8c377b0dcf68d41e1d15819219fe3eb9b81.png",
+    "01_IMAGES/avatars/camila-avatar__image-ref-ac20f7481a4b55e1b2237957f05aa7890e6f59e0.png",
+    "01_IMAGES/avatars/lucas-avatar__85e7e.png",
+    "01_IMAGES/avatars/lucas-avatar__image-ref-5b99c145d843729d1494a6fba6bb0d82a7783222.png",
+    "01_IMAGES/avatars/lucas-avatar__image-ref-7bc2dcac65e786292fc34dde26f33c2994dcd8c6.png",
+    "01_IMAGES/photos/hogwarts-legacy-cover__5825b.png",
+    "01_IMAGES/photos/hogwarts-legacy-cover__image-ref-d1ef55fccac306ef88e495bde989aae1c2840084.png",
+    "01_IMAGES/photos/super-mario-odyssey-cover__8542a.png",
+    "01_IMAGES/photos/super-mario-odyssey-cover__image-ref-1ad4267a2e5e712967d5d64a8879c68ad99f8839.jpg",
+    "01_IMAGES/photos/super-mario-odyssey-cover__image-ref-d76d65a7a9d7ebcd690bc33efc2db0b093e6c466.jpg",
+    "02_ICONS/actions/repeat__e1194.svg",
+    "02_ICONS/interface/ios-battery-full__cc14a.svg",
+    "02_ICONS/interface/ios-signal__5ad8e.svg",
+    "02_ICONS/interface/ios-wifi-signal__054bf.svg",
+    "02_ICONS/navigation/book-open__e44b7.svg",
+    "02_ICONS/navigation/home__3d070.svg",
+    "02_ICONS/navigation/search__14880.svg",
+    "02_ICONS/navigation/search__9c8b7.svg",
+    "02_ICONS/navigation/user__e7699.svg",
+    "03_FONTS/Gabarito-variable.woff2",
+    "03_FONTS/Geist-variable.woff2"
+  ],
+  "nestedLayers": [
+    {
+      "nodeId": "1:2339",
+      "tag": "div",
+      "name": "search-screen",
+      "className": "bg-[#0b0b0f] content-stretch flex flex-col items-start justify-between overflow-clip relative rounded-[36px] size-full"
+    },
+    {
+      "nodeId": "1:2340",
+      "tag": "div",
+      "name": "header-zone",
+      "className": "content-stretch flex flex-col gap-[12px] items-start relative shrink-0 w-full"
+    },
+    {
+      "nodeId": "1:2341",
+      "tag": "div",
+      "name": "status-bar",
+      "className": "content-stretch flex h-[44px] items-center justify-between px-[24px] relative shrink-0 w-full"
+    },
+    {
+      "nodeId": "1:2342",
+      "tag": "p",
+      "name": null,
+      "className": "[word-break:break-word] font-['Geist:SemiBold'] font-semibold leading-[normal] relative shrink-0 text-[14px] text-white whitespace-nowrap"
+    },
+    {
+      "nodeId": "1:2343",
+      "tag": "div",
+      "name": "status-icons",
+      "className": "content-stretch flex gap-[8px] items-center relative shrink-0"
+    },
+    {
+      "nodeId": "1:2344",
+      "tag": "div",
+      "name": "ios-signal",
+      "className": "relative shrink-0 size-[20px]"
+    },
+    {
+      "nodeId": "1:2346",
+      "tag": "div",
+      "name": "ios-wifi-signal",
+      "className": "relative shrink-0 size-[20px]"
+    },
+    {
+      "nodeId": "1:2348",
+      "tag": "div",
+      "name": "ios-battery-full",
+      "className": "h-[20px] relative shrink-0 w-[28px]"
+    },
+    {
+      "nodeId": "1:2350",
+      "tag": "div",
+      "name": "search-bar-row",
+      "className": "content-stretch flex items-start px-[20px] relative shrink-0 w-full"
+    },
+    {
+      "nodeId": "1:2351",
+      "tag": "div",
+      "name": "search-input",
+      "className": "bg-[#121218] border border-[#282834] border-solid content-stretch flex flex-[1_0_0] gap-[10px] items-center min-w-px px-[16px] py-[10px] relative rounded-[24px]"
+    },
+    {
+      "nodeId": "1:2352",
+      "tag": "div",
+      "name": "Frame",
+      "className": "overflow-clip relative shrink-0 size-[20px]"
+    },
+    {
+      "nodeId": "1:2353",
+      "tag": "div",
+      "name": "search",
+      "className": "absolute left-0 size-[20px] top-0"
+    },
+    {
+      "nodeId": "1:2355",
+      "tag": "p",
+      "name": null,
+      "className": "[word-break:break-word] flex-[1_0_0] font-['Geist:Regular'] font-normal leading-[normal] min-w-px relative text-[#a3a3c2] text-[14px]"
+    },
+    {
+      "nodeId": "1:2356",
+      "tag": "div",
+      "name": "filter-chips-container",
+      "className": "content-stretch flex flex-col gap-[8px] items-start px-[20px] relative shrink-0 w-full"
+    },
+    {
+      "nodeId": "1:2357",
+      "tag": "div",
+      "name": "chips-row-1",
+      "className": "content-stretch flex gap-[8px] items-start relative shrink-0 w-full"
+    },
+    {
+      "nodeId": "1:2358",
+      "tag": "div",
+      "name": "Frame",
+      "className": "bg-[rgba(0,217,166,0.1)] border border-[#00d9a6] border-solid content-stretch flex items-start px-[12px] py-[6px] relative rounded-[12px] shrink-0"
+    },
+    {
+      "nodeId": "1:2359",
+      "tag": "p",
+      "name": null,
+      "className": "[word-break:break-word] font-['Geist:Regular'] font-normal leading-[normal] relative shrink-0 text-[#00d9a6] text-[12px] whitespace-nowrap"
+    },
+    {
+      "nodeId": "1:2360",
+      "tag": "div",
+      "name": "Frame",
+      "className": "bg-[#121218] border border-[#282834] border-solid content-stretch flex items-start px-[12px] py-[6px] relative rounded-[12px] shrink-0"
+    },
+    {
+      "nodeId": "1:2361",
+      "tag": "p",
+      "name": null,
+      "className": "[word-break:break-word] font-['Geist:Regular'] font-normal leading-[normal] relative shrink-0 text-[#a3a3c2] text-[12px] whitespace-nowrap"
+    },
+    {
+      "nodeId": "1:2362",
+      "tag": "div",
+      "name": "Frame",
+      "className": "bg-[#121218] border border-[#282834] border-solid content-stretch flex items-start px-[12px] py-[6px] relative rounded-[12px] shrink-0"
+    },
+    {
+      "nodeId": "1:2363",
+      "tag": "p",
+      "name": null,
+      "className": "[word-break:break-word] font-['Geist:Regular'] font-normal leading-[normal] relative shrink-0 text-[#a3a3c2] text-[12px] whitespace-nowrap"
+    },
+    {
+      "nodeId": "1:2364",
+      "tag": "div",
+      "name": "Frame",
+      "className": "bg-[#121218] border border-[#282834] border-solid content-stretch flex items-start px-[12px] py-[6px] relative rounded-[12px] shrink-0"
+    },
+    {
+      "nodeId": "1:2365",
+      "tag": "p",
+      "name": null,
+      "className": "[word-break:break-word] font-['Geist:Regular'] font-normal leading-[normal] relative shrink-0 text-[#a3a3c2] text-[12px] whitespace-nowrap"
+    },
+    {
+      "nodeId": "1:2366",
+      "tag": "div",
+      "name": "chips-row-2",
+      "className": "content-stretch flex gap-[8px] items-start relative shrink-0 w-full"
+    },
+    {
+      "nodeId": "1:2367",
+      "tag": "div",
+      "name": "Frame",
+      "className": "bg-[#121218] border border-[#282834] border-solid content-stretch flex items-start px-[12px] py-[6px] relative rounded-[12px] shrink-0"
+    },
+    {
+      "nodeId": "1:2368",
+      "tag": "p",
+      "name": null,
+      "className": "[word-break:break-word] font-['Geist:Regular'] font-normal leading-[normal] relative shrink-0 text-[#a3a3c2] text-[12px] whitespace-nowrap"
+    },
+    {
+      "nodeId": "1:2369",
+      "tag": "div",
+      "name": "Frame",
+      "className": "bg-[#121218] border border-[#282834] border-solid content-stretch flex items-start px-[12px] py-[6px] relative rounded-[12px] shrink-0"
+    },
+    {
+      "nodeId": "1:2370",
+      "tag": "p",
+      "name": null,
+      "className": "[word-break:break-word] font-['Geist:Regular'] font-normal leading-[normal] relative shrink-0 text-[#a3a3c2] text-[12px] whitespace-nowrap"
+    },
+    {
+      "nodeId": "1:2371",
+      "tag": "div",
+      "name": "Frame",
+      "className": "bg-[#121218] border border-[#282834] border-solid content-stretch flex items-start px-[12px] py-[6px] relative rounded-[12px] shrink-0"
+    },
+    {
+      "nodeId": "1:2372",
+      "tag": "p",
+      "name": null,
+      "className": "[word-break:break-word] font-['Geist:Regular'] font-normal leading-[normal] relative shrink-0 text-[#a3a3c2] text-[12px] whitespace-nowrap"
+    },
+    {
+      "nodeId": "1:2373",
+      "tag": "div",
+      "name": "results-content",
+      "className": "flex-[1_0_0] min-h-px relative w-full"
+    },
+    {
+      "nodeId": "1:2374",
+      "tag": "p",
+      "name": null,
+      "className": "[word-break:break-word] absolute font-['Geist:Bold'] font-bold leading-[normal] left-[20px] text-[#63637a] text-[13px] top-[20px] uppercase whitespace-nowrap"
+    },
+    {
+      "nodeId": "1:2375",
+      "tag": "div",
+      "name": "result-card-1",
+      "className": "absolute bg-[#121218] border border-[#282834] border-solid content-stretch flex gap-[12px] h-[96px] items-center left-[20px] p-[12px] right-[20px] rounded-[16px] top-[53px]"
+    },
+    {
+      "nodeId": "1:2376",
+      "tag": "div",
+      "name": "game-cover",
+      "className": "h-[72px] relative rounded-[8px] shrink-0 w-[54px]"
+    },
+    {
+      "nodeId": "1:2377",
+      "tag": "div",
+      "name": "Frame",
+      "className": "content-stretch flex flex-[1_0_0] flex-col gap-[6px] items-start min-w-px relative"
+    },
+    {
+      "nodeId": "1:2378",
+      "tag": "p",
+      "name": null,
+      "className": "[word-break:break-word] font-['Geist:Bold'] font-bold leading-[normal] min-w-full overflow-hidden relative shrink-0 text-[14px] text-ellipsis text-white w-[min-content] whitespace-nowrap"
+    },
+    {
+      "nodeId": "1:2379",
+      "tag": "div",
+      "name": "Frame",
+      "className": "content-stretch flex gap-[8px] items-center relative shrink-0 w-full"
+    },
+    {
+      "nodeId": "1:2380",
+      "tag": "div",
+      "name": "Rectangle",
+      "className": "relative rounded-[9px] shrink-0 size-[18px]"
+    },
+    {
+      "nodeId": "1:2381",
+      "tag": "p",
+      "name": null,
+      "className": "[word-break:break-word] flex-[1_0_0] font-['Geist:Regular'] font-normal leading-[normal] min-w-px overflow-hidden relative text-[#a3a3c2] text-[12px] text-ellipsis whitespace-nowrap"
+    },
+    {
+      "nodeId": "1:2382",
+      "tag": "div",
+      "name": "Frame",
+      "className": "content-stretch flex gap-[8px] items-center relative shrink-0"
+    },
+    {
+      "nodeId": "1:2383",
+      "tag": "div",
+      "name": "Frame",
+      "className": "bg-[rgba(0,217,166,0.1)] content-stretch flex items-start px-[6px] py-[2px] relative rounded-[4px] shrink-0"
+    },
+    {
+      "nodeId": "1:2384",
+      "tag": "p",
+      "name": null,
+      "className": "[word-break:break-word] font-['Geist:Bold'] font-bold leading-[normal] relative shrink-0 text-[#00d9a6] text-[9px] whitespace-nowrap"
+    },
+    {
+      "nodeId": "1:2385",
+      "tag": "p",
+      "name": null,
+      "className": "[word-break:break-word] font-['Geist:Regular'] font-normal leading-[normal] relative shrink-0 text-[#63637a] text-[11px] whitespace-nowrap"
+    },
+    {
+      "nodeId": "1:2386",
+      "tag": "div",
+      "name": "result-card-2",
+      "className": "absolute bg-[#121218] border border-[#282834] border-solid content-stretch flex gap-[12px] h-[96px] items-center left-[20px] p-[12px] right-[20px] rounded-[16px] top-[165px]"
+    },
+    {
+      "nodeId": "1:2387",
+      "tag": "div",
+      "name": "game-cover",
+      "className": "h-[72px] relative rounded-[8px] shrink-0 w-[54px]"
+    },
+    {
+      "nodeId": "1:2388",
+      "tag": "div",
+      "name": "Frame",
+      "className": "content-stretch flex flex-[1_0_0] flex-col gap-[6px] items-start min-w-px relative"
+    },
+    {
+      "nodeId": "1:2389",
+      "tag": "p",
+      "name": null,
+      "className": "[word-break:break-word] font-['Geist:Bold'] font-bold leading-[normal] min-w-full overflow-hidden relative shrink-0 text-[14px] text-ellipsis text-white w-[min-content] whitespace-nowrap"
+    },
+    {
+      "nodeId": "1:2390",
+      "tag": "div",
+      "name": "Frame",
+      "className": "content-stretch flex gap-[8px] items-center relative shrink-0 w-full"
+    },
+    {
+      "nodeId": "1:2391",
+      "tag": "div",
+      "name": "Rectangle",
+      "className": "relative rounded-[9px] shrink-0 size-[18px]"
+    },
+    {
+      "nodeId": "1:2392",
+      "tag": "p",
+      "name": null,
+      "className": "[word-break:break-word] flex-[1_0_0] font-['Geist:Regular'] font-normal leading-[normal] min-w-px overflow-hidden relative text-[#a3a3c2] text-[12px] text-ellipsis whitespace-nowrap"
+    },
+    {
+      "nodeId": "1:2393",
+      "tag": "div",
+      "name": "Frame",
+      "className": "content-stretch flex gap-[8px] items-center relative shrink-0"
+    },
+    {
+      "nodeId": "1:2394",
+      "tag": "div",
+      "name": "Frame",
+      "className": "bg-[rgba(225,29,72,0.1)] content-stretch flex items-start px-[6px] py-[2px] relative rounded-[4px] shrink-0"
+    },
+    {
+      "nodeId": "1:2395",
+      "tag": "p",
+      "name": null,
+      "className": "[word-break:break-word] font-['Geist:Bold'] font-bold leading-[normal] relative shrink-0 text-[#e11d48] text-[9px] whitespace-nowrap"
+    },
+    {
+      "nodeId": "1:2396",
+      "tag": "p",
+      "name": null,
+      "className": "[word-break:break-word] font-['Geist:Regular'] font-normal leading-[normal] relative shrink-0 text-[#63637a] text-[11px] whitespace-nowrap"
+    },
+    {
+      "nodeId": "1:2397",
+      "tag": "div",
+      "name": "bottom-navigation",
+      "className": "bg-[#121218] border-[#282834] border-solid border-t content-stretch flex flex-col items-start relative shrink-0 w-full"
+    },
+    {
+      "nodeId": "1:2398",
+      "tag": "div",
+      "name": "nav-tabs",
+      "className": "content-stretch flex h-[68px] items-center justify-between px-[16px] relative shrink-0 w-full"
+    },
+    {
+      "nodeId": "1:2399",
+      "tag": "div",
+      "name": "nav-tab-inicio",
+      "className": "content-stretch flex flex-col gap-[4px] items-center relative shrink-0 w-[64px]"
+    },
+    {
+      "nodeId": "1:2400",
+      "tag": "div",
+      "name": "icon-frame",
+      "className": "overflow-clip relative shrink-0 size-[20px]"
+    },
+    {
+      "nodeId": "1:2401",
+      "tag": "div",
+      "name": "home",
+      "className": "absolute left-0 size-[20px] top-0"
+    },
+    {
+      "nodeId": "1:2403",
+      "tag": "p",
+      "name": null,
+      "className": "[word-break:break-word] font-['Geist:Medium'] font-medium leading-[normal] relative shrink-0 text-[#63637a] text-[10px] whitespace-nowrap"
+    },
+    {
+      "nodeId": "1:2404",
+      "tag": "div",
+      "name": "nav-tab-buscar",
+      "className": "content-stretch flex flex-col gap-[4px] items-center relative shrink-0 w-[64px]"
+    },
+    {
+      "nodeId": "1:2405",
+      "tag": "div",
+      "name": "icon-frame",
+      "className": "overflow-clip relative shrink-0 size-[20px]"
+    },
+    {
+      "nodeId": "1:2406",
+      "tag": "div",
+      "name": "search",
+      "className": "absolute left-0 size-[20px] top-0"
+    },
+    {
+      "nodeId": "1:2408",
+      "tag": "p",
+      "name": null,
+      "className": "[word-break:break-word] font-['Geist:Bold'] font-bold leading-[normal] relative shrink-0 text-[10px] text-white whitespace-nowrap"
+    },
+    {
+      "nodeId": "1:2409",
+      "tag": "div",
+      "name": "nav-tab-mis-juegos",
+      "className": "content-stretch flex flex-col gap-[4px] items-center relative shrink-0 w-[64px]"
+    },
+    {
+      "nodeId": "1:2410",
+      "tag": "div",
+      "name": "icon-frame",
+      "className": "overflow-clip relative shrink-0 size-[20px]"
+    },
+    {
+      "nodeId": "1:2411",
+      "tag": "div",
+      "name": "book-open",
+      "className": "absolute left-0 size-[20px] top-0"
+    },
+    {
+      "nodeId": "1:2413",
+      "tag": "p",
+      "name": null,
+      "className": "[word-break:break-word] font-['Geist:Medium'] font-medium leading-[normal] relative shrink-0 text-[#63637a] text-[10px] whitespace-nowrap"
+    },
+    {
+      "nodeId": "1:2414",
+      "tag": "div",
+      "name": "nav-tab-intercambios",
+      "className": "content-stretch flex flex-col gap-[4px] items-center relative shrink-0 w-[64px]"
+    },
+    {
+      "nodeId": "1:2415",
+      "tag": "div",
+      "name": "icon-frame",
+      "className": "overflow-clip relative shrink-0 size-[20px]"
+    },
+    {
+      "nodeId": "1:2416",
+      "tag": "div",
+      "name": "repeat",
+      "className": "absolute left-0 size-[20px] top-0"
+    },
+    {
+      "nodeId": "1:2418",
+      "tag": "p",
+      "name": null,
+      "className": "[word-break:break-word] font-['Geist:Medium'] font-medium leading-[normal] relative shrink-0 text-[#63637a] text-[10px] whitespace-nowrap"
+    },
+    {
+      "nodeId": "1:2419",
+      "tag": "div",
+      "name": "nav-tab-perfil",
+      "className": "content-stretch flex flex-col gap-[4px] items-center relative shrink-0 w-[64px]"
+    },
+    {
+      "nodeId": "1:2420",
+      "tag": "div",
+      "name": "icon-frame",
+      "className": "overflow-clip relative shrink-0 size-[20px]"
+    },
+    {
+      "nodeId": "1:2421",
+      "tag": "div",
+      "name": "user",
+      "className": "absolute left-0 size-[20px] top-0"
+    },
+    {
+      "nodeId": "1:2423",
+      "tag": "p",
+      "name": null,
+      "className": "[word-break:break-word] font-['Geist:Medium'] font-medium leading-[normal] relative shrink-0 text-[#63637a] text-[10px] whitespace-nowrap"
+    },
+    {
+      "nodeId": "1:2424",
+      "tag": "div",
+      "name": "home-indicator-area",
+      "className": "content-stretch flex items-start justify-center py-[8px] relative shrink-0 w-full"
+    },
+    {
+      "nodeId": "1:2425",
+      "tag": "div",
+      "name": "indicator-bar",
+      "className": "bg-[#63637a] h-[5px] relative rounded-[100px] shrink-0 w-[134px]"
+    }
+  ],
+  "textLayers": [
+    {
+      "nodeId": "1:2342",
+      "text": "9:41"
+    },
+    {
+      "nodeId": "1:2355",
+      "text": "Buscar juegos o gamers..."
+    },
+    {
+      "nodeId": "1:2359",
+      "text": "PS5"
+    },
+    {
+      "nodeId": "1:2361",
+      "text": "PS4"
+    },
+    {
+      "nodeId": "1:2363",
+      "text": "Xbox"
+    },
+    {
+      "nodeId": "1:2365",
+      "text": "Switch"
+    },
+    {
+      "nodeId": "1:2368",
+      "text": "1 km"
+    },
+    {
+      "nodeId": "1:2370",
+      "text": "5 km"
+    },
+    {
+      "nodeId": "1:2372",
+      "text": "10 km"
+    },
+    {
+      "nodeId": "1:2374",
+      "text": "Resultados en Cochabamba"
+    },
+    {
+      "nodeId": "1:2378",
+      "text": "Hogwarts Legacy"
+    },
+    {
+      "nodeId": "1:2381",
+      "text": "Disponible con Lucas G."
+    },
+    {
+      "nodeId": "1:2384",
+      "text": "PS5"
+    },
+    {
+      "nodeId": "1:2385",
+      "text": "A 1.5 km (América Este)"
+    },
+    {
+      "nodeId": "1:2389",
+      "text": "Super Mario Odyssey"
+    },
+    {
+      "nodeId": "1:2392",
+      "text": "Disponible con Camila N."
+    },
+    {
+      "nodeId": "1:2395",
+      "text": "SWITCH"
+    },
+    {
+      "nodeId": "1:2396",
+      "text": "A 3.2 km (Sarco)"
+    },
+    {
+      "nodeId": "1:2403",
+      "text": "Inicio"
+    },
+    {
+      "nodeId": "1:2408",
+      "text": "Buscar"
+    },
+    {
+      "nodeId": "1:2413",
+      "text": "Mis juegos"
+    },
+    {
+      "nodeId": "1:2418",
+      "text": "Intercambios"
+    },
+    {
+      "nodeId": "1:2423",
+      "text": "Perfil"
+    }
+  ],
+  "technicalContextStatus": "available",
+  "propertiesStatus": "Exact generated class properties are included per nested layer when downloadable context was available; otherwise unavailable properties are not invented."
+}

@@ -1,0 +1,28 @@
+{
+  "screenNumber": 1,
+  "name": "splash-logo",
+  "figmaNodeId": "1:1130",
+  "frame": {
+    "width": 402,
+    "height": 874,
+    "unit": "px"
+  },
+  "screenshot": "../07_SCREENSHOTS/screen_01.png",
+  "fonts": [
+    "Gabarito ExtraBold",
+    "Geist Medium",
+    "Geist SemiBold"
+  ],
+  "assets": [
+    "02_ICONS/interface/gamepad__007f7.svg",
+    "02_ICONS/interface/ios-battery-full__cc14a.svg",
+    "02_ICONS/interface/ios-signal__5ad8e.svg",
+    "02_ICONS/interface/ios-wifi-signal__054bf.svg",
+    "03_FONTS/Gabarito-variable.woff2",
+    "03_FONTS/Geist-variable.woff2"
+  ],
+  "nestedLayers": [],
+  "textLayers": [],
+  "technicalContextStatus": "inline_only_not_recoverable_as_source_file",
+  "propertiesStatus": "Exact generated class properties are included per nested layer when downloadable context was available; otherwise unavailable properties are not invented."
+}

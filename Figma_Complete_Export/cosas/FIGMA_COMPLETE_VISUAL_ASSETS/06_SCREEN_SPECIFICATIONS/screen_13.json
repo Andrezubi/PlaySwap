@@ -1,0 +1,564 @@
+{
+  "screenNumber": 13,
+  "name": "profile-screen",
+  "figmaNodeId": "1:2426",
+  "frame": {
+    "width": 402,
+    "height": 874,
+    "unit": "px"
+  },
+  "screenshot": "../07_SCREENSHOTS/screen_13.png",
+  "fonts": [
+    "Gabarito ExtraBold",
+    "Geist Bold",
+    "Geist Medium",
+    "Geist Regular",
+    "Geist SemiBold"
+  ],
+  "assets": [
+    "01_IMAGES/avatars/mateo-avatar__c197f.png",
+    "01_IMAGES/avatars/mateo-avatar__image-ref-1a34095b5cfe6f0ae5149915b935b7efb2b893d9.png",
+    "01_IMAGES/avatars/mateo-avatar__image-ref-a9b6dbbbe7e4a57695c0147390eded3553719458.png",
+    "02_ICONS/actions/repeat__e1194.svg",
+    "02_ICONS/buttons/chevron-right__b63a0.svg",
+    "02_ICONS/interface/ios-battery-full__cc14a.svg",
+    "02_ICONS/interface/ios-signal__5ad8e.svg",
+    "02_ICONS/interface/ios-wifi-signal__054bf.svg",
+    "02_ICONS/interface/star__85276.svg",
+    "02_ICONS/interface/star__c0282.svg",
+    "02_ICONS/navigation/book-open__e44b7.svg",
+    "02_ICONS/navigation/home__3d070.svg",
+    "02_ICONS/navigation/search__6386d.svg",
+    "02_ICONS/navigation/user__84566.svg",
+    "03_FONTS/Gabarito-variable.woff2",
+    "03_FONTS/Geist-variable.woff2"
+  ],
+  "nestedLayers": [
+    {
+      "nodeId": "1:2426",
+      "tag": "div",
+      "name": "profile-screen",
+      "className": "bg-[#0b0b0f] content-stretch flex flex-col items-start justify-between overflow-clip relative rounded-[36px] size-full"
+    },
+    {
+      "nodeId": "1:2427",
+      "tag": "div",
+      "name": "header-zone",
+      "className": "h-[252px] relative shrink-0 w-full"
+    },
+    {
+      "nodeId": "1:2428",
+      "tag": "div",
+      "name": "status-bar",
+      "className": "absolute content-stretch flex h-[44px] items-center justify-between left-0 px-[24px] right-0 top-0"
+    },
+    {
+      "nodeId": "1:2429",
+      "tag": "p",
+      "name": null,
+      "className": "[word-break:break-word] font-['Geist:SemiBold'] font-semibold leading-[normal] relative shrink-0 text-[14px] text-white whitespace-nowrap"
+    },
+    {
+      "nodeId": "1:2430",
+      "tag": "div",
+      "name": "status-icons",
+      "className": "content-stretch flex gap-[8px] items-center relative shrink-0"
+    },
+    {
+      "nodeId": "1:2431",
+      "tag": "div",
+      "name": "ios-signal",
+      "className": "relative shrink-0 size-[20px]"
+    },
+    {
+      "nodeId": "1:2433",
+      "tag": "div",
+      "name": "ios-wifi-signal",
+      "className": "relative shrink-0 size-[20px]"
+    },
+    {
+      "nodeId": "1:2435",
+      "tag": "div",
+      "name": "ios-battery-full",
+      "className": "h-[20px] relative shrink-0 w-[28px]"
+    },
+    {
+      "nodeId": "1:2437",
+      "tag": "div",
+      "name": "profile-card",
+      "className": "absolute content-stretch flex flex-col gap-[16px] items-center left-0 px-[24px] py-[12px] right-0 top-[44px]"
+    },
+    {
+      "nodeId": "1:2438",
+      "tag": "div",
+      "name": "avatar",
+      "className": "border-2 border-[#282834] border-solid relative rounded-[44px] shrink-0 size-[88px]"
+    },
+    {
+      "nodeId": "1:2439",
+      "tag": "div",
+      "name": "Frame",
+      "className": "[word-break:break-word] content-stretch flex flex-col gap-[4px] items-center leading-[normal] relative shrink-0 whitespace-nowrap"
+    },
+    {
+      "nodeId": "1:2440",
+      "tag": "p",
+      "name": null,
+      "className": "font-['Gabarito:ExtraBold'] font-extrabold relative shrink-0 text-[22px] text-white"
+    },
+    {
+      "nodeId": "1:2441",
+      "tag": "p",
+      "name": null,
+      "className": "font-['Geist:Regular'] font-normal relative shrink-0 text-[#a3a3c2] text-[13px]"
+    },
+    {
+      "nodeId": "1:2442",
+      "tag": "div",
+      "name": "Frame",
+      "className": "content-stretch flex gap-[8px] items-center relative shrink-0"
+    },
+    {
+      "nodeId": "1:2443",
+      "tag": "div",
+      "name": "rating-stars",
+      "className": "content-stretch flex gap-[4px] items-center relative shrink-0"
+    },
+    {
+      "nodeId": "1:2444",
+      "tag": "div",
+      "name": "star",
+      "className": "relative shrink-0 size-[16px]"
+    },
+    {
+      "nodeId": "1:2446",
+      "tag": "div",
+      "name": "star",
+      "className": "relative shrink-0 size-[16px]"
+    },
+    {
+      "nodeId": "1:2448",
+      "tag": "div",
+      "name": "star",
+      "className": "relative shrink-0 size-[16px]"
+    },
+    {
+      "nodeId": "1:2450",
+      "tag": "div",
+      "name": "star",
+      "className": "relative shrink-0 size-[16px]"
+    },
+    {
+      "nodeId": "1:2452",
+      "tag": "div",
+      "name": "star",
+      "className": "relative shrink-0 size-[16px]"
+    },
+    {
+      "nodeId": "1:2454",
+      "tag": "p",
+      "name": null,
+      "className": "[word-break:break-word] font-['Geist:Bold'] font-bold leading-[normal] relative shrink-0 text-[#00d9a6] text-[13px] whitespace-nowrap"
+    },
+    {
+      "nodeId": "1:2455",
+      "tag": "p",
+      "name": null,
+      "className": "[word-break:break-word] font-['Geist:Regular'] font-normal leading-[normal] relative shrink-0 text-[#63637a] text-[13px] whitespace-nowrap"
+    },
+    {
+      "nodeId": "1:2456",
+      "tag": "div",
+      "name": "stats-row",
+      "className": "[word-break:break-word] h-[66px] leading-[normal] relative shrink-0 w-full whitespace-nowrap"
+    },
+    {
+      "nodeId": "1:2457",
+      "tag": "div",
+      "name": "Frame",
+      "className": "absolute bg-[#121218] content-stretch flex flex-col gap-[4px] items-center left-[24px] p-[12px] rounded-[12px] top-0 w-[106px]"
+    },
+    {
+      "nodeId": "1:2458",
+      "tag": "p",
+      "name": null,
+      "className": "font-['Gabarito:ExtraBold'] font-extrabold relative shrink-0 text-[20px] text-white"
+    },
+    {
+      "nodeId": "1:2459",
+      "tag": "p",
+      "name": null,
+      "className": "font-['Geist:Regular'] font-normal relative shrink-0 text-[#a3a3c2] text-[11px] text-center"
+    },
+    {
+      "nodeId": "1:2460",
+      "tag": "div",
+      "name": "Frame",
+      "className": "absolute bg-[#121218] content-stretch flex flex-col gap-[4px] items-center left-[148px] p-[12px] rounded-[12px] top-0 w-[106px]"
+    },
+    {
+      "nodeId": "1:2461",
+      "tag": "p",
+      "name": null,
+      "className": "font-['Gabarito:ExtraBold'] font-extrabold relative shrink-0 text-[20px] text-white"
+    },
+    {
+      "nodeId": "1:2462",
+      "tag": "p",
+      "name": null,
+      "className": "font-['Geist:Regular'] font-normal relative shrink-0 text-[#a3a3c2] text-[11px] text-center"
+    },
+    {
+      "nodeId": "1:2463",
+      "tag": "div",
+      "name": "Frame",
+      "className": "absolute bg-[#121218] content-stretch flex flex-col gap-[4px] items-center left-[272px] p-[12px] rounded-[12px] top-0 w-[106px]"
+    },
+    {
+      "nodeId": "1:2464",
+      "tag": "p",
+      "name": null,
+      "className": "font-['Gabarito:ExtraBold'] font-extrabold relative shrink-0 text-[20px] text-white"
+    },
+    {
+      "nodeId": "1:2465",
+      "tag": "p",
+      "name": null,
+      "className": "font-['Geist:Regular'] font-normal relative shrink-0 text-[#a3a3c2] text-[11px] text-center"
+    },
+    {
+      "nodeId": "1:2466",
+      "tag": "div",
+      "name": "details-zone",
+      "className": "content-stretch flex flex-[1_0_0] flex-col gap-[20px] items-start min-h-px p-[20px] relative w-full"
+    },
+    {
+      "nodeId": "1:2467",
+      "tag": "div",
+      "name": "Frame",
+      "className": "content-stretch flex flex-col gap-[8px] items-start relative shrink-0 w-full"
+    },
+    {
+      "nodeId": "1:2468",
+      "tag": "p",
+      "name": null,
+      "className": "[word-break:break-word] font-['Geist:Bold'] font-bold leading-[normal] relative shrink-0 text-[#63637a] text-[12px] uppercase whitespace-nowrap"
+    },
+    {
+      "nodeId": "1:2469",
+      "tag": "div",
+      "name": "Frame",
+      "className": "content-stretch flex gap-[8px] items-start relative shrink-0"
+    },
+    {
+      "nodeId": "1:2470",
+      "tag": "div",
+      "name": "Frame",
+      "className": "bg-[rgba(0,217,166,0.1)] content-stretch flex items-start px-[12px] py-[6px] relative rounded-[8px] shrink-0"
+    },
+    {
+      "nodeId": "1:2471",
+      "tag": "p",
+      "name": null,
+      "className": "[word-break:break-word] font-['Geist:Bold'] font-bold leading-[normal] relative shrink-0 text-[#00d9a6] text-[12px] whitespace-nowrap"
+    },
+    {
+      "nodeId": "1:2472",
+      "tag": "div",
+      "name": "Frame",
+      "className": "bg-[rgba(139,92,246,0.1)] content-stretch flex items-start px-[12px] py-[6px] relative rounded-[8px] shrink-0"
+    },
+    {
+      "nodeId": "1:2473",
+      "tag": "p",
+      "name": null,
+      "className": "[word-break:break-word] font-['Geist:Bold'] font-bold leading-[normal] relative shrink-0 text-[#8b5cf6] text-[12px] whitespace-nowrap"
+    },
+    {
+      "nodeId": "1:2474",
+      "tag": "div",
+      "name": "Frame",
+      "className": "content-stretch flex flex-col gap-[8px] items-start relative shrink-0 w-full"
+    },
+    {
+      "nodeId": "1:2475",
+      "tag": "div",
+      "name": "Frame",
+      "className": "border border-[#282834] border-solid content-stretch flex items-center justify-between px-[16px] py-[12px] relative rounded-[12px] shrink-0 w-full"
+    },
+    {
+      "nodeId": "1:2476",
+      "tag": "p",
+      "name": null,
+      "className": "[word-break:break-word] font-['Geist:SemiBold'] font-semibold leading-[normal] relative shrink-0 text-[14px] text-white whitespace-nowrap"
+    },
+    {
+      "nodeId": "1:2477",
+      "tag": "div",
+      "name": "Frame",
+      "className": "overflow-clip relative shrink-0 size-[16px]"
+    },
+    {
+      "nodeId": "1:2478",
+      "tag": "div",
+      "name": "chevron-right",
+      "className": "absolute left-0 size-[16px] top-0"
+    },
+    {
+      "nodeId": "1:2480",
+      "tag": "div",
+      "name": "Frame",
+      "className": "border border-[#282834] border-solid content-stretch flex items-center justify-between px-[16px] py-[12px] relative rounded-[12px] shrink-0 w-full"
+    },
+    {
+      "nodeId": "1:2481",
+      "tag": "p",
+      "name": null,
+      "className": "[word-break:break-word] font-['Geist:SemiBold'] font-semibold leading-[normal] relative shrink-0 text-[14px] text-white whitespace-nowrap"
+    },
+    {
+      "nodeId": "1:2482",
+      "tag": "div",
+      "name": "Frame",
+      "className": "overflow-clip relative shrink-0 size-[16px]"
+    },
+    {
+      "nodeId": "1:2483",
+      "tag": "div",
+      "name": "chevron-right",
+      "className": "absolute left-0 size-[16px] top-0"
+    },
+    {
+      "nodeId": "1:2485",
+      "tag": "div",
+      "name": "bottom-navigation",
+      "className": "bg-[#121218] border-[#282834] border-solid border-t content-stretch flex flex-col items-start relative shrink-0 w-full"
+    },
+    {
+      "nodeId": "1:2486",
+      "tag": "div",
+      "name": "nav-tabs",
+      "className": "content-stretch flex h-[68px] items-center justify-between px-[16px] relative shrink-0 w-full"
+    },
+    {
+      "nodeId": "1:2487",
+      "tag": "div",
+      "name": "nav-tab-inicio",
+      "className": "content-stretch flex flex-col gap-[4px] items-center relative shrink-0 w-[64px]"
+    },
+    {
+      "nodeId": "1:2488",
+      "tag": "div",
+      "name": "icon-frame",
+      "className": "overflow-clip relative shrink-0 size-[20px]"
+    },
+    {
+      "nodeId": "1:2489",
+      "tag": "div",
+      "name": "home",
+      "className": "absolute left-0 size-[20px] top-0"
+    },
+    {
+      "nodeId": "1:2491",
+      "tag": "p",
+      "name": null,
+      "className": "[word-break:break-word] font-['Geist:Medium'] font-medium leading-[normal] relative shrink-0 text-[#63637a] text-[10px] whitespace-nowrap"
+    },
+    {
+      "nodeId": "1:2492",
+      "tag": "div",
+      "name": "nav-tab-buscar",
+      "className": "content-stretch flex flex-col gap-[4px] items-center relative shrink-0 w-[64px]"
+    },
+    {
+      "nodeId": "1:2493",
+      "tag": "div",
+      "name": "icon-frame",
+      "className": "overflow-clip relative shrink-0 size-[20px]"
+    },
+    {
+      "nodeId": "1:2494",
+      "tag": "div",
+      "name": "search",
+      "className": "absolute left-0 size-[20px] top-0"
+    },
+    {
+      "nodeId": "1:2496",
+      "tag": "p",
+      "name": null,
+      "className": "[word-break:break-word] font-['Geist:Medium'] font-medium leading-[normal] relative shrink-0 text-[#63637a] text-[10px] whitespace-nowrap"
+    },
+    {
+      "nodeId": "1:2497",
+      "tag": "div",
+      "name": "nav-tab-mis-juegos",
+      "className": "content-stretch flex flex-col gap-[4px] items-center relative shrink-0 w-[64px]"
+    },
+    {
+      "nodeId": "1:2498",
+      "tag": "div",
+      "name": "icon-frame",
+      "className": "overflow-clip relative shrink-0 size-[20px]"
+    },
+    {
+      "nodeId": "1:2499",
+      "tag": "div",
+      "name": "book-open",
+      "className": "absolute left-0 size-[20px] top-0"
+    },
+    {
+      "nodeId": "1:2501",
+      "tag": "p",
+      "name": null,
+      "className": "[word-break:break-word] font-['Geist:Medium'] font-medium leading-[normal] relative shrink-0 text-[#63637a] text-[10px] whitespace-nowrap"
+    },
+    {
+      "nodeId": "1:2502",
+      "tag": "div",
+      "name": "nav-tab-intercambios",
+      "className": "content-stretch flex flex-col gap-[4px] items-center relative shrink-0 w-[64px]"
+    },
+    {
+      "nodeId": "1:2503",
+      "tag": "div",
+      "name": "icon-frame",
+      "className": "overflow-clip relative shrink-0 size-[20px]"
+    },
+    {
+      "nodeId": "1:2504",
+      "tag": "div",
+      "name": "repeat",
+      "className": "absolute left-0 size-[20px] top-0"
+    },
+    {
+      "nodeId": "1:2506",
+      "tag": "p",
+      "name": null,
+      "className": "[word-break:break-word] font-['Geist:Medium'] font-medium leading-[normal] relative shrink-0 text-[#63637a] text-[10px] whitespace-nowrap"
+    },
+    {
+      "nodeId": "1:2507",
+      "tag": "div",
+      "name": "nav-tab-perfil",
+      "className": "content-stretch flex flex-col gap-[4px] items-center relative shrink-0 w-[64px]"
+    },
+    {
+      "nodeId": "1:2508",
+      "tag": "div",
+      "name": "icon-frame",
+      "className": "overflow-clip relative shrink-0 size-[20px]"
+    },
+    {
+      "nodeId": "1:2509",
+      "tag": "div",
+      "name": "user",
+      "className": "absolute left-0 size-[20px] top-0"
+    },
+    {
+      "nodeId": "1:2511",
+      "tag": "p",
+      "name": null,
+      "className": "[word-break:break-word] font-['Geist:Bold'] font-bold leading-[normal] relative shrink-0 text-[10px] text-white whitespace-nowrap"
+    },
+    {
+      "nodeId": "1:2512",
+      "tag": "div",
+      "name": "home-indicator-area",
+      "className": "content-stretch flex items-start justify-center py-[8px] relative shrink-0 w-full"
+    },
+    {
+      "nodeId": "1:2513",
+      "tag": "div",
+      "name": "indicator-bar",
+      "className": "bg-[#63637a] h-[5px] relative rounded-[100px] shrink-0 w-[134px]"
+    }
+  ],
+  "textLayers": [
+    {
+      "nodeId": "1:2429",
+      "text": "9:41"
+    },
+    {
+      "nodeId": "1:2440",
+      "text": "Mateo Claros"
+    },
+    {
+      "nodeId": "1:2441",
+      "text": "Cala Cala, Cochabamba"
+    },
+    {
+      "nodeId": "1:2454",
+      "text": "4.8"
+    },
+    {
+      "nodeId": "1:2455",
+      "text": "(18 calificaciones)"
+    },
+    {
+      "nodeId": "1:2458",
+      "text": "14"
+    },
+    {
+      "nodeId": "1:2459",
+      "text": "Completados"
+    },
+    {
+      "nodeId": "1:2461",
+      "text": "8"
+    },
+    {
+      "nodeId": "1:2462",
+      "text": "Disponibles"
+    },
+    {
+      "nodeId": "1:2464",
+      "text": "6m"
+    },
+    {
+      "nodeId": "1:2465",
+      "text": "Tiempo app"
+    },
+    {
+      "nodeId": "1:2468",
+      "text": "Consolas"
+    },
+    {
+      "nodeId": "1:2471",
+      "text": "PlayStation 5"
+    },
+    {
+      "nodeId": "1:2473",
+      "text": "Xbox Series X"
+    },
+    {
+      "nodeId": "1:2476",
+      "text": "Editar Perfil"
+    },
+    {
+      "nodeId": "1:2481",
+      "text": "Configuración"
+    },
+    {
+      "nodeId": "1:2491",
+      "text": "Inicio"
+    },
+    {
+      "nodeId": "1:2496",
+      "text": "Buscar"
+    },
+    {
+      "nodeId": "1:2501",
+      "text": "Mis juegos"
+    },
+    {
+      "nodeId": "1:2506",
+      "text": "Intercambios"
+    },
+    {
+      "nodeId": "1:2511",
+      "text": "Perfil"
+    }
+  ],
+  "technicalContextStatus": "available",
+  "propertiesStatus": "Exact generated class properties are included per nested layer when downloadable context was available; otherwise unavailable properties are not invented."
+}

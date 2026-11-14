@@ -1,0 +1,191 @@
+{
+  "variablesEndpointStatus": "not_recovered: token lacked file_variables:read",
+  "colors": [
+    {
+      "value": "#00d9a6",
+      "variableName": null,
+      "screens": [
+        "screen_05_home-feed",
+        "screen_06_match-detail",
+        "screen_09_chat-screen",
+        "screen_10_exchanges-list",
+        "screen_11_my-games",
+        "screen_12_search-screen",
+        "screen_13_profile-screen",
+        "screen_14_rating-screen"
+      ],
+      "source": "literal value in Figma MCP design context"
+    },
+    {
+      "value": "#07090e",
+      "variableName": null,
+      "screens": [
+        "screen_09_chat-screen"
+      ],
+      "source": "literal value in Figma MCP design context"
+    },
+    {
+      "value": "#0b0b0f",
+      "variableName": null,
+      "screens": [
+        "screen_05_home-feed",
+        "screen_06_match-detail",
+        "screen_09_chat-screen",
+        "screen_10_exchanges-list",
+        "screen_11_my-games",
+        "screen_12_search-screen",
+        "screen_13_profile-screen",
+        "screen_14_rating-screen",
+        "screen_15_settings"
+      ],
+      "source": "literal value in Figma MCP design context"
+    },
+    {
+      "value": "#121218",
+      "variableName": null,
+      "screens": [
+        "screen_05_home-feed",
+        "screen_06_match-detail",
+        "screen_09_chat-screen",
+        "screen_10_exchanges-list",
+        "screen_11_my-games",
+        "screen_12_search-screen",
+        "screen_13_profile-screen",
+        "screen_14_rating-screen",
+        "screen_15_settings"
+      ],
+      "source": "literal value in Figma MCP design context"
+    },
+    {
+      "value": "#1c1c24",
+      "variableName": null,
+      "screens": [
+        "screen_05_home-feed",
+        "screen_15_settings"
+      ],
+      "source": "literal value in Figma MCP design context"
+    },
+    {
+      "value": "#282834",
+      "variableName": null,
+      "screens": [
+        "screen_05_home-feed",
+        "screen_06_match-detail",
+        "screen_09_chat-screen",
+        "screen_10_exchanges-list",
+        "screen_11_my-games",
+        "screen_12_search-screen",
+        "screen_13_profile-screen",
+        "screen_14_rating-screen",
+        "screen_15_settings"
+      ],
+      "source": "literal value in Figma MCP design context"
+    },
+    {
+      "value": "#63637a",
+      "variableName": null,
+      "screens": [
+        "screen_05_home-feed",
+        "screen_09_chat-screen",
+        "screen_10_exchanges-list",
+        "screen_11_my-games",
+        "screen_12_search-screen",
+        "screen_13_profile-screen",
+        "screen_14_rating-screen",
+        "screen_15_settings"
+      ],
+      "source": "literal value in Figma MCP design context"
+    },
+    {
+      "value": "#8b5cf6",
+      "variableName": null,
+      "screens": [
+        "screen_05_home-feed",
+        "screen_06_match-detail",
+        "screen_09_chat-screen",
+        "screen_10_exchanges-list",
+        "screen_11_my-games",
+        "screen_13_profile-screen",
+        "screen_14_rating-screen"
+      ],
+      "source": "literal value in Figma MCP design context"
+    },
+    {
+      "value": "#a3a3c2",
+      "variableName": null,
+      "screens": [
+        "screen_05_home-feed",
+        "screen_06_match-detail",
+        "screen_09_chat-screen",
+        "screen_10_exchanges-list",
+        "screen_11_my-games",
+        "screen_12_search-screen",
+        "screen_13_profile-screen",
+        "screen_14_rating-screen",
+        "screen_15_settings"
+      ],
+      "source": "literal value in Figma MCP design context"
+    },
+    {
+      "value": "#e11d48",
+      "variableName": null,
+      "screens": [
+        "screen_11_my-games",
+        "screen_12_search-screen"
+      ],
+      "source": "literal value in Figma MCP design context"
+    },
+    {
+      "value": "#f79aa8",
+      "variableName": null,
+      "screens": [
+        "screen_15_settings"
+      ],
+      "source": "literal value in Figma MCP design context"
+    },
+    {
+      "value": "rgba(0,217,166,0.1)",
+      "variableName": null,
+      "screens": [
+        "screen_05_home-feed",
+        "screen_06_match-detail",
+        "screen_09_chat-screen",
+        "screen_10_exchanges-list",
+        "screen_11_my-games",
+        "screen_12_search-screen",
+        "screen_13_profile-screen",
+        "screen_14_rating-screen"
+      ],
+      "source": "literal value in Figma MCP design context"
+    },
+    {
+      "value": "rgba(0,217,166,0.25)",
+      "variableName": null,
+      "screens": [
+        "screen_11_my-games"
+      ],
+      "source": "literal value in Figma MCP design context"
+    },
+    {
+      "value": "rgba(139,92,246,0.1)",
+      "variableName": null,
+      "screens": [
+        "screen_05_home-feed",
+        "screen_09_chat-screen",
+        "screen_10_exchanges-list",
+        "screen_11_my-games",
+        "screen_13_profile-screen"
+      ],
+      "source": "literal value in Figma MCP design context"
+    },
+    {
+      "value": "rgba(225,29,72,0.1)",
+      "variableName": null,
+      "screens": [
+        "screen_11_my-games",
+        "screen_12_search-screen"
+      ],
+      "source": "literal value in Figma MCP design context"
+    }
+  ]
+}

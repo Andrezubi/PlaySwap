@@ -1,0 +1,10 @@
+{
+  "fonts": [
+    { "family": "Gabarito", "style": "Bold" },
+    { "family": "Gabarito", "style": "ExtraBold" },
+    { "family": "Geist", "style": "Bold" },
+    { "family": "Geist", "style": "Medium" },
+    { "family": "Geist", "style": "Regular" },
+    { "family": "Geist", "style": "SemiBold" }
+  ]
+}
