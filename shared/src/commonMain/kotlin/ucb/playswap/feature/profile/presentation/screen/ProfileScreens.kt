@@ -4,6 +4,8 @@ import androidx.compose.foundation.Image
 import androidx.compose.foundation.background
 import androidx.compose.foundation.clickable
 import androidx.compose.foundation.layout.*
+import androidx.compose.foundation.rememberScrollState
+import androidx.compose.foundation.verticalScroll
 import androidx.compose.foundation.shape.CircleShape
 import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.material3.*
@@ -48,7 +50,7 @@ fun ProfileScreen(
         containerColor = Color(0xFF0B0B0F)
     ) { padding ->
         Column(
-            modifier = Modifier.fillMaxSize().padding(padding).statusBarsPadding().padding(24.dp),
+            modifier = Modifier.fillMaxSize().padding(padding).statusBarsPadding().navigationBarsPadding().padding(24.dp),
             horizontalAlignment = Alignment.CenterHorizontally
         ) {
             Spacer(modifier = Modifier.height(10.dp))
@@ -63,8 +65,8 @@ fun ProfileScreen(
             Text("Cala Cala, Cochabamba", fontSize = 13.sp, color = Color(0xFFA3A3C2))
             Spacer(modifier = Modifier.height(8.dp))
             Row(verticalAlignment = Alignment.CenterVertically) {
-                Row(horizontalArrangement = Arrangement.spacedBy(2.dp)) {
-                    repeat(5) { StarIcon(modifier = Modifier.size(14.dp)) }
+                Row(horizontalArrangement = Arrangement.spacedBy(0.dp)) {
+                    repeat(5) { StarIcon(modifier = Modifier.size(14.dp), color = Color(0xFFFFD700)) }
                 }
                 Spacer(modifier = Modifier.width(6.dp))
                 Text("4.8 ", fontSize = 14.sp, fontWeight = FontWeight.Bold, color = Color(0xFF00D9A6))
@@ -100,7 +102,7 @@ fun ProfileScreen(
             ) {
                 Row(modifier = Modifier.padding(18.dp), horizontalArrangement = Arrangement.SpaceBetween, verticalAlignment = Alignment.CenterVertically) {
                     Text("Editar Perfil", fontWeight = FontWeight.Bold, color = Color.White)
-                    Text(">", color = Color(0xFFA3A3C2))
+                    Text(">", color = Color(0xFFA3A3C2), fontSize = 16.sp, fontWeight = FontWeight.Bold)
                 }
             }
             Spacer(modifier = Modifier.height(12.dp))
@@ -111,7 +113,7 @@ fun ProfileScreen(
             ) {
                 Row(modifier = Modifier.padding(18.dp), horizontalArrangement = Arrangement.SpaceBetween, verticalAlignment = Alignment.CenterVertically) {
                     Text("Configuración", fontWeight = FontWeight.Bold, color = Color.White)
-                    Text(">", color = Color(0xFFA3A3C2))
+                    Text(">", color = Color(0xFFA3A3C2), fontSize = 16.sp, fontWeight = FontWeight.Bold)
                 }
             }
         }
@@ -225,26 +227,51 @@ fun RatingScreen(
 @Composable
 fun SettingsScreen(
     onBack: () -> Unit,
-    onLogout: () -> Unit
+    onLogout: () -> Unit,
+    onNavigateToHome: () -> Unit,
+    onNavigateToSearch: () -> Unit,
+    onNavigateToMyGames: () -> Unit,
+    onNavigateToExchanges: () -> Unit,
+    onNavigateToProfile: () -> Unit
 ) {
     var notificationsEnabled by remember { mutableStateOf(true) }
     var remindersEnabled by remember { mutableStateOf(true) }
+    var visibleInSearch by remember { mutableStateOf(false) }
 
     Scaffold(
         topBar = {
-            TopAppBar(
-                title = { Text("Configuración", color = Color.White, fontWeight = FontWeight.Bold) },
-                navigationIcon = {
-                    IconButton(onClick = onBack) {
-                        BackIcon(modifier = Modifier.size(20.dp), color = Color.White)
+            Box(modifier = Modifier.statusBarsPadding()) {
+                TopAppBar(
+                    title = { Text("Configuración", color = Color.White, fontWeight = FontWeight.Bold) },
+                    navigationIcon = {
+                        IconButton(onClick = onBack) {
+                            BackIcon(modifier = Modifier.size(20.dp), color = Color.White)
+                        }
+                    },
+                    colors = TopAppBarDefaults.topAppBarColors(containerColor = Color(0xFF0B0B0F))
+                )
+            }
+        },
+        bottomBar = {
+            PlaySwapBottomNav(
+                currentTab = 4,
+                onTabSelected = { tab ->
+                    when (tab) {
+                        0 -> onNavigateToHome()
+                        1 -> onNavigateToSearch()
+                        2 -> onNavigateToMyGames()
+                        3 -> onNavigateToExchanges()
+                        4 -> onNavigateToProfile()
                     }
-                },
-                colors = TopAppBarDefaults.topAppBarColors(containerColor = Color(0xFF0B0B0F))
+                }
             )
         },
         containerColor = Color(0xFF0B0B0F)
     ) { padding ->
-        Column(modifier = Modifier.fillMaxSize().padding(padding).padding(20.dp), verticalArrangement = Arrangement.spacedBy(16.dp)) {
+        Column(
+            modifier = Modifier.fillMaxSize().padding(padding).navigationBarsPadding().padding(20.dp).verticalScroll(rememberScrollState()),
+            verticalArrangement = Arrangement.spacedBy(16.dp)
+        ) {
             Text("Tu cuenta, a tu manera.", fontSize = 13.sp, color = Color(0xFFA3A3C2))
 
             Card(modifier = Modifier.fillMaxWidth(), shape = RoundedCornerShape(16.dp), colors = CardDefaults.cardColors(containerColor = Color(0xFF121218))) {
@@ -254,6 +281,20 @@ fun SettingsScreen(
                     Column {
                         Text("Mateo Claros", fontWeight = FontWeight.Bold, color = Color.White)
                         Text("Cala Cala · Cochabamba", fontSize = 12.sp, color = Color(0xFFA3A3C2))
+                    }
+                }
+            }
+
+            Text("CUENTA", fontSize = 11.sp, fontWeight = FontWeight.Bold, color = Color(0xFFA3A3C2), letterSpacing = 1.sp)
+            Card(modifier = Modifier.fillMaxWidth(), shape = RoundedCornerShape(16.dp), colors = CardDefaults.cardColors(containerColor = Color(0xFF121218))) {
+                Column(modifier = Modifier.padding(16.dp), verticalArrangement = Arrangement.spacedBy(16.dp)) {
+                    Row(modifier = Modifier.fillMaxWidth(), horizontalArrangement = Arrangement.SpaceBetween, verticalAlignment = Alignment.CenterVertically) {
+                        Text("Editar perfil", color = Color.White, fontWeight = FontWeight.Bold)
+                        ChevronRightIcon(modifier = Modifier.size(16.dp), color = Color(0xFFA3A3C2))
+                    }
+                    Row(modifier = Modifier.fillMaxWidth(), horizontalArrangement = Arrangement.SpaceBetween, verticalAlignment = Alignment.CenterVertically) {
+                        Text("Contraseña y seguridad", color = Color.White, fontWeight = FontWeight.Bold)
+                        ChevronRightIcon(modifier = Modifier.size(16.dp), color = Color(0xFFA3A3C2))
                     }
                 }
             }
@@ -269,10 +310,21 @@ fun SettingsScreen(
                         Text("Recordatorios de devolución", color = Color.White)
                         Switch(checked = remindersEnabled, onCheckedChange = { remindersEnabled = it }, colors = SwitchDefaults.colors(checkedThumbColor = Color.White, checkedTrackColor = Color(0xFF00D9A6)))
                     }
+                    Row(modifier = Modifier.fillMaxWidth(), horizontalArrangement = Arrangement.SpaceBetween, verticalAlignment = Alignment.CenterVertically) {
+                        Text("Perfil visible en búsquedas", color = Color.White)
+                        Switch(checked = visibleInSearch, onCheckedChange = { visibleInSearch = it }, colors = SwitchDefaults.colors(checkedThumbColor = Color.White, checkedTrackColor = Color(0xFF00D9A6)))
+                    }
                 }
             }
 
-            Spacer(modifier = Modifier.weight(1f))
+            Card(modifier = Modifier.fillMaxWidth(), shape = RoundedCornerShape(16.dp), colors = CardDefaults.cardColors(containerColor = Color(0xFF121218))) {
+                Row(modifier = Modifier.padding(16.dp), horizontalArrangement = Arrangement.SpaceBetween, verticalAlignment = Alignment.CenterVertically) {
+                    Text("Ayuda y privacidad", color = Color.White, fontWeight = FontWeight.Bold)
+                    ChevronRightIcon(modifier = Modifier.size(16.dp), color = Color(0xFFA3A3C2))
+                }
+            }
+
+            Spacer(modifier = Modifier.height(16.dp))
             Button(
                 onClick = onLogout,
                 modifier = Modifier.fillMaxWidth().height(52.dp),
@@ -281,7 +333,9 @@ fun SettingsScreen(
             ) {
                 Text("Cerrar sesión", fontWeight = FontWeight.Bold, color = Color(0xFFE11D48))
             }
+            Spacer(modifier = Modifier.height(8.dp))
             Text("PlaySwap · Versión 1.0.4", fontSize = 12.sp, color = Color(0xFFA3A3C2), modifier = Modifier.align(Alignment.CenterHorizontally))
+            Spacer(modifier = Modifier.height(16.dp))
         }
     }
 }

@@ -23,7 +23,9 @@ import org.jetbrains.compose.resources.painterResource
 import org.koin.compose.viewmodel.koinViewModel
 import playswap.shared.generated.resources.Res
 import playswap.shared.generated.resources.welcome_illustration
+import ucb.playswap.core.theme.GamePadIcon
 import ucb.playswap.core.theme.PersonIcon
+import ucb.playswap.core.theme.*
 import ucb.playswap.feature.auth.presentation.viewmodel.AuthEvent
 import ucb.playswap.feature.auth.presentation.viewmodel.AuthViewModel
 
@@ -40,12 +42,26 @@ fun SplashScreen(
         contentAlignment = Alignment.Center
     ) {
         Column(horizontalAlignment = Alignment.CenterHorizontally) {
+            Box(
+                modifier = Modifier.size(64.dp).clip(RoundedCornerShape(16.dp)).background(Color(0xFF181818)),
+                contentAlignment = Alignment.Center
+            ) {
+                GamePadIcon(modifier = Modifier.size(32.dp), color = Color(0xFF00D9A6))
+            }
+            Spacer(modifier = Modifier.height(16.dp))
             Row(verticalAlignment = Alignment.CenterVertically) {
                 Text("Play", fontSize = 36.sp, fontWeight = FontWeight.Bold, color = Color.White)
                 Text("Swap", fontSize = 36.sp, fontWeight = FontWeight.Bold, color = Color(0xFF00D9A6))
             }
             Spacer(modifier = Modifier.height(4.dp))
             Text("COCHABAMBA", fontSize = 12.sp, fontWeight = FontWeight.SemiBold, color = Color(0xFFA3A3C2), letterSpacing = 2.sp)
+        }
+
+        Box(
+            modifier = Modifier.fillMaxSize().padding(bottom = 32.dp),
+            contentAlignment = Alignment.BottomCenter
+        ) {
+            Text("Versión 1.0.4 · Cochabamba", fontSize = 12.sp, color = Color(0xFFA3A3C2))
         }
     }
 }
@@ -60,12 +76,12 @@ fun WelcomeScreen(
         color = Color(0xFF0B0B0F)
     ) {
         Column(
-            modifier = Modifier.fillMaxSize().padding(24.dp),
+            modifier = Modifier.fillMaxSize().statusBarsPadding().navigationBarsPadding().padding(24.dp),
             verticalArrangement = Arrangement.SpaceBetween,
             horizontalAlignment = Alignment.CenterHorizontally
         ) {
             Row(
-                modifier = Modifier.fillMaxWidth().padding(top = 16.dp),
+                modifier = Modifier.fillMaxWidth().padding(top = 8.dp),
                 verticalAlignment = Alignment.CenterVertically,
                 horizontalArrangement = Arrangement.Center
             ) {
@@ -73,7 +89,7 @@ fun WelcomeScreen(
                     modifier = Modifier.size(36.dp).clip(RoundedCornerShape(8.dp)).background(Color(0xFF181818)),
                     contentAlignment = Alignment.Center
                 ) {
-                    PersonIcon(modifier = Modifier.size(20.dp), color = Color(0xFF00D9A6))
+                    GamePadIcon(modifier = Modifier.size(20.dp), color = Color(0xFF00D9A6))
                 }
                 Spacer(modifier = Modifier.width(10.dp))
                 Column {
@@ -177,17 +193,31 @@ fun LoginScreen(
 
     Surface(modifier = Modifier.fillMaxSize(), color = Color(0xFF0B0B0F)) {
         Column(
-            modifier = Modifier.fillMaxSize().padding(24.dp).verticalScroll(rememberScrollState()),
+            modifier = Modifier.fillMaxSize().statusBarsPadding().navigationBarsPadding().padding(24.dp).verticalScroll(rememberScrollState()),
             verticalArrangement = Arrangement.SpaceBetween,
             horizontalAlignment = Alignment.CenterHorizontally
         ) {
             Column(horizontalAlignment = Alignment.CenterHorizontally) {
-                Spacer(modifier = Modifier.height(20.dp))
-                Row(verticalAlignment = Alignment.CenterVertically) {
-                    Text("Play", fontSize = 24.sp, fontWeight = FontWeight.Bold, color = Color.White)
-                    Text("Swap", fontSize = 24.sp, fontWeight = FontWeight.Bold, color = Color(0xFF00D9A6))
+                Row(
+                    modifier = Modifier.fillMaxWidth().padding(top = 8.dp),
+                    verticalAlignment = Alignment.CenterVertically,
+                    horizontalArrangement = Arrangement.Center
+                ) {
+                    Box(
+                        modifier = Modifier.size(36.dp).clip(RoundedCornerShape(8.dp)).background(Color(0xFF181818)),
+                        contentAlignment = Alignment.Center
+                    ) {
+                        GamePadIcon(modifier = Modifier.size(20.dp), color = Color(0xFF00D9A6))
+                    }
+                    Spacer(modifier = Modifier.width(10.dp))
+                    Column {
+                        Row(verticalAlignment = Alignment.CenterVertically) {
+                            Text("Play", fontSize = 20.sp, fontWeight = FontWeight.Bold, color = Color.White)
+                            Text("Swap", fontSize = 20.sp, fontWeight = FontWeight.Bold, color = Color(0xFF00D9A6))
+                        }
+                        Text("COCHABAMBA", fontSize = 9.sp, fontWeight = FontWeight.SemiBold, color = Color(0xFFA3A3C2), letterSpacing = 1.5.sp)
+                    }
                 }
-                Text("COCHABAMBA", fontSize = 10.sp, fontWeight = FontWeight.SemiBold, color = Color(0xFFA3A3C2), letterSpacing = 1.5.sp)
 
                 Spacer(modifier = Modifier.height(36.dp))
                 Text("Vuelve a la partida", fontSize = 28.sp, fontWeight = FontWeight.Bold, color = Color.White)
@@ -263,6 +293,14 @@ fun LoginScreen(
                 TextButton(onClick = onNavigateToRegister) {
                     Text("¿Aún no tienes cuenta? Crea tu perfil", color = Color(0xFFA3A3C2), fontSize = 14.sp)
                 }
+                Spacer(modifier = Modifier.height(16.dp))
+                Text(
+                    "Al iniciar sesión aceptas nuestros\nTérminos de uso y Política de privacidad.",
+                    fontSize = 11.sp,
+                    color = Color(0xFFA3A3C2),
+                    textAlign = androidx.compose.ui.text.style.TextAlign.Center,
+                    lineHeight = 16.sp
+                )
             }
         }
     }
@@ -284,7 +322,7 @@ fun ConsoleSelectionScreen(
 
     Surface(modifier = Modifier.fillMaxSize(), color = Color(0xFF0B0B0F)) {
         Column(
-            modifier = Modifier.fillMaxSize().padding(24.dp).verticalScroll(rememberScrollState())
+            modifier = Modifier.fillMaxSize().statusBarsPadding().navigationBarsPadding().padding(24.dp).verticalScroll(rememberScrollState())
         ) {
             Spacer(modifier = Modifier.height(12.dp))
             Row(
@@ -328,13 +366,17 @@ fun ConsoleSelectionScreen(
                                     modifier = Modifier.size(32.dp).clip(CircleShape).background(if (console.selected) Color(0xFF00D9A6).copy(alpha = 0.2f) else Color(0xFF282834)),
                                     contentAlignment = Alignment.Center
                                 ) {
-                                    Text(if (console.selected) "✕" else "○", fontSize = 14.sp, color = if (console.selected) Color(0xFF00D9A6) else Color(0xFFA3A3C2))
+                                    if (console.selected) {
+                                        CheckIcon(modifier = Modifier.size(16.dp), color = Color(0xFF00D9A6))
+                                    } else {
+                                        Box(modifier = Modifier.size(10.dp).clip(CircleShape).background(Color(0xFFA3A3C2).copy(alpha = 0.4f)))
+                                    }
                                 }
                                 Spacer(modifier = Modifier.width(14.dp))
                                 Text(console.name, fontSize = 16.sp, fontWeight = FontWeight.Bold, color = Color.White)
                             }
                             if (console.selected) {
-                                Text("✓", fontSize = 18.sp, fontWeight = FontWeight.Bold, color = Color(0xFF00D9A6))
+                                CheckIcon(modifier = Modifier.size(18.dp), color = Color(0xFF00D9A6))
                             }
                         }
                     }
@@ -374,7 +416,7 @@ fun ProfileCreationScreen(
 
     Surface(modifier = Modifier.fillMaxSize(), color = Color(0xFF0B0B0F)) {
         Column(
-            modifier = Modifier.fillMaxSize().padding(24.dp).verticalScroll(rememberScrollState())
+            modifier = Modifier.fillMaxSize().statusBarsPadding().navigationBarsPadding().padding(24.dp).verticalScroll(rememberScrollState())
         ) {
             Spacer(modifier = Modifier.height(12.dp))
             Row(
@@ -436,7 +478,7 @@ fun ProfileCreationScreen(
                 modifier = Modifier.fillMaxWidth(),
                 shape = RoundedCornerShape(12.dp),
                 trailingIcon = {
-                    Text("📍", fontSize = 16.sp)
+                    PinIcon(modifier = Modifier.size(20.dp), color = Color(0xFF00D9A6))
                 },
                 colors = OutlinedTextFieldDefaults.colors(
                     focusedBorderColor = Color(0xFF00D9A6),

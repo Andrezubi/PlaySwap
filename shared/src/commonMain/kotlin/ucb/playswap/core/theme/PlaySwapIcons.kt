@@ -28,6 +28,20 @@ fun BackIcon(modifier: Modifier = Modifier, color: Color = Color.White) {
 }
 
 @Composable
+fun ChevronRightIcon(modifier: Modifier = Modifier, color: Color = Color.White) {
+    Canvas(modifier = modifier) {
+        val w = size.width
+        val h = size.height
+        val path = Path().apply {
+            moveTo(w * 0.3f, h * 0.2f)
+            lineTo(w * 0.7f, h * 0.5f)
+            lineTo(w * 0.3f, h * 0.8f)
+        }
+        drawPath(path = path, color = color, style = Stroke(width = 2.5.dp.toPx(), cap = StrokeCap.Round, join = StrokeJoin.Round))
+    }
+}
+
+@Composable
 fun MoreVertIcon(modifier: Modifier = Modifier, color: Color = Color.White) {
     Canvas(modifier = modifier) {
         val w = size.width
@@ -73,6 +87,20 @@ fun PersonIcon(modifier: Modifier = Modifier, color: Color = Color.White) {
             quadraticBezierTo(w * 0.8f, h * 0.58f, w * 0.8f, h * 0.82f)
         }
         drawPath(path = path, color = color, style = Stroke(width = 2.5.dp.toPx(), cap = StrokeCap.Round))
+    }
+}
+
+@Composable
+fun GamePadIcon(modifier: Modifier = Modifier, color: Color = Color.White) {
+    Canvas(modifier = modifier) {
+        val w = size.width
+        val h = size.height
+        val stroke = 2.dp.toPx()
+        drawRoundRect(color = color, topLeft = Offset(w * 0.08f, h * 0.25f), size = androidx.compose.ui.geometry.Size(w * 0.84f, h * 0.5f), cornerRadius = androidx.compose.ui.geometry.CornerRadius(6.dp.toPx(), 6.dp.toPx()), style = Stroke(width = stroke))
+        drawLine(color = color, start = Offset(w * 0.25f, h * 0.5f), end = Offset(w * 0.39f, h * 0.5f), strokeWidth = stroke, cap = StrokeCap.Round)
+        drawLine(color = color, start = Offset(w * 0.32f, h * 0.43f), end = Offset(w * 0.32f, h * 0.57f), strokeWidth = stroke, cap = StrokeCap.Round)
+        drawCircle(color = color, radius = 2.dp.toPx(), center = Offset(w * 0.64f, h * 0.42f))
+        drawCircle(color = color, radius = 2.dp.toPx(), center = Offset(w * 0.76f, h * 0.52f))
     }
 }
 
@@ -186,6 +214,22 @@ fun SendIcon(modifier: Modifier = Modifier, color: Color = Color.White) {
             close()
         }
         drawPath(path = path, color = color, style = Stroke(width = 2.5.dp.toPx(), cap = StrokeCap.Round, join = StrokeJoin.Round))
+    }
+}
+
+@Composable
+fun PinIcon(modifier: Modifier = Modifier, color: Color = Color.White) {
+    Canvas(modifier = modifier) {
+        val w = size.width
+        val h = size.height
+        val stroke = 2.5.dp.toPx()
+        drawCircle(color = color, radius = w * 0.25f, center = Offset(w * 0.5f, h * 0.35f), style = Stroke(width = stroke))
+        val path = Path().apply {
+            moveTo(w * 0.3f, h * 0.45f)
+            lineTo(w * 0.5f, h * 0.85f)
+            lineTo(w * 0.7f, h * 0.45f)
+        }
+        drawPath(path = path, color = color, style = Stroke(width = stroke, cap = StrokeCap.Round, join = StrokeJoin.Round))
     }
 }
 

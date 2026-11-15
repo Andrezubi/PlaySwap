@@ -35,24 +35,26 @@ fun MatchDetailScreen(
 ) {
     Scaffold(
         topBar = {
-            TopAppBar(
-                title = { Text("Comparación de biblioteca", color = Color.White) },
-                navigationIcon = {
-                    IconButton(onClick = onBack) {
-                        BackIcon(modifier = Modifier.size(20.dp), color = Color.White)
-                    }
-                },
-                actions = {
-                    IconButton(onClick = {}) {
-                        MoreVertIcon(modifier = Modifier.size(20.dp), color = Color.White)
-                    }
-                },
-                colors = TopAppBarDefaults.topAppBarColors(containerColor = Color(0xFF0B0B0F))
-            )
+            Box(modifier = Modifier.statusBarsPadding()) {
+                TopAppBar(
+                    title = { Text("Comparación de biblioteca", color = Color.White, fontWeight = FontWeight.Bold) },
+                    navigationIcon = {
+                        IconButton(onClick = onBack) {
+                            BackIcon(modifier = Modifier.size(20.dp), color = Color.White)
+                        }
+                    },
+                    actions = {
+                        IconButton(onClick = {}) {
+                            MoreVertIcon(modifier = Modifier.size(20.dp), color = Color.White)
+                        }
+                    },
+                    colors = TopAppBarDefaults.topAppBarColors(containerColor = Color(0xFF0B0B0F))
+                )
+            }
         },
         containerColor = Color(0xFF0B0B0F)
     ) { padding ->
-        Column(modifier = Modifier.fillMaxSize().padding(padding).padding(20.dp)) {
+        Column(modifier = Modifier.fillMaxSize().padding(padding).navigationBarsPadding().padding(20.dp)) {
             Card(
                 modifier = Modifier.fillMaxWidth(),
                 shape = RoundedCornerShape(16.dp),
@@ -80,7 +82,7 @@ fun MatchDetailScreen(
 
             Row(modifier = Modifier.fillMaxWidth(), horizontalArrangement = Arrangement.spacedBy(16.dp)) {
                 Column(modifier = Modifier.weight(1f)) {
-                    Text("TÚ TIENES", fontSize = 12.sp, fontWeight = FontWeight.Bold, color = Color(0xFF00D9A6))
+                    Text("TÚ TIENES", fontSize = 11.sp, fontWeight = FontWeight.Bold, color = Color(0xFF00D9A6), letterSpacing = 1.sp)
                     Spacer(modifier = Modifier.height(8.dp))
                     Card(modifier = Modifier.fillMaxWidth(), shape = RoundedCornerShape(12.dp), colors = CardDefaults.cardColors(containerColor = Color(0xFF121218)), border = androidx.compose.foundation.BorderStroke(1.dp, Color(0xFF00D9A6))) {
                         Row(modifier = Modifier.padding(10.dp), verticalAlignment = Alignment.CenterVertically) {
@@ -91,7 +93,7 @@ fun MatchDetailScreen(
                     }
                 }
                 Column(modifier = Modifier.weight(1f)) {
-                    Text("SOFÍA TIENE", fontSize = 12.sp, fontWeight = FontWeight.Bold, color = Color(0xFFA3A3C2))
+                    Text("SOFÍA TIENE", fontSize = 11.sp, fontWeight = FontWeight.Bold, color = Color(0xFFA3A3C2), letterSpacing = 1.sp)
                     Spacer(modifier = Modifier.height(8.dp))
                     Card(modifier = Modifier.fillMaxWidth(), shape = RoundedCornerShape(12.dp), colors = CardDefaults.cardColors(containerColor = Color(0xFF121218)), border = androidx.compose.foundation.BorderStroke(1.dp, Color(0xFF00D9A6))) {
                         Row(modifier = Modifier.padding(10.dp), verticalAlignment = Alignment.CenterVertically) {
@@ -107,7 +109,7 @@ fun MatchDetailScreen(
 
             Row(modifier = Modifier.fillMaxWidth(), horizontalArrangement = Arrangement.spacedBy(16.dp)) {
                 Column(modifier = Modifier.weight(1f)) {
-                    Text("TÚ BUSCAS", fontSize = 12.sp, fontWeight = FontWeight.Bold, color = Color(0xFF8B5CF6))
+                    Text("TÚ BUSCAS", fontSize = 11.sp, fontWeight = FontWeight.Bold, color = Color(0xFF8B5CF6), letterSpacing = 1.sp)
                     Spacer(modifier = Modifier.height(8.dp))
                     Card(modifier = Modifier.fillMaxWidth(), shape = RoundedCornerShape(12.dp), colors = CardDefaults.cardColors(containerColor = Color(0xFF121218)), border = androidx.compose.foundation.BorderStroke(1.dp, Color(0xFF8B5CF6))) {
                         Row(modifier = Modifier.padding(10.dp), verticalAlignment = Alignment.CenterVertically) {
@@ -118,7 +120,7 @@ fun MatchDetailScreen(
                     }
                 }
                 Column(modifier = Modifier.weight(1f)) {
-                    Text("SOFÍA BUSCA", fontSize = 12.sp, fontWeight = FontWeight.Bold, color = Color(0xFFA3A3C2))
+                    Text("SOFÍA BUSCA", fontSize = 11.sp, fontWeight = FontWeight.Bold, color = Color(0xFFA3A3C2), letterSpacing = 1.sp)
                     Spacer(modifier = Modifier.height(8.dp))
                     Card(modifier = Modifier.fillMaxWidth(), shape = RoundedCornerShape(12.dp), colors = CardDefaults.cardColors(containerColor = Color(0xFF121218)), border = androidx.compose.foundation.BorderStroke(1.dp, Color(0xFF8B5CF6))) {
                         Row(modifier = Modifier.padding(10.dp), verticalAlignment = Alignment.CenterVertically) {

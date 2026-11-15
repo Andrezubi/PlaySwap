@@ -4,6 +4,8 @@ import androidx.compose.foundation.Image
 import androidx.compose.foundation.background
 import androidx.compose.foundation.clickable
 import androidx.compose.foundation.layout.*
+import androidx.compose.foundation.rememberScrollState
+import androidx.compose.foundation.verticalScroll
 import androidx.compose.foundation.shape.CircleShape
 import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.material3.*
@@ -33,19 +35,21 @@ fun RequestFormScreen(
 
     Scaffold(
         topBar = {
-            TopAppBar(
-                title = { Text("Solicitar Intercambio", color = Color.White, fontWeight = FontWeight.Bold) },
-                navigationIcon = {
-                    IconButton(onClick = onBack) {
-                        BackIcon(modifier = Modifier.size(20.dp), color = Color.White)
-                    }
-                },
-                colors = TopAppBarDefaults.topAppBarColors(containerColor = Color(0xFF0B0B0F))
-            )
+            Box(modifier = Modifier.statusBarsPadding()) {
+                TopAppBar(
+                    title = { Text("Solicitar Intercambio", color = Color.White, fontWeight = FontWeight.Bold) },
+                    navigationIcon = {
+                        IconButton(onClick = onBack) {
+                            BackIcon(modifier = Modifier.size(20.dp), color = Color.White)
+                        }
+                    },
+                    colors = TopAppBarDefaults.topAppBarColors(containerColor = Color(0xFF0B0B0F))
+                )
+            }
         },
         containerColor = Color(0xFF0B0B0F)
     ) { padding ->
-        Column(modifier = Modifier.fillMaxSize().padding(padding).padding(20.dp)) {
+        Column(modifier = Modifier.fillMaxSize().padding(padding).navigationBarsPadding().padding(20.dp)) {
             Text("Elige los términos del intercambio con Sofía.", fontSize = 13.sp, color = Color(0xFFA3A3C2))
             Spacer(modifier = Modifier.height(16.dp))
 
@@ -74,8 +78,8 @@ fun RequestFormScreen(
             Text("DURACIÓN RECOMENDADA", fontSize = 11.sp, fontWeight = FontWeight.Bold, color = Color(0xFFA3A3C2), letterSpacing = 1.sp)
             Spacer(modifier = Modifier.height(10.dp))
 
-            Row(horizontalArrangement = Arrangement.spacedBy(8.dp)) {
-                listOf("7 días", "14 días", "30 días").forEach { duration ->
+            FlowRow(horizontalArrangement = Arrangement.spacedBy(8.dp), verticalArrangement = Arrangement.spacedBy(8.dp)) {
+                listOf("7 días", "14 días", "30 días", "Personalizada").forEach { duration ->
                     FilterChip(
                         selected = selectedDuration == duration,
                         onClick = { selectedDuration = duration },
@@ -319,21 +323,25 @@ fun LoanReturnScreen(
     onBack: () -> Unit,
     onReturnConfirmed: () -> Unit
 ) {
+    var confirmed by remember { mutableStateOf(true) }
+
     Scaffold(
         topBar = {
-            TopAppBar(
-                title = { Text("Devolver préstamo", color = Color.White, fontWeight = FontWeight.Bold) },
-                navigationIcon = {
-                    IconButton(onClick = onBack) {
-                        BackIcon(modifier = Modifier.size(20.dp), color = Color.White)
-                    }
-                },
-                colors = TopAppBarDefaults.topAppBarColors(containerColor = Color(0xFF0B0B0F))
-            )
+            Box(modifier = Modifier.statusBarsPadding()) {
+                TopAppBar(
+                    title = { Text("Devolver préstamo", color = Color.White, fontWeight = FontWeight.Bold) },
+                    navigationIcon = {
+                        IconButton(onClick = onBack) {
+                            BackIcon(modifier = Modifier.size(20.dp), color = Color.White)
+                        }
+                    },
+                    colors = TopAppBarDefaults.topAppBarColors(containerColor = Color(0xFF0B0B0F))
+                )
+            }
         },
         containerColor = Color(0xFF0B0B0F)
     ) { padding ->
-        Column(modifier = Modifier.fillMaxSize().padding(padding).padding(20.dp)) {
+        Column(modifier = Modifier.fillMaxSize().padding(padding).navigationBarsPadding().padding(20.dp).verticalScroll(rememberScrollState())) {
             Text("Cierra el préstamo con Sofía.", fontSize = 13.sp, color = Color(0xFFA3A3C2))
             Spacer(modifier = Modifier.height(16.dp))
 
@@ -351,7 +359,48 @@ fun LoanReturnScreen(
                 }
             }
 
-            Spacer(modifier = Modifier.weight(1f))
+            Spacer(modifier = Modifier.height(20.dp))
+            Text("DETALLES DE LA ENTREGA", fontSize = 11.sp, fontWeight = FontWeight.Bold, color = Color(0xFFA3A3C2), letterSpacing = 1.sp)
+            Spacer(modifier = Modifier.height(8.dp))
+            Card(modifier = Modifier.fillMaxWidth(), shape = RoundedCornerShape(16.dp), colors = CardDefaults.cardColors(containerColor = Color(0xFF121218))) {
+                Column(modifier = Modifier.padding(16.dp)) {
+                    Text("Fecha y hora acordadas", fontSize = 12.sp, color = Color(0xFFA3A3C2))
+                    Text("Hoy · 18:00", fontSize = 16.sp, fontWeight = FontWeight.Bold, color = Color.White)
+                    Spacer(modifier = Modifier.height(12.dp))
+                    Text("Lugar de encuentro", fontSize = 12.sp, color = Color(0xFFA3A3C2))
+                    Text("Plaza de las Banderas · Cochabamba", fontSize = 16.sp, fontWeight = FontWeight.Bold, color = Color.White)
+                }
+            }
+
+            Spacer(modifier = Modifier.height(20.dp))
+            Text("ESTADO DEL JUEGO", fontSize = 11.sp, fontWeight = FontWeight.Bold, color = Color(0xFFA3A3C2), letterSpacing = 1.sp)
+            Spacer(modifier = Modifier.height(8.dp))
+            Card(modifier = Modifier.fillMaxWidth(), shape = RoundedCornerShape(16.dp), colors = CardDefaults.cardColors(containerColor = Color(0xFF121218))) {
+                Row(modifier = Modifier.padding(16.dp), horizontalArrangement = Arrangement.SpaceBetween, verticalAlignment = Alignment.CenterVertically) {
+                    Text("En buen estado, con caja y disco", fontSize = 14.sp, color = Color.White, fontWeight = FontWeight.Bold)
+                    ChevronRightIcon(modifier = Modifier.size(16.dp), color = Color(0xFFA3A3C2))
+                }
+            }
+
+            Spacer(modifier = Modifier.height(16.dp))
+            Row(verticalAlignment = Alignment.CenterVertically) {
+                Checkbox(
+                    checked = confirmed,
+                    onCheckedChange = { confirmed = it },
+                    colors = CheckboxDefaults.colors(checkedColor = Color(0xFF00D9A6))
+                )
+                Text("Confirmo que entregué el juego a Sofía en las condiciones acordadas.", fontSize = 13.sp, color = Color.White)
+            }
+
+            Spacer(modifier = Modifier.height(24.dp))
+            Text(
+                "Sofía también deberá confirmar la recepción para finalizar el préstamo.",
+                fontSize = 12.sp,
+                color = Color(0xFFA3A3C2),
+                textAlign = androidx.compose.ui.text.style.TextAlign.Center,
+                modifier = Modifier.fillMaxWidth().padding(bottom = 16.dp)
+            )
+
             val gradientBrush = Brush.horizontalGradient(listOf(Color(0xFF00D9A6), Color(0xFF8B5CF6)))
             Button(
                 onClick = onReturnConfirmed,
@@ -360,6 +409,11 @@ fun LoanReturnScreen(
             ) {
                 Text("Confirmar devolución", fontWeight = FontWeight.Bold, color = Color.White)
             }
+            Spacer(modifier = Modifier.height(8.dp))
+            TextButton(onClick = {}, modifier = Modifier.align(Alignment.CenterHorizontally)) {
+                Text("Coordinar por chat", color = Color(0xFF00D9A6), fontWeight = FontWeight.Bold)
+            }
+            Spacer(modifier = Modifier.height(16.dp))
         }
     }
 }

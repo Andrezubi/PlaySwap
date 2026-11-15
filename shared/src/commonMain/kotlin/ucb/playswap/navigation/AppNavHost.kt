@@ -120,7 +120,12 @@ fun AppNavHost(
             }
             composable<NavRoute.Chat> {
                 ChatScreen(
-                    onBack = { navController.popBackStack() }
+                    onBack = { navController.popBackStack() },
+                    onNavigateToHome = { navController.navigate(NavRoute.HomeFeed) { popUpTo<NavRoute.HomeFeed> { inclusive = true } } },
+                    onNavigateToSearch = { navController.navigate(NavRoute.Search) },
+                    onNavigateToMyGames = { navController.navigate(NavRoute.MyGames) },
+                    onNavigateToExchanges = { navController.navigate(NavRoute.ExchangesList) },
+                    onNavigateToProfile = { navController.navigate(NavRoute.Profile) }
                 )
             }
             composable<NavRoute.Profile> {
@@ -142,7 +147,12 @@ fun AppNavHost(
             composable<NavRoute.Settings> {
                 SettingsScreen(
                     onBack = { navController.popBackStack() },
-                    onLogout = { navController.navigate(NavRoute.Welcome) { popUpTo<NavRoute.HomeFeed> { inclusive = true } } }
+                    onLogout = { navController.navigate(NavRoute.Welcome) { popUpTo<NavRoute.HomeFeed> { inclusive = true } } },
+                    onNavigateToHome = { navController.navigate(NavRoute.HomeFeed) { popUpTo<NavRoute.HomeFeed> { inclusive = true } } },
+                    onNavigateToSearch = { navController.navigate(NavRoute.Search) },
+                    onNavigateToMyGames = { navController.navigate(NavRoute.MyGames) },
+                    onNavigateToExchanges = { navController.navigate(NavRoute.ExchangesList) },
+                    onNavigateToProfile = { navController.navigate(NavRoute.Profile) }
                 )
             }
         }
